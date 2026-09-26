@@ -9,5 +9,27 @@ export default defineConfig({
     resolve: {
         tsconfigPaths: true,
     },
+    build: {
+        rollupOptions: {
+            output: {
+                codeSplitting: {
+                    groups: [
+                        {
+                            name: 'phaser',
+                            test: /node_modules\/phaser/,
+                        },
+                        {
+                            name: 'vendor',
+                            test: /node_modules/,
+                        },
+                        {
+                            name: 'data',
+                            test: /src\/data/,
+                        },
+                    ],
+                },
+            },
+        },
+    },
     plugins: [tailwindcss()],
 })

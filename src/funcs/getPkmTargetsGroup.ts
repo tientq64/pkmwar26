@@ -23,7 +23,7 @@ export interface PkmTargetsGroup {
 export function getPkmTargetsGroup(pkm: Pokemon): PkmTargetsGroup {
     const { pick } = PMath.RND
 
-    const { targets, foes, allies, alliesAndSelf, all } = getNearbyPkms(pkm)
+    const { targets, foes, allies, alliesAndSelf } = getNearbyPkms(pkm)
 
     return {
         normal: [pick(foes)],
