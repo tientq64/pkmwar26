@@ -1,0 +1,30 @@
+{
+    "editor.wordWrapColumn": 100,
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports.ts": "explicit",
+        "source.organizeImports": "explicit",
+        "source.fixAll.ts": "explicit"
+    },
+    "search.exclude": {
+        "node_modules": true
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "js/ts.preferences.importModuleSpecifier": "non-relative",
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "[tailwindcss]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.formatOnSave": true
+    }
+}

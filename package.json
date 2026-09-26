@@ -1,0 +1,32 @@
+{
+    "name": "pkmwar26",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Xem Pokemon chiến đấu với nhau.",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build"
+    },
+    "dependencies": {
+        "es-toolkit": "1.52.0",
+        "phaser": "4.2.1",
+        "react": "^19.2.8",
+        "react-dom": "^19.2.8"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "4.3.3",
+        "@types/node": "^24.13.3",
+        "@types/react": "^19.2.18",
+        "@types/react-dom": "^19.2.4",
+        "@vitejs/plugin-react": "^6.1.0",
+        "globals": "^17.11.0",
+        "prettier": "3.9.6",
+        "prettier-plugin-jsdoc": "1.8.1",
+        "prettier-plugin-tailwindcss": "0.8.1",
+        "tailwindcss": "4.3.3",
+        "tsx": "4.23.13",
+        "typescript": "~6.0.2",
+        "vite": "^8.2.2"
+    }
+}
