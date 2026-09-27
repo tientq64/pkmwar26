@@ -11,6 +11,5 @@ export function startBattle(pkm: Pokemon) {
     pkm.state = 'battle'
 
     stopMove(pkm)
-
     takeTurn(pkm)
 }

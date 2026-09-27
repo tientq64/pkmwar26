@@ -10,7 +10,7 @@ export interface NearbyPkmsGroup {
     all: Pokemon[]
 }
 
-export function getNearbyPkms(pkm: Pokemon): NearbyPkmsGroup {
+export function getNearbyPkms(pkm: Pokemon, maxDistance = 100): NearbyPkmsGroup {
     const targets: Pokemon[] = []
     const foes: Pokemon[] = []
     const allies: Pokemon[] = []
@@ -20,7 +20,7 @@ export function getNearbyPkms(pkm: Pokemon): NearbyPkmsGroup {
         if (pkmB.id === pkm.id) continue
 
         const distance = PMath.Distance.BetweenPoints(pkm, pkmB) - pkm.radius - pkmB.radius
-        if (distance > 100) continue
+        if (distance > maxDistance) continue
 
         if (pkmB.team === pkm.team) {
             if (allies.length < 2) {
@@ -34,8 +34,8 @@ export function getNearbyPkms(pkm: Pokemon): NearbyPkmsGroup {
         targets.push(pkmB)
         if (targets.length === 5) break
     }
-    const alliesAndSelf: Pokemon[] = allies.concat(pkm)
-    const all: Pokemon[] = targets.concat(pkm)
+    const alliesAndSelf: Pokemon[] = [...allies, pkm]
+    const all: Pokemon[] = [...targets, pkm]
 
     return { targets, foes, allies, alliesAndSelf, all }
 }

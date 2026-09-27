@@ -5,7 +5,7 @@ import { physics, scene } from '@/constants/game'
 import type { Move } from '@/constants/moves'
 import { pkms } from '@/constants/pkms'
 import type { Specy } from '@/constants/species'
-import { type StageStatName, type StatName } from '@/constants/stats'
+import { type BoostName, type StatName } from '@/constants/stats'
 import type { AilmentName } from '@/constants/statuses'
 import type { Team } from '@/constants/teams'
 import { getFormBaseFrame } from '@/funcs/getFormBaseFrame'
@@ -14,18 +14,18 @@ import { makeEvs } from '@/funcs/makeEvs'
 import { makeIvs } from '@/funcs/makeIvs'
 import { makeMoveSlots } from '@/funcs/makeMoveSlots'
 import { makePkmAbility } from '@/funcs/makePkmAbility'
-import { makePkmStages } from '@/funcs/makePkmStages'
+import { makePkmBoosts } from '@/funcs/makePkmBoosts'
 import { makePkmStats } from '@/funcs/makePkmStats'
 import { onWorldBounds } from '@/funcs/onWorldBounds'
 import { preUpdate } from '@/funcs/preUpdate'
 import { pick } from '@/utils/pick'
-import { Physics } from 'phaser'
+import { Display, Physics } from 'phaser'
 
 export type Facing = 'left' | 'right'
 export type Direction = 'left' | 'right' | 'up' | 'down'
 export type State = 'idle' | 'walk' | 'battle' | 'dead'
 
-export type Stages = Record<StageStatName, number>
+export type Boosts = Record<BoostName, number>
 export type Stats = Record<StatName, number>
 
 export interface VolatileStatuses {
@@ -68,7 +68,7 @@ export class Pokemon extends Physics.Arcade.Sprite {
     ability: Ability
     ivs: Stats
     evs: Stats
-    stages: Stages
+    boosts: Boosts
     stats: Stats
     moveSlots: MoveSlot[]
     ailment: AilmentName | undefined
@@ -86,6 +86,7 @@ export class Pokemon extends Physics.Arcade.Sprite {
     walkTimer: number
 
     body = null as unknown as Body
+    filter = null as unknown as Display.ColorMatrix
     maxHealthBar = null as unknown as Image
     healthBar = null as unknown as Image
 
@@ -99,7 +100,7 @@ export class Pokemon extends Physics.Arcade.Sprite {
         this.ability = makePkmAbility(this)
         this.ivs = makeIvs()
         this.evs = makeEvs()
-        this.stages = makePkmStages()
+        this.boosts = makePkmBoosts()
         this.stats = makePkmStats(this)
         this.moveSlots = makeMoveSlots(this)
         this.ailment = undefined
@@ -127,6 +128,9 @@ export class Pokemon extends Physics.Arcade.Sprite {
         this.setFrame(this.baseFrame)
         this.setScale(3)
         this.radius = this.body.radius * this.scale
+
+        this.enableFilters()
+        this.filter = this.filters!.internal.addColorMatrix().colorMatrix
 
         const maxHealthBar = scene.add.image(this.x, this.y, 'hpBar')
         maxHealthBar.setTint(0x111111)

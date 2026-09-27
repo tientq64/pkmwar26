@@ -49,7 +49,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'karateChop',
@@ -101,7 +101,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'doubleSlap',
@@ -153,7 +153,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
     },
     {
         name: 'cometPunch',
@@ -205,7 +206,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
     },
     {
         name: 'megaPunch',
@@ -257,7 +259,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'payDay',
@@ -309,7 +311,7 @@ export default [
         },
         target: 'normal',
         desc: 'Scatters coins.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'firePunch',
@@ -361,7 +363,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to burn the target.',
-        // longDesc: 'Has a 10% chance to burn the target.',
+        longDesc: 'Has a 10% chance to burn the target.',
     },
     {
         name: 'icePunch',
@@ -413,7 +415,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to freeze the target.',
-        // longDesc: 'Has a 10% chance to freeze the target.',
+        longDesc: 'Has a 10% chance to freeze the target.',
     },
     {
         name: 'thunderPunch',
@@ -465,7 +467,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to paralyze the target.',
-        // longDesc: 'Has a 10% chance to paralyze the target.',
+        longDesc: 'Has a 10% chance to paralyze the target.',
     },
     {
         name: 'scratch',
@@ -517,7 +519,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'viseGrip',
@@ -569,7 +571,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'guillotine',
@@ -621,7 +623,8 @@ export default [
         },
         target: 'normal',
         desc: 'OHKOs the target. Fails if user is a lower level.',
-        // longDesc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
+        longDesc:
+            "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
     },
     {
         name: 'razorWind',
@@ -673,7 +676,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Charges, then hits foe(s) turn 2. High crit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.',
+        longDesc:
+            'Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.',
     },
     {
         name: 'swordsDance',
@@ -725,7 +729,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Attack by 2.",
-        // longDesc: "Raises the user's Attack by 2 stages.",
+        longDesc: "Raises the user's Attack by 2 stages.",
     },
     {
         name: 'cut',
@@ -777,7 +781,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'gust',
@@ -829,7 +833,8 @@ export default [
         },
         target: 'any',
         desc: 'Power doubles during Bounce, Fly, and Sky Drop.',
-        // longDesc: 'Power doubles if the target is using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.',
+        longDesc:
+            'Power doubles if the target is using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.',
     },
     {
         name: 'wingAttack',
@@ -881,7 +886,7 @@ export default [
         },
         target: 'any',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'whirlwind',
@@ -933,7 +938,8 @@ export default [
         },
         target: 'normal',
         desc: 'Forces the target to switch to a random ally.',
-        // longDesc: 'The target is forced to switch out and be replaced with a random unfainted ally. Fails if the target is the last unfainted Pokemon in its party, or if the target used Ingrain previously or has the Suction Cups Ability.',
+        longDesc:
+            'The target is forced to switch out and be replaced with a random unfainted ally. Fails if the target is the last unfainted Pokemon in its party, or if the target used Ingrain previously or has the Suction Cups Ability.',
     },
     {
         name: 'fly',
@@ -985,7 +991,8 @@ export default [
         },
         target: 'any',
         desc: 'Flies up on first turn, then strikes the next turn.',
-        // longDesc: 'This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister, and Gust and Twister have doubled power when used against it. If the user is holding a Power Herb, the move completes in one turn.',
+        longDesc:
+            'This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister, and Gust and Twister have doubled power when used against it. If the user is holding a Power Herb, the move completes in one turn.',
     },
     {
         name: 'bind',
@@ -1037,7 +1044,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'slam',
@@ -1089,7 +1097,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'vineWhip',
@@ -1141,7 +1149,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'stomp',
@@ -1193,7 +1201,8 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
+        longDesc:
+            'Has a 30% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
     },
     {
         name: 'doubleKick',
@@ -1245,7 +1254,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2 times in one turn.',
-        // longDesc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+        longDesc:
+            "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
     },
     {
         name: 'megaKick',
@@ -1297,7 +1307,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'jumpKick',
@@ -1349,7 +1359,8 @@ export default [
         },
         target: 'normal',
         desc: 'User is hurt by 50% of its max HP if it misses.',
-        // longDesc: 'If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.',
+        longDesc:
+            'If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.',
     },
     {
         name: 'rollingKick',
@@ -1401,7 +1412,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'sandAttack',
@@ -1453,7 +1464,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's accuracy by 1.",
-        // longDesc: "Lowers the target's accuracy by 1 stage.",
+        longDesc: "Lowers the target's accuracy by 1 stage.",
     },
     {
         name: 'headbutt',
@@ -1505,7 +1516,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'hornAttack',
@@ -1557,7 +1568,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'furyAttack',
@@ -1609,7 +1620,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'hornDrill',
@@ -1661,7 +1673,8 @@ export default [
         },
         target: 'normal',
         desc: 'OHKOs the target. Fails if user is a lower level.',
-        // longDesc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
+        longDesc:
+            "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
     },
     {
         name: 'tackle',
@@ -1713,7 +1726,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'bodySlam',
@@ -1765,7 +1778,8 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to paralyze the target.',
-        // longDesc: 'Has a 30% chance to paralyze the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
+        longDesc:
+            'Has a 30% chance to paralyze the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
     },
     {
         name: 'wrap',
@@ -1817,7 +1831,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'takeDown',
@@ -1869,7 +1884,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 1/4 recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'thrash',
@@ -1921,7 +1937,8 @@ export default [
         },
         target: 'randomNormal',
         desc: 'Lasts 2-3 turns. Confuses the user afterwards.',
-        // longDesc: 'The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.',
+        longDesc:
+            'The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.',
     },
     {
         name: 'doubleEdge',
@@ -1973,7 +1990,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 33% recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'tailWhip',
@@ -2025,7 +2043,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Lowers the foe(s) Defense by 1.',
-        // longDesc: "Lowers the target's Defense by 1 stage.",
+        longDesc: "Lowers the target's Defense by 1 stage.",
     },
     {
         name: 'poisonSting',
@@ -2077,7 +2095,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to poison the target.',
-        // longDesc: 'Has a 30% chance to poison the target.',
+        longDesc: 'Has a 30% chance to poison the target.',
     },
     {
         name: 'twineedle',
@@ -2129,7 +2147,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2 times. Each hit has 20% chance to poison.',
-        // longDesc: "Hits twice, with each hit having a 20% chance to poison the target. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+        longDesc:
+            "Hits twice, with each hit having a 20% chance to poison the target. If the first hit breaks the target's substitute, it will take damage for the second hit.",
     },
     {
         name: 'pinMissile',
@@ -2181,7 +2200,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'leer',
@@ -2233,7 +2253,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Lowers the foe(s) Defense by 1.',
-        // longDesc: "Lowers the target's Defense by 1 stage.",
+        longDesc: "Lowers the target's Defense by 1 stage.",
     },
     {
         name: 'bite',
@@ -2285,7 +2305,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'growl',
@@ -2337,7 +2357,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Lowers the foe(s) Attack by 1.',
-        // longDesc: "Lowers the target's Attack by 1 stage.",
+        longDesc: "Lowers the target's Attack by 1 stage.",
     },
     {
         name: 'roar',
@@ -2389,7 +2409,8 @@ export default [
         },
         target: 'normal',
         desc: 'Forces the target to switch to a random ally.',
-        // longDesc: 'The target is forced to switch out and be replaced with a random unfainted ally. Fails if the target is the last unfainted Pokemon in its party, or if the target used Ingrain previously or has the Suction Cups Ability.',
+        longDesc:
+            'The target is forced to switch out and be replaced with a random unfainted ally. Fails if the target is the last unfainted Pokemon in its party, or if the target used Ingrain previously or has the Suction Cups Ability.',
     },
     {
         name: 'sing',
@@ -2441,7 +2462,7 @@ export default [
         },
         target: 'normal',
         desc: 'Causes the target to fall asleep.',
-        // longDesc: 'Causes the target to fall asleep.',
+        longDesc: 'Causes the target to fall asleep.',
     },
     {
         name: 'supersonic',
@@ -2493,7 +2514,7 @@ export default [
         },
         target: 'normal',
         desc: 'Causes the target to become confused.',
-        // longDesc: 'Causes the target to become confused.',
+        longDesc: 'Causes the target to become confused.',
     },
     {
         name: 'sonicBoom',
@@ -2545,7 +2566,7 @@ export default [
         },
         target: 'normal',
         desc: 'Always does 20 HP of damage.',
-        // longDesc: 'Deals 20 HP of damage to the target.',
+        longDesc: 'Deals 20 HP of damage to the target.',
     },
     {
         name: 'disable',
@@ -2597,7 +2618,8 @@ export default [
         },
         target: 'normal',
         desc: "For 4 turns, disables the target's last move used.",
-        // longDesc: "For 4 turns, the target's last move used becomes disabled. Fails if one of the target's moves is already disabled, if the target has not made a move, if the target no longer knows the move, or if the move was a Max or G-Max Move.",
+        longDesc:
+            "For 4 turns, the target's last move used becomes disabled. Fails if one of the target's moves is already disabled, if the target has not made a move, if the target no longer knows the move, or if the move was a Max or G-Max Move.",
     },
     {
         name: 'acid',
@@ -2649,7 +2671,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '10% chance to lower the foe(s) Sp. Def by 1.',
-        // longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'ember',
@@ -2701,7 +2723,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to burn the target.',
-        // longDesc: 'Has a 10% chance to burn the target.',
+        longDesc: 'Has a 10% chance to burn the target.',
     },
     {
         name: 'flamethrower',
@@ -2753,7 +2775,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to burn the target.',
-        // longDesc: 'Has a 10% chance to burn the target.',
+        longDesc: 'Has a 10% chance to burn the target.',
     },
     {
         name: 'mist',
@@ -2805,7 +2827,8 @@ export default [
         },
         target: 'allySide',
         desc: "For 5 turns, protects user's party from stat drops.",
-        // longDesc: "For 5 turns, the user and its party members are protected from having their stat stages lowered by other Pokemon. Fails if the effect is already active on the user's side.",
+        longDesc:
+            "For 5 turns, the user and its party members are protected from having their stat stages lowered by other Pokemon. Fails if the effect is already active on the user's side.",
     },
     {
         name: 'waterGun',
@@ -2857,7 +2880,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'hydroPump',
@@ -2909,7 +2932,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'surf',
@@ -2961,7 +2984,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'Hits adjacent Pokemon. Double damage on Dive.',
-        // longDesc: 'Damage doubles if the target is using Dive.',
+        longDesc: 'Damage doubles if the target is using Dive.',
     },
     {
         name: 'iceBeam',
@@ -3013,7 +3036,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to freeze the target.',
-        // longDesc: 'Has a 10% chance to freeze the target.',
+        longDesc: 'Has a 10% chance to freeze the target.',
     },
     {
         name: 'blizzard',
@@ -3065,7 +3088,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "10% chance to freeze foe(s). Can't miss in Snow.",
-        // longDesc: 'Has a 10% chance to freeze the target. If the weather is Snow, this move does not check accuracy.',
+        longDesc:
+            'Has a 10% chance to freeze the target. If the weather is Snow, this move does not check accuracy.',
     },
     {
         name: 'psybeam',
@@ -3117,7 +3141,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to confuse the target.',
-        // longDesc: 'Has a 10% chance to confuse the target.',
+        longDesc: 'Has a 10% chance to confuse the target.',
     },
     {
         name: 'bubbleBeam',
@@ -3169,7 +3193,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Speed by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'auroraBeam',
@@ -3221,7 +3245,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Attack by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Attack by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Attack by 1 stage.",
     },
     {
         name: 'hyperBeam',
@@ -3273,7 +3297,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'peck',
@@ -3325,7 +3350,7 @@ export default [
         },
         target: 'any',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'drillPeck',
@@ -3377,7 +3402,7 @@ export default [
         },
         target: 'any',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'submission',
@@ -3429,7 +3454,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 1/4 recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'lowKick',
@@ -3481,7 +3507,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the heavier the target.',
-        // longDesc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
+        longDesc:
+            "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
     },
     {
         name: 'counter',
@@ -3533,7 +3560,8 @@ export default [
         },
         target: 'scripted',
         desc: 'If hit by physical attack, returns double damage.',
-        // longDesc: "Deals damage to the last opposing Pokemon to hit the user with a physical attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical attack this turn.",
+        longDesc:
+            "Deals damage to the last opposing Pokemon to hit the user with a physical attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical attack this turn.",
     },
     {
         name: 'seismicToss',
@@ -3585,7 +3613,7 @@ export default [
         },
         target: 'normal',
         desc: "Does damage equal to the user's level.",
-        // longDesc: "Deals damage to the target equal to the user's level.",
+        longDesc: "Deals damage to the target equal to the user's level.",
     },
     {
         name: 'strength',
@@ -3637,7 +3665,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'absorb',
@@ -3689,7 +3717,8 @@ export default [
         },
         target: 'normal',
         desc: 'User recovers 50% of the damage dealt.',
-        // longDesc: 'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'megaDrain',
@@ -3741,7 +3770,8 @@ export default [
         },
         target: 'normal',
         desc: 'User recovers 50% of the damage dealt.',
-        // longDesc: 'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'leechSeed',
@@ -3793,7 +3823,8 @@ export default [
         },
         target: 'normal',
         desc: "1/8 of target's HP is restored to user every turn.",
-        // longDesc: "The Pokemon at the user's position steals 1/8 of the target's maximum HP, rounded down, at the end of each turn. If Big Root is held by the recipient, the HP recovered is 1.3x normal, rounded half down. If the target uses Baton Pass, the replacement will continue being leeched. If the target switches out or uses Mortal Spin or Rapid Spin successfully, the effect ends. Grass-type Pokemon are immune to this move on use, but not its effect.",
+        longDesc:
+            "The Pokemon at the user's position steals 1/8 of the target's maximum HP, rounded down, at the end of each turn. If Big Root is held by the recipient, the HP recovered is 1.3x normal, rounded half down. If the target uses Baton Pass, the replacement will continue being leeched. If the target switches out or uses Mortal Spin or Rapid Spin successfully, the effect ends. Grass-type Pokemon are immune to this move on use, but not its effect.",
     },
     {
         name: 'growth',
@@ -3845,7 +3876,8 @@ export default [
         },
         target: 'self',
         desc: "Raises user's Attack and Sp. Atk by 1; 2 in Sun.",
-        // longDesc: "Raises the user's Attack and Special Attack by 1 stage. If the weather is Sun or Intense Sun, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sun or Intense Sun.",
+        longDesc:
+            "Raises the user's Attack and Special Attack by 1 stage. If the weather is Sun or Intense Sun, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sun or Intense Sun.",
     },
     {
         name: 'razorLeaf',
@@ -3897,7 +3929,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'High critical hit ratio. Hits adjacent foes.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'solarBeam',
@@ -3949,7 +3981,8 @@ export default [
         },
         target: 'normal',
         desc: 'Charges turn 1. Hits turn 2. No charge in sunlight.',
-        // longDesc: 'This attack charges on the first turn and executes on the second. Power is halved if the weather is Heavy Rain, Rain, Sandstorm, or Snow and the user is not holding Utility Umbrella. If the user is holding a Power Herb or the weather is Intense Sun or Sun, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Intense Sun or Sun, the move still requires a turn to charge.',
+        longDesc:
+            'This attack charges on the first turn and executes on the second. Power is halved if the weather is Heavy Rain, Rain, Sandstorm, or Snow and the user is not holding Utility Umbrella. If the user is holding a Power Herb or the weather is Intense Sun or Sun, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Intense Sun or Sun, the move still requires a turn to charge.',
     },
     {
         name: 'poisonPowder',
@@ -4001,7 +4034,7 @@ export default [
         },
         target: 'normal',
         desc: 'Poisons the target.',
-        // longDesc: 'Poisons the target.',
+        longDesc: 'Poisons the target.',
     },
     {
         name: 'stunSpore',
@@ -4053,7 +4086,7 @@ export default [
         },
         target: 'normal',
         desc: 'Paralyzes the target.',
-        // longDesc: 'Paralyzes the target.',
+        longDesc: 'Paralyzes the target.',
     },
     {
         name: 'sleepPowder',
@@ -4105,7 +4138,7 @@ export default [
         },
         target: 'normal',
         desc: 'Causes the target to fall asleep.',
-        // longDesc: 'Causes the target to fall asleep.',
+        longDesc: 'Causes the target to fall asleep.',
     },
     {
         name: 'petalDance',
@@ -4157,7 +4190,8 @@ export default [
         },
         target: 'randomNormal',
         desc: 'Lasts 2-3 turns. Confuses the user afterwards.',
-        // longDesc: 'The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.',
+        longDesc:
+            'The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.',
     },
     {
         name: 'stringShot',
@@ -4209,7 +4243,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Lowers the foe(s) Speed by 2.',
-        // longDesc: "Lowers the target's Speed by 2 stages.",
+        longDesc: "Lowers the target's Speed by 2 stages.",
     },
     {
         name: 'dragonRage',
@@ -4261,7 +4295,7 @@ export default [
         },
         target: 'normal',
         desc: 'Deals 40 HP of damage to the target.',
-        // longDesc: 'Deals 40 HP of damage to the target.',
+        longDesc: 'Deals 40 HP of damage to the target.',
     },
     {
         name: 'fireSpin',
@@ -4313,7 +4347,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'thunderShock',
@@ -4365,7 +4400,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to paralyze the target.',
-        // longDesc: 'Has a 10% chance to paralyze the target.',
+        longDesc: 'Has a 10% chance to paralyze the target.',
     },
     {
         name: 'thunderbolt',
@@ -4417,7 +4452,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to paralyze the target.',
-        // longDesc: 'Has a 10% chance to paralyze the target.',
+        longDesc: 'Has a 10% chance to paralyze the target.',
     },
     {
         name: 'thunderWave',
@@ -4469,7 +4504,7 @@ export default [
         },
         target: 'normal',
         desc: 'Paralyzes the target.',
-        // longDesc: 'Paralyzes the target. This move does not ignore type immunity.',
+        longDesc: 'Paralyzes the target. This move does not ignore type immunity.',
     },
     {
         name: 'thunder',
@@ -4521,7 +4556,8 @@ export default [
         },
         target: 'normal',
         desc: "30% chance to paralyze. Can't miss in rain.",
-        // longDesc: "Has a 30% chance to paralyze the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Heavy Rain or Rain, this move does not check accuracy. If the weather is Intense Sun or Sun, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
+        longDesc:
+            "Has a 30% chance to paralyze the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Heavy Rain or Rain, this move does not check accuracy. If the weather is Intense Sun or Sun, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
     },
     {
         name: 'rockThrow',
@@ -4573,7 +4609,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'earthquake',
@@ -4625,7 +4661,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'Hits adjacent Pokemon. Double damage on Dig.',
-        // longDesc: 'Damage doubles if the target is using Dig.',
+        longDesc: 'Damage doubles if the target is using Dig.',
     },
     {
         name: 'fissure',
@@ -4677,7 +4713,8 @@ export default [
         },
         target: 'normal',
         desc: 'OHKOs the target. Fails if user is a lower level.',
-        // longDesc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
+        longDesc:
+            "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
     },
     {
         name: 'dig',
@@ -4729,7 +4766,8 @@ export default [
         },
         target: 'normal',
         desc: 'Digs underground turn 1, strikes turn 2.',
-        // longDesc: 'This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Earthquake and Magnitude but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.',
+        longDesc:
+            'This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Earthquake and Magnitude but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.',
     },
     {
         name: 'toxic',
@@ -4781,7 +4819,8 @@ export default [
         },
         target: 'normal',
         desc: "Badly poisons the target. Poison types can't miss.",
-        // longDesc: 'Badly poisons the target. If a Poison-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move.',
+        longDesc:
+            'Badly poisons the target. If a Poison-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move.',
     },
     {
         name: 'confusion',
@@ -4833,7 +4872,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to confuse the target.',
-        // longDesc: 'Has a 10% chance to confuse the target.',
+        longDesc: 'Has a 10% chance to confuse the target.',
     },
     {
         name: 'psychic',
@@ -4885,7 +4924,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'hypnosis',
@@ -4937,7 +4976,7 @@ export default [
         },
         target: 'normal',
         desc: 'Causes the target to fall asleep.',
-        // longDesc: 'Causes the target to fall asleep.',
+        longDesc: 'Causes the target to fall asleep.',
     },
     {
         name: 'meditate',
@@ -4989,7 +5028,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Attack by 1.",
-        // longDesc: "Raises the user's Attack by 1 stage.",
+        longDesc: "Raises the user's Attack by 1 stage.",
     },
     {
         name: 'agility',
@@ -5041,7 +5080,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Speed by 2.",
-        // longDesc: "Raises the user's Speed by 2 stages.",
+        longDesc: "Raises the user's Speed by 2 stages.",
     },
     {
         name: 'quickAttack',
@@ -5093,7 +5132,7 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'rage',
@@ -5145,7 +5184,8 @@ export default [
         },
         target: 'normal',
         desc: "Raises the user's Attack by 1 if hit during use.",
-        // longDesc: "Once this move is successfully used, the user's Attack is raised by 1 stage every time it is hit by another Pokemon's attack as long as this move is chosen for use.",
+        longDesc:
+            "Once this move is successfully used, the user's Attack is raised by 1 stage every time it is hit by another Pokemon's attack as long as this move is chosen for use.",
     },
     {
         name: 'teleport',
@@ -5197,7 +5237,8 @@ export default [
         },
         target: 'self',
         desc: 'User switches out.',
-        // longDesc: 'If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.',
+        longDesc:
+            'If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.',
     },
     {
         name: 'nightShade',
@@ -5249,7 +5290,7 @@ export default [
         },
         target: 'normal',
         desc: "Does damage equal to the user's level.",
-        // longDesc: "Deals damage to the target equal to the user's level.",
+        longDesc: "Deals damage to the target equal to the user's level.",
     },
     {
         name: 'mimic',
@@ -5301,7 +5342,8 @@ export default [
         },
         target: 'normal',
         desc: 'The last move the target used replaces this one.',
-        // longDesc: 'While the user remains active, this move is replaced by the last move used by the target. The copied move has the maximum PP for that move. Fails if the target has not made a move, if the user has Transformed, if the user already knows the move, or if the move is Assist, Behemoth Bash, Behemoth Blade, Belch, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Hold Hands, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Sketch, Sleep Talk, Struggle, Tera Starstorm, Transform, or Wicked Torque.',
+        longDesc:
+            'While the user remains active, this move is replaced by the last move used by the target. The copied move has the maximum PP for that move. Fails if the target has not made a move, if the user has Transformed, if the user already knows the move, or if the move is Assist, Behemoth Bash, Behemoth Blade, Belch, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Hold Hands, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Sketch, Sleep Talk, Struggle, Tera Starstorm, Transform, or Wicked Torque.',
     },
     {
         name: 'screech',
@@ -5353,7 +5395,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Defense by 2.",
-        // longDesc: "Lowers the target's Defense by 2 stages.",
+        longDesc: "Lowers the target's Defense by 2 stages.",
     },
     {
         name: 'doubleTeam',
@@ -5405,7 +5447,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's evasiveness by 1.",
-        // longDesc: "Raises the user's evasiveness by 1 stage.",
+        longDesc: "Raises the user's evasiveness by 1 stage.",
     },
     {
         name: 'recover',
@@ -5457,7 +5499,7 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user by 50% of its max HP.',
-        // longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
+        longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
     },
     {
         name: 'harden',
@@ -5509,7 +5551,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense by 1.",
-        // longDesc: "Raises the user's Defense by 1 stage.",
+        longDesc: "Raises the user's Defense by 1 stage.",
     },
     {
         name: 'minimize',
@@ -5561,7 +5603,8 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's evasiveness by 2.",
-        // longDesc: "Raises the user's evasiveness by 2 stages. Whether or not the user's evasiveness was changed, Body Slam, Dragon Rush, Flying Press, Heat Crash, Heavy Slam, Malicious Moonsault, Steamroller, Stomp, and Supercell Slam will not check accuracy and have their damage doubled if used against the user while it is active.",
+        longDesc:
+            "Raises the user's evasiveness by 2 stages. Whether or not the user's evasiveness was changed, Body Slam, Dragon Rush, Flying Press, Heat Crash, Heavy Slam, Malicious Moonsault, Steamroller, Stomp, and Supercell Slam will not check accuracy and have their damage doubled if used against the user while it is active.",
     },
     {
         name: 'smokescreen',
@@ -5613,7 +5656,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's accuracy by 1.",
-        // longDesc: "Lowers the target's accuracy by 1 stage.",
+        longDesc: "Lowers the target's accuracy by 1 stage.",
     },
     {
         name: 'confuseRay',
@@ -5665,7 +5708,7 @@ export default [
         },
         target: 'normal',
         desc: 'Confuses the target.',
-        // longDesc: 'Causes the target to become confused.',
+        longDesc: 'Causes the target to become confused.',
     },
     {
         name: 'withdraw',
@@ -5717,7 +5760,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense by 1.",
-        // longDesc: "Raises the user's Defense by 1 stage.",
+        longDesc: "Raises the user's Defense by 1 stage.",
     },
     {
         name: 'defenseCurl',
@@ -5769,7 +5812,8 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense by 1.",
-        // longDesc: "Raises the user's Defense by 1 stage. As long as the user remains active, the power of the user's Ice Ball and Rollout will be doubled (this effect is not stackable).",
+        longDesc:
+            "Raises the user's Defense by 1 stage. As long as the user remains active, the power of the user's Ice Ball and Rollout will be doubled (this effect is not stackable).",
     },
     {
         name: 'barrier',
@@ -5821,7 +5865,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense by 2.",
-        // longDesc: "Raises the user's Defense by 2 stages.",
+        longDesc: "Raises the user's Defense by 2 stages.",
     },
     {
         name: 'lightScreen',
@@ -5873,7 +5917,8 @@ export default [
         },
         target: 'allySide',
         desc: 'For 5 turns, special damage to allies is halved.',
-        // longDesc: "For 5 turns, the user and its party members take 0.5x damage from special attacks, or 0.66x damage if in a Double Battle. Damage is not reduced further with Aurora Veil. Critical hits ignore this effect. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Lasts for 8 turns if the user is holding Light Clay. Fails if the effect is already active on the user's side.",
+        longDesc:
+            "For 5 turns, the user and its party members take 0.5x damage from special attacks, or 0.66x damage if in a Double Battle. Damage is not reduced further with Aurora Veil. Critical hits ignore this effect. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Lasts for 8 turns if the user is holding Light Clay. Fails if the effect is already active on the user's side.",
     },
     {
         name: 'haze',
@@ -5925,7 +5970,7 @@ export default [
         },
         target: 'all',
         desc: 'Eliminates all stat changes.',
-        // longDesc: 'Resets the stat stages of all active Pokemon to 0.',
+        longDesc: 'Resets the stat stages of all active Pokemon to 0.',
     },
     {
         name: 'reflect',
@@ -5977,7 +6022,8 @@ export default [
         },
         target: 'allySide',
         desc: 'For 5 turns, physical damage to allies is halved.',
-        // longDesc: "For 5 turns, the user and its party members take 0.5x damage from physical attacks, or 0.66x damage if in a Double Battle. Damage is not reduced further with Aurora Veil. Critical hits ignore this effect. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Lasts for 8 turns if the user is holding Light Clay. Fails if the effect is already active on the user's side.",
+        longDesc:
+            "For 5 turns, the user and its party members take 0.5x damage from physical attacks, or 0.66x damage if in a Double Battle. Damage is not reduced further with Aurora Veil. Critical hits ignore this effect. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Lasts for 8 turns if the user is holding Light Clay. Fails if the effect is already active on the user's side.",
     },
     {
         name: 'focusEnergy',
@@ -6029,7 +6075,8 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's critical hit ratio by 2.",
-        // longDesc: "Raises the user's chance for a critical hit by 2 stages. Fails if the user already has the effect. Baton Pass can be used to transfer this effect to an ally.",
+        longDesc:
+            "Raises the user's chance for a critical hit by 2 stages. Fails if the user already has the effect. Baton Pass can be used to transfer this effect to an ally.",
     },
     {
         name: 'bide',
@@ -6081,7 +6128,8 @@ export default [
         },
         target: 'self',
         desc: 'Waits 2 turns; deals double the damage taken.',
-        // longDesc: "The user spends two turns locked into this move and then, on the second turn after using this move, the user attacks the last Pokemon that hit it, inflicting double the damage in HP it lost to attacks during the two turns. If the last Pokemon that hit it is no longer active, the user attacks a random opposing Pokemon instead. If the user is prevented from moving during this move's use, the effect ends. This move does not check accuracy and does not ignore type immunity.",
+        longDesc:
+            "The user spends two turns locked into this move and then, on the second turn after using this move, the user attacks the last Pokemon that hit it, inflicting double the damage in HP it lost to attacks during the two turns. If the last Pokemon that hit it is no longer active, the user attacks a random opposing Pokemon instead. If the user is prevented from moving during this move's use, the effect ends. This move does not check accuracy and does not ignore type immunity.",
     },
     {
         name: 'metronome',
@@ -6133,7 +6181,8 @@ export default [
         },
         target: 'self',
         desc: 'Picks a random move.',
-        // longDesc: "A random move is selected for use, other than After You, Apple Acid, Armor Cannon, Assist, Astral Barrage, Aura Wheel, Baneful Bunker, Beak Blast, Behemoth Bash, Behemoth Blade, Belch, Bestow, Blazing Torque, Body Press, Branch Poke, Breaking Swipe, Celebrate, Chatter, Chilling Water, Chilly Reception, Clangorous Soul, Collision Course, Combat Torque, Comeuppance, Copycat, Counter, Covet, Crafty Shield, Decorate, Destiny Bond, Detect, Diamond Storm, Doodle, Double Iron Bash, Double Shock, Dragon Ascent, Dragon Energy, Drum Beating, Dynamax Cannon, Electro Drift, Endure, Eternabeam, False Surrender, Feint, Fiery Wrath, Fillet Away, Fleur Cannon, Focus Punch, Follow Me, Freeze Shock, Freezing Glare, Glacial Lance, Grav Apple, Helping Hand, Hold Hands, Hyper Drill, Hyperspace Fury, Hyperspace Hole, Ice Burn, Instruct, Jet Punch, Jungle Healing, King's Shield, Life Dew, Light of Ruin, Magical Torque, Make It Rain, Mat Block, Me First, Meteor Assault, Metronome, Mimic, Mind Blown, Mirror Coat, Mirror Move, Moongeist Beam, Nature Power, Nature's Madness, Noxious Torque, Obstruct, Order Up, Origin Pulse, Overdrive, Photon Geyser, Plasma Fists, Population Bomb, Pounce, Power Shift, Precipice Blades, Protect, Pyro Ball, Quash, Quick Guard, Rage Fist, Rage Powder, Raging Bull, Raging Fury, Relic Song, Revival Blessing, Ruination, Salt Cure, Secret Sword, Shed Tail, Shell Trap, Silk Trap, Sketch, Sleep Talk, Snap Trap, Snarl, Snatch, Snore, Snowscape, Spectral Thief, Spicy Extract, Spiky Shield, Spirit Break, Spotlight, Springtide Storm, Steam Eruption, Steel Beam, Strange Steam, Struggle, Sunsteel Strike, Surging Strikes, Switcheroo, Techno Blast, Tera Starstorm, Thief, Thousand Arrows, Thousand Waves, Thunder Cage, Thunderous Kick, Tidy Up, Trailblaze, Transform, Trick, Twin Beam, V-create, Wicked Blow, Wicked Torque, or Wide Guard.",
+        longDesc:
+            "A random move is selected for use, other than After You, Apple Acid, Armor Cannon, Assist, Astral Barrage, Aura Wheel, Baneful Bunker, Beak Blast, Behemoth Bash, Behemoth Blade, Belch, Bestow, Blazing Torque, Body Press, Branch Poke, Breaking Swipe, Celebrate, Chatter, Chilling Water, Chilly Reception, Clangorous Soul, Collision Course, Combat Torque, Comeuppance, Copycat, Counter, Covet, Crafty Shield, Decorate, Destiny Bond, Detect, Diamond Storm, Doodle, Double Iron Bash, Double Shock, Dragon Ascent, Dragon Energy, Drum Beating, Dynamax Cannon, Electro Drift, Endure, Eternabeam, False Surrender, Feint, Fiery Wrath, Fillet Away, Fleur Cannon, Focus Punch, Follow Me, Freeze Shock, Freezing Glare, Glacial Lance, Grav Apple, Helping Hand, Hold Hands, Hyper Drill, Hyperspace Fury, Hyperspace Hole, Ice Burn, Instruct, Jet Punch, Jungle Healing, King's Shield, Life Dew, Light of Ruin, Magical Torque, Make It Rain, Mat Block, Me First, Meteor Assault, Metronome, Mimic, Mind Blown, Mirror Coat, Mirror Move, Moongeist Beam, Nature Power, Nature's Madness, Noxious Torque, Obstruct, Order Up, Origin Pulse, Overdrive, Photon Geyser, Plasma Fists, Population Bomb, Pounce, Power Shift, Precipice Blades, Protect, Pyro Ball, Quash, Quick Guard, Rage Fist, Rage Powder, Raging Bull, Raging Fury, Relic Song, Revival Blessing, Ruination, Salt Cure, Secret Sword, Shed Tail, Shell Trap, Silk Trap, Sketch, Sleep Talk, Snap Trap, Snarl, Snatch, Snore, Snowscape, Spectral Thief, Spicy Extract, Spiky Shield, Spirit Break, Spotlight, Springtide Storm, Steam Eruption, Steel Beam, Strange Steam, Struggle, Sunsteel Strike, Surging Strikes, Switcheroo, Techno Blast, Tera Starstorm, Thief, Thousand Arrows, Thousand Waves, Thunder Cage, Thunderous Kick, Tidy Up, Trailblaze, Transform, Trick, Twin Beam, V-create, Wicked Blow, Wicked Torque, or Wide Guard.",
     },
     {
         name: 'mirrorMove',
@@ -6185,7 +6234,8 @@ export default [
         },
         target: 'normal',
         desc: "User uses the target's last used move against it.",
-        // longDesc: 'The user uses the last move used by the target. The copied move is used against that target, if possible. Fails if the target has not made a move, or if the last move used cannot be copied by this move.',
+        longDesc:
+            'The user uses the last move used by the target. The copied move is used against that target, if possible. Fails if the target has not made a move, or if the last move used cannot be copied by this move.',
     },
     {
         name: 'selfDestruct',
@@ -6237,7 +6287,8 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'Hits adjacent Pokemon. The user faints.',
-        // longDesc: 'The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.',
+        longDesc:
+            'The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.',
     },
     {
         name: 'eggBomb',
@@ -6289,7 +6340,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'lick',
@@ -6341,7 +6392,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to paralyze the target.',
-        // longDesc: 'Has a 30% chance to paralyze the target.',
+        longDesc: 'Has a 30% chance to paralyze the target.',
     },
     {
         name: 'smog',
@@ -6393,7 +6444,7 @@ export default [
         },
         target: 'normal',
         desc: '40% chance to poison the target.',
-        // longDesc: 'Has a 40% chance to poison the target.',
+        longDesc: 'Has a 40% chance to poison the target.',
     },
     {
         name: 'sludge',
@@ -6445,7 +6496,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to poison the target.',
-        // longDesc: 'Has a 30% chance to poison the target.',
+        longDesc: 'Has a 30% chance to poison the target.',
     },
     {
         name: 'boneClub',
@@ -6497,7 +6548,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to make the target flinch.',
-        // longDesc: 'Has a 10% chance to make the target flinch.',
+        longDesc: 'Has a 10% chance to make the target flinch.',
     },
     {
         name: 'fireBlast',
@@ -6549,7 +6600,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to burn the target.',
-        // longDesc: 'Has a 10% chance to burn the target.',
+        longDesc: 'Has a 10% chance to burn the target.',
     },
     {
         name: 'waterfall',
@@ -6601,7 +6652,7 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to make the target flinch.',
-        // longDesc: 'Has a 20% chance to make the target flinch.',
+        longDesc: 'Has a 20% chance to make the target flinch.',
     },
     {
         name: 'clamp',
@@ -6653,7 +6704,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'swift',
@@ -6705,7 +6757,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'This move does not check accuracy. Hits foes.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'skullBash',
@@ -6757,7 +6809,8 @@ export default [
         },
         target: 'normal',
         desc: "Raises user's Defense by 1 on turn 1. Hits turn 2.",
-        // longDesc: "This attack charges on the first turn and executes on the second. Raises the user's Defense by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
+        longDesc:
+            "This attack charges on the first turn and executes on the second. Raises the user's Defense by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
     },
     {
         name: 'spikeCannon',
@@ -6809,7 +6862,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
     },
     {
         name: 'constrict',
@@ -6861,7 +6915,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Speed by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'amnesia',
@@ -6913,7 +6967,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Sp. Def by 2.",
-        // longDesc: "Raises the user's Special Defense by 2 stages.",
+        longDesc: "Raises the user's Special Defense by 2 stages.",
     },
     {
         name: 'kinesis',
@@ -6965,7 +7019,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's accuracy by 1.",
-        // longDesc: "Lowers the target's accuracy by 1 stage.",
+        longDesc: "Lowers the target's accuracy by 1 stage.",
     },
     {
         name: 'softBoiled',
@@ -7017,7 +7071,7 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user by 50% of its max HP.',
-        // longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
+        longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
     },
     {
         name: 'highJumpKick',
@@ -7069,7 +7123,8 @@ export default [
         },
         target: 'normal',
         desc: 'User is hurt by 50% of its max HP if it misses.',
-        // longDesc: 'If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.',
+        longDesc:
+            'If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.',
     },
     {
         name: 'glare',
@@ -7121,7 +7176,7 @@ export default [
         },
         target: 'normal',
         desc: 'Paralyzes the target.',
-        // longDesc: 'Paralyzes the target.',
+        longDesc: 'Paralyzes the target.',
     },
     {
         name: 'dreamEater',
@@ -7173,7 +7228,8 @@ export default [
         },
         target: 'normal',
         desc: 'User gains 1/2 HP inflicted. Sleeping target only.',
-        // longDesc: 'The target is unaffected by this move unless it is asleep. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The target is unaffected by this move unless it is asleep. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'poisonGas',
@@ -7225,7 +7281,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Poisons the foe(s).',
-        // longDesc: 'Poisons the target.',
+        longDesc: 'Poisons the target.',
     },
     {
         name: 'barrage',
@@ -7277,7 +7333,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
     },
     {
         name: 'leechLife',
@@ -7329,7 +7386,8 @@ export default [
         },
         target: 'normal',
         desc: 'User recovers 50% of the damage dealt.',
-        // longDesc: 'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'lovelyKiss',
@@ -7381,7 +7439,7 @@ export default [
         },
         target: 'normal',
         desc: 'Causes the target to fall asleep.',
-        // longDesc: 'Causes the target to fall asleep.',
+        longDesc: 'Causes the target to fall asleep.',
     },
     {
         name: 'skyAttack',
@@ -7433,7 +7491,8 @@ export default [
         },
         target: 'any',
         desc: 'Charges, then hits turn 2. 30% flinch. High crit.',
-        // longDesc: 'Has a 30% chance to make the target flinch and a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.',
+        longDesc:
+            'Has a 30% chance to make the target flinch and a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.',
     },
     {
         name: 'transform',
@@ -7485,7 +7544,8 @@ export default [
         },
         target: 'normal',
         desc: "Copies target's stats, moves, types, and Ability.",
-        // longDesc: "The user transforms into the target. The target's current stats, stat stages, types, moves, Ability, weight, gender, and sprite are copied. The user's level and HP remain the same and each copied move receives only 5 PP, with a maximum of 5 PP each. The user can no longer change formes if it would have the ability to do so. This move fails if it hits a substitute, if either the user or the target is already transformed, or if either is behind an Illusion.",
+        longDesc:
+            "The user transforms into the target. The target's current stats, stat stages, types, moves, Ability, weight, gender, and sprite are copied. The user's level and HP remain the same and each copied move receives only 5 PP, with a maximum of 5 PP each. The user can no longer change formes if it would have the ability to do so. This move fails if it hits a substitute, if either the user or the target is already transformed, or if either is behind an Illusion.",
     },
     {
         name: 'bubble',
@@ -7537,7 +7597,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '10% chance to lower the foe(s) Speed by 1.',
-        // longDesc: "Has a 10% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'dizzyPunch',
@@ -7589,7 +7649,7 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to confuse the target.',
-        // longDesc: 'Has a 20% chance to confuse the target.',
+        longDesc: 'Has a 20% chance to confuse the target.',
     },
     {
         name: 'spore',
@@ -7641,7 +7701,7 @@ export default [
         },
         target: 'normal',
         desc: 'Causes the target to fall asleep.',
-        // longDesc: 'Causes the target to fall asleep.',
+        longDesc: 'Causes the target to fall asleep.',
     },
     {
         name: 'flash',
@@ -7693,7 +7753,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's accuracy by 1.",
-        // longDesc: "Lowers the target's accuracy by 1 stage.",
+        longDesc: "Lowers the target's accuracy by 1 stage.",
     },
     {
         name: 'psywave',
@@ -7745,7 +7805,8 @@ export default [
         },
         target: 'normal',
         desc: "Random damage equal to 0.5x-1.5x user's level.",
-        // longDesc: "Deals damage to the target equal to (user's level) * (X + 50) / 100, where X is a random number from 0 to 100, rounded down, but not less than 1 HP.",
+        longDesc:
+            "Deals damage to the target equal to (user's level) * (X + 50) / 100, where X is a random number from 0 to 100, rounded down, but not less than 1 HP.",
     },
     {
         name: 'splash',
@@ -7797,7 +7858,7 @@ export default [
         },
         target: 'self',
         desc: 'No competitive use.',
-        // longDesc: 'No competitive use.',
+        longDesc: 'No competitive use.',
     },
     {
         name: 'acidArmor',
@@ -7849,7 +7910,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense by 2.",
-        // longDesc: "Raises the user's Defense by 2 stages.",
+        longDesc: "Raises the user's Defense by 2 stages.",
     },
     {
         name: 'crabhammer',
@@ -7901,7 +7962,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'explosion',
@@ -7953,7 +8014,8 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'Hits adjacent Pokemon. The user faints.',
-        // longDesc: 'The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.',
+        longDesc:
+            'The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.',
     },
     {
         name: 'furySwipes',
@@ -8005,7 +8067,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'bonemerang',
@@ -8057,7 +8120,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2 times in one turn.',
-        // longDesc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+        longDesc:
+            "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
     },
     {
         name: 'rest',
@@ -8109,7 +8173,8 @@ export default [
         },
         target: 'self',
         desc: 'User sleeps 2 turns and restores HP and status.',
-        // longDesc: 'The user falls asleep for the next two turns and restores all of its HP, curing itself of any non-volatile status condition in the process. Fails if the user has full HP, is already asleep, or if another effect is preventing sleep.',
+        longDesc:
+            'The user falls asleep for the next two turns and restores all of its HP, curing itself of any non-volatile status condition in the process. Fails if the user has full HP, is already asleep, or if another effect is preventing sleep.',
     },
     {
         name: 'rockSlide',
@@ -8161,7 +8226,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '30% chance to make the foe(s) flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'hyperFang',
@@ -8213,7 +8278,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to make the target flinch.',
-        // longDesc: 'Has a 10% chance to make the target flinch.',
+        longDesc: 'Has a 10% chance to make the target flinch.',
     },
     {
         name: 'sharpen',
@@ -8265,7 +8330,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Attack by 1.",
-        // longDesc: "Raises the user's Attack by 1 stage.",
+        longDesc: "Raises the user's Attack by 1 stage.",
     },
     {
         name: 'conversion',
@@ -8317,7 +8382,8 @@ export default [
         },
         target: 'self',
         desc: "Changes user's type to match its first move.",
-        // longDesc: "The user's type changes to match the original type of the move in its first move slot. Fails if the user cannot change its type, or if the type is one of the user's current types.",
+        longDesc:
+            "The user's type changes to match the original type of the move in its first move slot. Fails if the user cannot change its type, or if the type is one of the user's current types.",
     },
     {
         name: 'triAttack',
@@ -8369,7 +8435,7 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to paralyze or burn or freeze target.',
-        // longDesc: 'Has a 20% chance to either burn, freeze, or paralyze the target.',
+        longDesc: 'Has a 20% chance to either burn, freeze, or paralyze the target.',
     },
     {
         name: 'superFang',
@@ -8421,7 +8487,8 @@ export default [
         },
         target: 'normal',
         desc: "Does damage equal to 1/2 target's current HP.",
-        // longDesc: 'Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.',
+        longDesc:
+            'Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.',
     },
     {
         name: 'slash',
@@ -8473,7 +8540,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'substitute',
@@ -8525,7 +8592,8 @@ export default [
         },
         target: 'self',
         desc: 'User takes 1/4 its max HP to put in a substitute.',
-        // longDesc: 'The user takes 1/4 of its maximum HP, rounded down, and puts it into a substitute to take its place in battle. The substitute is removed once enough damage is inflicted on it, if the user switches out or faints, or if any Pokemon uses Tidy Up. Baton Pass can be used to transfer the substitute to an ally, and the substitute will keep its remaining HP. Until the substitute is broken, it receives damage from all attacks made by other Pokemon and shields the user from status effects and stat stage changes caused by other Pokemon. Sound-based moves and Pokemon with the Infiltrator Ability ignore substitutes. The user still takes normal damage from weather and status effects while behind its substitute. If the substitute breaks during a multi-hit attack, the user will take damage from any remaining hits. If a substitute is created while the user is trapped by a binding move, the binding effect ends immediately. Fails if the user does not have enough HP remaining to create a substitute without fainting, or if it already has a substitute.',
+        longDesc:
+            'The user takes 1/4 of its maximum HP, rounded down, and puts it into a substitute to take its place in battle. The substitute is removed once enough damage is inflicted on it, if the user switches out or faints, or if any Pokemon uses Tidy Up. Baton Pass can be used to transfer the substitute to an ally, and the substitute will keep its remaining HP. Until the substitute is broken, it receives damage from all attacks made by other Pokemon and shields the user from status effects and stat stage changes caused by other Pokemon. Sound-based moves and Pokemon with the Infiltrator Ability ignore substitutes. The user still takes normal damage from weather and status effects while behind its substitute. If the substitute breaks during a multi-hit attack, the user will take damage from any remaining hits. If a substitute is created while the user is trapped by a binding move, the binding effect ends immediately. Fails if the user does not have enough HP remaining to create a substitute without fainting, or if it already has a substitute.',
     },
     {
         name: 'struggle',
@@ -8577,7 +8645,8 @@ export default [
         },
         target: 'randomNormal',
         desc: 'User loses 1/4 of its max HP.',
-        // longDesc: "Deals typeless damage to a random opposing Pokemon. If this move was successful, the user loses 1/4 of its maximum HP, rounded half up, and the Rock Head Ability does not prevent this. This move is automatically used if none of the user's known moves can be selected.",
+        longDesc:
+            "Deals typeless damage to a random opposing Pokemon. If this move was successful, the user loses 1/4 of its maximum HP, rounded half up, and the Rock Head Ability does not prevent this. This move is automatically used if none of the user's known moves can be selected.",
     },
     {
         name: 'sketch',
@@ -8629,7 +8698,8 @@ export default [
         },
         target: 'normal',
         desc: 'Permanently copies the last move target used.',
-        // longDesc: 'This move is permanently replaced by the last move used by the target. The copied move has the maximum PP for that move. Fails if the target has not made a move, if the user has Transformed, or if the move is Blazing Torque, Combat Torque, Dark Void, Hyperspace Fury, Magical Torque, Noxious Torque, Revival Blessing, Sketch, Struggle, Tera Starstorm, Wicked Torque, or any move the user knows.',
+        longDesc:
+            'This move is permanently replaced by the last move used by the target. The copied move has the maximum PP for that move. Fails if the target has not made a move, if the user has Transformed, or if the move is Blazing Torque, Combat Torque, Dark Void, Hyperspace Fury, Magical Torque, Noxious Torque, Revival Blessing, Sketch, Struggle, Tera Starstorm, Wicked Torque, or any move the user knows.',
     },
     {
         name: 'tripleKick',
@@ -8681,7 +8751,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 3 times. Each hit can miss, but power rises.',
-        // longDesc: "Hits three times. Power increases to 20 for the second hit and 30 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
+        longDesc:
+            "Hits three times. Power increases to 20 for the second hit and 30 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
     },
     {
         name: 'thief',
@@ -8733,7 +8804,8 @@ export default [
         },
         target: 'normal',
         desc: "If the user has no item, it steals the target's.",
-        // longDesc: "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. A target with the Sticky Hold Ability does not lose its held item if it has not fainted. The target's item is not stolen if it is a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask held by a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively, or if the user is one of those species and the target is holding the respective item. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+        longDesc:
+            "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. A target with the Sticky Hold Ability does not lose its held item if it has not fainted. The target's item is not stolen if it is a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask held by a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively, or if the user is one of those species and the target is holding the respective item. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
     },
     {
         name: 'spiderWeb',
@@ -8785,7 +8857,8 @@ export default [
         },
         target: 'normal',
         desc: 'Prevents the target from switching out.',
-        // longDesc: 'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
+        longDesc:
+            'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
     },
     {
         name: 'mindReader',
@@ -8837,7 +8910,8 @@ export default [
         },
         target: 'normal',
         desc: "User's next move will not miss the target.",
-        // longDesc: "Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
+        longDesc:
+            "Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
     },
     {
         name: 'nightmare',
@@ -8889,7 +8963,8 @@ export default [
         },
         target: 'normal',
         desc: 'A sleeping target is hurt by 1/4 max HP per turn.',
-        // longDesc: 'Causes the target to lose 1/4 of its maximum HP, rounded down, at the end of each turn as long as it is asleep. This move does not affect the target unless it is asleep. The effect ends when the target wakes up, even if it falls asleep again in the same turn.',
+        longDesc:
+            'Causes the target to lose 1/4 of its maximum HP, rounded down, at the end of each turn as long as it is asleep. This move does not affect the target unless it is asleep. The effect ends when the target wakes up, even if it falls asleep again in the same turn.',
     },
     {
         name: 'flameWheel',
@@ -8941,7 +9016,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to burn the target. Thaws user.',
-        // longDesc: 'Has a 10% chance to burn the target.',
+        longDesc: 'Has a 10% chance to burn the target.',
     },
     {
         name: 'snore',
@@ -8993,7 +9068,7 @@ export default [
         },
         target: 'normal',
         desc: 'User must be asleep. 30% chance to flinch target.',
-        // longDesc: 'Has a 30% chance to make the target flinch. Fails if the user is not asleep.',
+        longDesc: 'Has a 30% chance to make the target flinch. Fails if the user is not asleep.',
     },
     {
         name: 'curse',
@@ -9045,7 +9120,8 @@ export default [
         },
         target: 'normal',
         desc: 'Curses if Ghost, else -1 Spe, +1 Atk, +1 Def.',
-        // longDesc: "If the user is not a Ghost type, lowers the user's Speed by 1 stage and raises the user's Attack and Defense by 1 stage. If the user is a Ghost type, the user loses 1/2 of its maximum HP, rounded down and even if it would cause fainting, in exchange for the target losing 1/4 of its maximum HP, rounded down, at the end of each turn while it is active. If the target uses Baton Pass, the replacement will continue to be affected. Fails if there is no target or if the target is already affected.",
+        longDesc:
+            "If the user is not a Ghost type, lowers the user's Speed by 1 stage and raises the user's Attack and Defense by 1 stage. If the user is a Ghost type, the user loses 1/2 of its maximum HP, rounded down and even if it would cause fainting, in exchange for the target losing 1/4 of its maximum HP, rounded down, at the end of each turn while it is active. If the target uses Baton Pass, the replacement will continue to be affected. Fails if there is no target or if the target is already affected.",
     },
     {
         name: 'flail',
@@ -9097,7 +9173,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the less HP the user has left.',
-        // longDesc: "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
+        longDesc:
+            "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
     },
     {
         name: 'conversion2',
@@ -9149,7 +9226,8 @@ export default [
         },
         target: 'normal',
         desc: "Changes user's type to resist target's last move.",
-        // longDesc: "The user's type changes to match a type that resists or is immune to the type of the last move used by the target, but not either of its current types. The determined type of the move is used rather than the original type. Fails if the target has not made a move, if the user cannot change its type, or if this move would only be able to select one of the user's current types.",
+        longDesc:
+            "The user's type changes to match a type that resists or is immune to the type of the last move used by the target, but not either of its current types. The determined type of the move is used rather than the original type. Fails if the target has not made a move, if the user cannot change its type, or if this move would only be able to select one of the user's current types.",
     },
     {
         name: 'aeroblast',
@@ -9201,7 +9279,7 @@ export default [
         },
         target: 'any',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'cottonSpore',
@@ -9253,7 +9331,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "Lowers the target's Speed by 2.",
-        // longDesc: "Lowers the target's Speed by 2 stages.",
+        longDesc: "Lowers the target's Speed by 2 stages.",
     },
     {
         name: 'reversal',
@@ -9305,7 +9383,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the less HP the user has left.',
-        // longDesc: "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
+        longDesc:
+            "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
     },
     {
         name: 'spite',
@@ -9357,7 +9436,8 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the PP of the target's last move by 4.",
-        // longDesc: "Causes the target's last move used to lose 4 PP. Fails if the target has not made a move, if the move has 0 PP, or if it no longer knows the move.",
+        longDesc:
+            "Causes the target's last move used to lose 4 PP. Fails if the target has not made a move, if the move has 0 PP, or if it no longer knows the move.",
     },
     {
         name: 'powderSnow',
@@ -9409,7 +9489,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '10% chance to freeze the foe(s).',
-        // longDesc: 'Has a 10% chance to freeze the target.',
+        longDesc: 'Has a 10% chance to freeze the target.',
     },
     {
         name: 'protect',
@@ -9461,7 +9541,8 @@ export default [
         },
         target: 'self',
         desc: 'Prevents moves from affecting the user this turn.',
-        // longDesc: "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        longDesc:
+            "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
     },
     {
         name: 'machPunch',
@@ -9513,7 +9594,7 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'scaryFace',
@@ -9565,7 +9646,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Speed by 2.",
-        // longDesc: "Lowers the target's Speed by 2 stages.",
+        longDesc: "Lowers the target's Speed by 2 stages.",
     },
     {
         name: 'feintAttack',
@@ -9617,7 +9698,7 @@ export default [
         },
         target: 'normal',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'sweetKiss',
@@ -9669,7 +9750,7 @@ export default [
         },
         target: 'normal',
         desc: 'Causes the target to become confused.',
-        // longDesc: 'Causes the target to become confused.',
+        longDesc: 'Causes the target to become confused.',
     },
     {
         name: 'bellyDrum',
@@ -9721,7 +9802,8 @@ export default [
         },
         target: 'self',
         desc: 'User loses 50% max HP. Maximizes Attack.',
-        // longDesc: "Raises the user's Attack by 12 stages in exchange for the user losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Attack stat stage is 6.",
+        longDesc:
+            "Raises the user's Attack by 12 stages in exchange for the user losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Attack stat stage is 6.",
     },
     {
         name: 'sludgeBomb',
@@ -9773,7 +9855,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to poison the target.',
-        // longDesc: 'Has a 30% chance to poison the target.',
+        longDesc: 'Has a 30% chance to poison the target.',
     },
     {
         name: 'mudSlap',
@@ -9825,7 +9907,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's accuracy by 1.",
-        // longDesc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
     },
     {
         name: 'octazooka',
@@ -9877,7 +9959,7 @@ export default [
         },
         target: 'normal',
         desc: "50% chance to lower the target's accuracy by 1.",
-        // longDesc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
+        longDesc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
     },
     {
         name: 'spikes',
@@ -9929,7 +10011,8 @@ export default [
         },
         target: 'foeSide',
         desc: 'Hurts grounded foes on switch-in. Max 3 layers.',
-        // longDesc: 'Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to three times before failing. Opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
+        longDesc:
+            'Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to three times before failing. Opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
     },
     {
         name: 'zapCannon',
@@ -9981,7 +10064,7 @@ export default [
         },
         target: 'normal',
         desc: '100% chance to paralyze the target.',
-        // longDesc: 'Has a 100% chance to paralyze the target.',
+        longDesc: 'Has a 100% chance to paralyze the target.',
     },
     {
         name: 'foresight',
@@ -10033,7 +10116,8 @@ export default [
         },
         target: 'normal',
         desc: 'Fighting, Normal hit Ghost. Evasiveness ignored.',
-        // longDesc: 'As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Normal- and Fighting-type attacks can hit the target if it is a Ghost type. Fails if the target is already affected, or affected by Miracle Eye or Odor Sleuth.',
+        longDesc:
+            'As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Normal- and Fighting-type attacks can hit the target if it is a Ghost type. Fails if the target is already affected, or affected by Miracle Eye or Odor Sleuth.',
     },
     {
         name: 'destinyBond',
@@ -10085,7 +10169,8 @@ export default [
         },
         target: 'self',
         desc: 'If an opponent knocks out the user, it also faints.',
-        // longDesc: "Until the user's next move, if an opposing Pokemon's attack knocks the user out, that Pokemon faints as well, unless the attack was Doom Desire or Future Sight. Fails if the user used this move successfully as its last move, disregarding moves used through the Dancer Ability.",
+        longDesc:
+            "Until the user's next move, if an opposing Pokemon's attack knocks the user out, that Pokemon faints as well, unless the attack was Doom Desire or Future Sight. Fails if the user used this move successfully as its last move, disregarding moves used through the Dancer Ability.",
     },
     {
         name: 'perishSong',
@@ -10137,7 +10222,8 @@ export default [
         },
         target: 'all',
         desc: 'All active Pokemon will faint in 3 turns.',
-        // longDesc: "Each active Pokemon receives a perish count of 4 if it doesn't already have a perish count. At the end of each turn including the turn used, the perish count of all active Pokemon lowers by 1 and Pokemon faint if the number reaches 0. The perish count is removed from Pokemon that switch out. If a Pokemon uses Baton Pass while it has a perish count, the replacement will gain the perish count and continue to count down.",
+        longDesc:
+            "Each active Pokemon receives a perish count of 4 if it doesn't already have a perish count. At the end of each turn including the turn used, the perish count of all active Pokemon lowers by 1 and Pokemon faint if the number reaches 0. The perish count is removed from Pokemon that switch out. If a Pokemon uses Baton Pass while it has a perish count, the replacement will gain the perish count and continue to count down.",
     },
     {
         name: 'icyWind',
@@ -10189,7 +10275,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '100% chance to lower the foe(s) Speed by 1.',
-        // longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'detect',
@@ -10241,7 +10327,8 @@ export default [
         },
         target: 'self',
         desc: 'Prevents moves from affecting the user this turn.',
-        // longDesc: "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        longDesc:
+            "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
     },
     {
         name: 'boneRush',
@@ -10293,7 +10380,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'lockOn',
@@ -10345,7 +10433,8 @@ export default [
         },
         target: 'normal',
         desc: "User's next move will not miss the target.",
-        // longDesc: "Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
+        longDesc:
+            "Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
     },
     {
         name: 'outrage',
@@ -10397,7 +10486,8 @@ export default [
         },
         target: 'randomNormal',
         desc: 'Lasts 2-3 turns. Confuses the user afterwards.',
-        // longDesc: 'The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.',
+        longDesc:
+            'The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.',
     },
     {
         name: 'sandstorm',
@@ -10449,7 +10539,8 @@ export default [
         },
         target: 'all',
         desc: 'For 5 turns, a sandstorm rages. Rock: 1.5x SpD.',
-        // longDesc: 'For 5 turns, the weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack. Lasts for 8 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.',
+        longDesc:
+            'For 5 turns, the weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack. Lasts for 8 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.',
     },
     {
         name: 'gigaDrain',
@@ -10501,7 +10592,8 @@ export default [
         },
         target: 'normal',
         desc: 'User recovers 50% of the damage dealt.',
-        // longDesc: 'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'endure',
@@ -10553,7 +10645,8 @@ export default [
         },
         target: 'self',
         desc: 'User survives attacks this turn with at least 1 HP.',
-        // longDesc: "The user will survive attacks made by other Pokemon during this turn with at least 1 HP. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        longDesc:
+            "The user will survive attacks made by other Pokemon during this turn with at least 1 HP. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
     },
     {
         name: 'charm',
@@ -10605,7 +10698,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Attack by 2.",
-        // longDesc: "Lowers the target's Attack by 2 stages.",
+        longDesc: "Lowers the target's Attack by 2 stages.",
     },
     {
         name: 'rollout',
@@ -10657,7 +10750,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles with each hit. Repeats for 5 turns.',
-        // longDesc: 'If this move is successful, the user is locked into this move and cannot make another move until it misses, 5 turns have passed, or the attack cannot be used. Power doubles with each successful hit of this move and doubles again if Defense Curl was used previously by the user. If this move is called by Sleep Talk, the move is used for one turn.',
+        longDesc:
+            'If this move is successful, the user is locked into this move and cannot make another move until it misses, 5 turns have passed, or the attack cannot be used. Power doubles with each successful hit of this move and doubles again if Defense Curl was used previously by the user. If this move is called by Sleep Talk, the move is used for one turn.',
     },
     {
         name: 'falseSwipe',
@@ -10709,7 +10803,7 @@ export default [
         },
         target: 'normal',
         desc: 'Always leaves the target with at least 1 HP.',
-        // longDesc: 'Leaves the target with at least 1 HP.',
+        longDesc: 'Leaves the target with at least 1 HP.',
     },
     {
         name: 'swagger',
@@ -10761,7 +10855,7 @@ export default [
         },
         target: 'normal',
         desc: "Raises the target's Attack by 2 and confuses it.",
-        // longDesc: "Raises the target's Attack by 2 stages and confuses it.",
+        longDesc: "Raises the target's Attack by 2 stages and confuses it.",
     },
     {
         name: 'milkDrink',
@@ -10813,7 +10907,7 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user by 50% of its max HP.',
-        // longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
+        longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
     },
     {
         name: 'spark',
@@ -10865,7 +10959,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to paralyze the target.',
-        // longDesc: 'Has a 30% chance to paralyze the target.',
+        longDesc: 'Has a 30% chance to paralyze the target.',
     },
     {
         name: 'furyCutter',
@@ -10917,7 +11011,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles with each hit, up to 160.',
-        // longDesc: 'Power doubles with each successful hit, up to a maximum of 160 power. The power is reset if this move misses or another move is used.',
+        longDesc:
+            'Power doubles with each successful hit, up to a maximum of 160 power. The power is reset if this move misses or another move is used.',
     },
     {
         name: 'steelWing',
@@ -10969,7 +11064,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to raise the user's Defense by 1.",
-        // longDesc: "Has a 10% chance to raise the user's Defense by 1 stage.",
+        longDesc: "Has a 10% chance to raise the user's Defense by 1 stage.",
     },
     {
         name: 'meanLook',
@@ -11021,7 +11116,8 @@ export default [
         },
         target: 'normal',
         desc: 'Prevents the target from switching out.',
-        // longDesc: 'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
+        longDesc:
+            'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
     },
     {
         name: 'attract',
@@ -11073,7 +11169,8 @@ export default [
         },
         target: 'normal',
         desc: 'A target of the opposite gender gets infatuated.',
-        // longDesc: 'Causes the target to become infatuated, making it unable to attack 50% of the time. Fails if both the user and the target are the same gender, if either is genderless, or if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.',
+        longDesc:
+            'Causes the target to become infatuated, making it unable to attack 50% of the time. Fails if both the user and the target are the same gender, if either is genderless, or if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.',
     },
     {
         name: 'sleepTalk',
@@ -11125,7 +11222,8 @@ export default [
         },
         target: 'self',
         desc: 'User must be asleep. Uses another known move.',
-        // longDesc: "One of the user's known moves, besides this move, is selected for use at random. Fails if the user is not asleep. The selected move does not have PP deducted from it, and can currently have 0 PP. This move cannot select Assist, Beak Blast, Belch, Bide, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Focus Punch, Hold Hands, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Shell Trap, Sketch, Sleep Talk, Struggle, Uproar, Wicked Torque, or any two-turn move.",
+        longDesc:
+            "One of the user's known moves, besides this move, is selected for use at random. Fails if the user is not asleep. The selected move does not have PP deducted from it, and can currently have 0 PP. This move cannot select Assist, Beak Blast, Belch, Bide, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Focus Punch, Hold Hands, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Shell Trap, Sketch, Sleep Talk, Struggle, Uproar, Wicked Torque, or any two-turn move.",
     },
     {
         name: 'healBell',
@@ -11177,7 +11275,8 @@ export default [
         },
         target: 'allyTeam',
         desc: "Cures the user's party of all status conditions.",
-        // longDesc: "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Soundproof Ability are not cured, unless they are the user.",
+        longDesc:
+            "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Soundproof Ability are not cured, unless they are the user.",
     },
     {
         name: 'return',
@@ -11229,7 +11328,7 @@ export default [
         },
         target: 'normal',
         desc: 'Max 102 power at maximum Happiness.',
-        // longDesc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
+        longDesc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
     },
     {
         name: 'present',
@@ -11281,7 +11380,8 @@ export default [
         },
         target: 'normal',
         desc: '40, 80, 120 power, or heals target 1/4 max HP.',
-        // longDesc: 'If this move is successful, it deals damage or heals the target. 40% chance for 40 power, 30% chance for 80 power, 10% chance for 120 power, and 20% chance to heal the target by 1/4 of its maximum HP, rounded down.',
+        longDesc:
+            'If this move is successful, it deals damage or heals the target. 40% chance for 40 power, 30% chance for 80 power, 10% chance for 120 power, and 20% chance to heal the target by 1/4 of its maximum HP, rounded down.',
     },
     {
         name: 'frustration',
@@ -11333,7 +11433,8 @@ export default [
         },
         target: 'normal',
         desc: 'Max 102 power at minimum Happiness.',
-        // longDesc: "Power is equal to the greater of ((255 - user's Happiness) * 2/5), rounded down, or 1.",
+        longDesc:
+            "Power is equal to the greater of ((255 - user's Happiness) * 2/5), rounded down, or 1.",
     },
     {
         name: 'safeguard',
@@ -11385,7 +11486,8 @@ export default [
         },
         target: 'allySide',
         desc: "For 5 turns, protects user's party from status.",
-        // longDesc: "For 5 turns, the user and its party members cannot have non-volatile status conditions or confusion inflicted on them by other Pokemon. Pokemon on the user's side cannot become affected by Yawn but can fall asleep from its effect. It is removed from the user's side if the user or an ally is successfully hit by Defog. Fails if the effect is already active on the user's side.",
+        longDesc:
+            "For 5 turns, the user and its party members cannot have non-volatile status conditions or confusion inflicted on them by other Pokemon. Pokemon on the user's side cannot become affected by Yawn but can fall asleep from its effect. It is removed from the user's side if the user or an ally is successfully hit by Defog. Fails if the effect is already active on the user's side.",
     },
     {
         name: 'painSplit',
@@ -11437,7 +11539,8 @@ export default [
         },
         target: 'normal',
         desc: 'Shares HP of user and target equally.',
-        // longDesc: "The user and the target's HP become the average of their current HP, rounded down, but not more than the maximum HP of either one.",
+        longDesc:
+            "The user and the target's HP become the average of their current HP, rounded down, but not more than the maximum HP of either one.",
     },
     {
         name: 'sacredFire',
@@ -11489,7 +11592,7 @@ export default [
         },
         target: 'normal',
         desc: '50% chance to burn the target. Thaws user.',
-        // longDesc: 'Has a 50% chance to burn the target.',
+        longDesc: 'Has a 50% chance to burn the target.',
     },
     {
         name: 'magnitude',
@@ -11541,7 +11644,8 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'Hits adjacent Pokemon. Power varies; 2x on Dig.',
-        // longDesc: 'The power of this move varies; 5% chances for 10 and 150 power, 10% chances for 30 and 110 power, 20% chances for 50 and 90 power, and 30% chance for 70 power. Damage doubles if the target is using Dig.',
+        longDesc:
+            'The power of this move varies; 5% chances for 10 and 150 power, 10% chances for 30 and 110 power, 20% chances for 50 and 90 power, and 30% chance for 70 power. Damage doubles if the target is using Dig.',
     },
     {
         name: 'dynamicPunch',
@@ -11593,7 +11697,7 @@ export default [
         },
         target: 'normal',
         desc: '100% chance to confuse the target.',
-        // longDesc: 'Has a 100% chance to confuse the target.',
+        longDesc: 'Has a 100% chance to confuse the target.',
     },
     {
         name: 'megahorn',
@@ -11645,7 +11749,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'dragonBreath',
@@ -11697,7 +11801,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to paralyze the target.',
-        // longDesc: 'Has a 30% chance to paralyze the target.',
+        longDesc: 'Has a 30% chance to paralyze the target.',
     },
     {
         name: 'batonPass',
@@ -11749,7 +11853,8 @@ export default [
         },
         target: 'self',
         desc: 'User switches, passing stat changes and more.',
-        // longDesc: "The user is replaced with another Pokemon in its party. The selected Pokemon has the user's stat stage changes transferred to it, as well as the effects of confusion, Aqua Ring, Curse, Dragon Cheer, Embargo, Focus Energy, Gastro Acid, Heal Block, Ingrain, Leech Seed, Lock-On (Mind Reader), Magnet Rise, Perish Song, Power Trick, Telekinesis, and a substitute with its remaining HP. The effect of Gastro Acid is not transferred if the recipient has an Ability that cannot be affected.",
+        longDesc:
+            "The user is replaced with another Pokemon in its party. The selected Pokemon has the user's stat stage changes transferred to it, as well as the effects of confusion, Aqua Ring, Curse, Dragon Cheer, Embargo, Focus Energy, Gastro Acid, Heal Block, Ingrain, Leech Seed, Lock-On (Mind Reader), Magnet Rise, Perish Song, Power Trick, Telekinesis, and a substitute with its remaining HP. The effect of Gastro Acid is not transferred if the recipient has an Ability that cannot be affected.",
     },
     {
         name: 'encore',
@@ -11801,7 +11906,8 @@ export default [
         },
         target: 'normal',
         desc: 'Target repeats its last move for its next 3 turns.',
-        // longDesc: 'For its next 3 turns, the target is forced to repeat its last move used. If the affected move runs out of PP, the effect ends. Fails if the target is already under this effect, if it has not made a move, if the move has 0 PP, or if the move is Assist, Blazing Torque, Combat Torque, Copycat, Dynamax Cannon, Encore, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Sketch, Sleep Talk, Struggle, Transform, or Wicked Torque.',
+        longDesc:
+            'For its next 3 turns, the target is forced to repeat its last move used. If the affected move runs out of PP, the effect ends. Fails if the target is already under this effect, if it has not made a move, if the move has 0 PP, or if the move is Assist, Blazing Torque, Combat Torque, Copycat, Dynamax Cannon, Encore, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Sketch, Sleep Talk, Struggle, Transform, or Wicked Torque.',
     },
     {
         name: 'pursuit',
@@ -11853,7 +11959,8 @@ export default [
         },
         target: 'normal',
         desc: 'If a foe is switching out, hits it at 2x power.',
-        // longDesc: "If an opposing Pokemon switches out this turn, this move hits that Pokemon before it leaves the field, even if it was not the original target. If the user moves after an opponent using Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch, but not Baton Pass, it will hit that opponent before it leaves the field. Power doubles and no accuracy check is done if the user hits an opponent switching out, and the user's turn is over; if an opponent faints from this, the replacement Pokemon does not become active until the end of the turn.",
+        longDesc:
+            "If an opposing Pokemon switches out this turn, this move hits that Pokemon before it leaves the field, even if it was not the original target. If the user moves after an opponent using Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch, but not Baton Pass, it will hit that opponent before it leaves the field. Power doubles and no accuracy check is done if the user hits an opponent switching out, and the user's turn is over; if an opponent faints from this, the replacement Pokemon does not become active until the end of the turn.",
     },
     {
         name: 'rapidSpin',
@@ -11905,7 +12012,8 @@ export default [
         },
         target: 'normal',
         desc: 'Free user from hazards/bind/Leech Seed; +1 Spe.',
-        // longDesc: "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field. Has a 100% chance to raise the user's Speed by 1 stage.",
+        longDesc:
+            "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field. Has a 100% chance to raise the user's Speed by 1 stage.",
     },
     {
         name: 'sweetScent',
@@ -11957,7 +12065,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Lowers the foe(s) evasiveness by 2.',
-        // longDesc: "Lowers the target's evasiveness by 2 stages.",
+        longDesc: "Lowers the target's evasiveness by 2 stages.",
     },
     {
         name: 'ironTail',
@@ -12009,7 +12117,7 @@ export default [
         },
         target: 'normal',
         desc: "30% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 30% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 30% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'metalClaw',
@@ -12061,7 +12169,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to raise the user's Attack by 1.",
-        // longDesc: "Has a 10% chance to raise the user's Attack by 1 stage.",
+        longDesc: "Has a 10% chance to raise the user's Attack by 1 stage.",
     },
     {
         name: 'vitalThrow',
@@ -12113,7 +12221,7 @@ export default [
         },
         target: 'normal',
         desc: 'This move does not check accuracy. Goes last.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'morningSun',
@@ -12165,7 +12273,8 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user by a weather-dependent amount.',
-        // longDesc: 'The user restores 1/2 of its maximum HP if Strong Winds or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Intense Sun or Sun, and 1/4 of its maximum HP if the weather is Heavy Rain, Rain, Sandstorm, or Snow, all rounded half down.',
+        longDesc:
+            'The user restores 1/2 of its maximum HP if Strong Winds or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Intense Sun or Sun, and 1/4 of its maximum HP if the weather is Heavy Rain, Rain, Sandstorm, or Snow, all rounded half down.',
     },
     {
         name: 'synthesis',
@@ -12217,7 +12326,8 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user by a weather-dependent amount.',
-        // longDesc: 'The user restores 1/2 of its maximum HP if Strong Winds or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Intense Sun or Sun, and 1/4 of its maximum HP if the weather is Heavy Rain, Rain, Sandstorm, or Snow, all rounded half down.',
+        longDesc:
+            'The user restores 1/2 of its maximum HP if Strong Winds or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Intense Sun or Sun, and 1/4 of its maximum HP if the weather is Heavy Rain, Rain, Sandstorm, or Snow, all rounded half down.',
     },
     {
         name: 'moonlight',
@@ -12269,7 +12379,8 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user by a weather-dependent amount.',
-        // longDesc: 'The user restores 1/2 of its maximum HP if Strong Winds or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Intense Sun or Sun, and 1/4 of its maximum HP if the weather is Heavy Rain, Rain, Sandstorm, or Snow, all rounded half down.',
+        longDesc:
+            'The user restores 1/2 of its maximum HP if Strong Winds or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Intense Sun or Sun, and 1/4 of its maximum HP if the weather is Heavy Rain, Rain, Sandstorm, or Snow, all rounded half down.',
     },
     {
         name: 'hiddenPower',
@@ -12321,7 +12432,8 @@ export default [
         },
         target: 'normal',
         desc: "Varies in type based on the user's IVs.",
-        // longDesc: "This move's type depends on the user's individual values (IVs), and can be any type but Fairy and Normal.",
+        longDesc:
+            "This move's type depends on the user's individual values (IVs), and can be any type but Fairy and Normal.",
     },
     {
         name: 'crossChop',
@@ -12373,7 +12485,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'twister',
@@ -12425,7 +12537,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '20% chance to make the foe(s) flinch.',
-        // longDesc: 'Has a 20% chance to make the target flinch. Power doubles if the target is using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.',
+        longDesc:
+            'Has a 20% chance to make the target flinch. Power doubles if the target is using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.',
     },
     {
         name: 'rainDance',
@@ -12477,7 +12590,8 @@ export default [
         },
         target: 'all',
         desc: 'For 5 turns, heavy rain powers Water moves.',
-        // longDesc: 'For 5 turns, the weather becomes Rain. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain.',
+        longDesc:
+            'For 5 turns, the weather becomes Rain. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain.',
     },
     {
         name: 'sunnyDay',
@@ -12529,7 +12643,8 @@ export default [
         },
         target: 'all',
         desc: 'For 5 turns, intense sunlight powers Fire moves.',
-        // longDesc: 'For 5 turns, the weather becomes Sun. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock. Fails if the current weather is Sun.',
+        longDesc:
+            'For 5 turns, the weather becomes Sun. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock. Fails if the current weather is Sun.',
     },
     {
         name: 'crunch',
@@ -12581,7 +12696,7 @@ export default [
         },
         target: 'normal',
         desc: "20% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 20% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 20% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'mirrorCoat',
@@ -12633,7 +12748,8 @@ export default [
         },
         target: 'scripted',
         desc: 'If hit by special attack, returns double damage.',
-        // longDesc: "Deals damage to the last opposing Pokemon to hit the user with a special attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's special attack this turn.",
+        longDesc:
+            "Deals damage to the last opposing Pokemon to hit the user with a special attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's special attack this turn.",
     },
     {
         name: 'psychUp',
@@ -12685,7 +12801,7 @@ export default [
         },
         target: 'normal',
         desc: "Copies the target's current stat stages.",
-        // longDesc: "The user copies all of the target's current stat stage changes.",
+        longDesc: "The user copies all of the target's current stat stage changes.",
     },
     {
         name: 'extremeSpeed',
@@ -12737,7 +12853,7 @@ export default [
         },
         target: 'normal',
         desc: 'Nearly always goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'ancientPower',
@@ -12789,7 +12905,8 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to raise all stats by 1 (not acc/eva).',
-        // longDesc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
+        longDesc:
+            "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
     },
     {
         name: 'shadowBall',
@@ -12841,7 +12958,7 @@ export default [
         },
         target: 'normal',
         desc: "20% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'futureSight',
@@ -12893,7 +13010,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits two turns after being used.',
-        // longDesc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire is already in effect for the target's position.",
+        longDesc:
+            "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire is already in effect for the target's position.",
     },
     {
         name: 'rockSmash',
@@ -12945,7 +13063,7 @@ export default [
         },
         target: 'normal',
         desc: "50% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 50% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 50% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'whirlpool',
@@ -12997,7 +13115,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'beatUp',
@@ -13049,7 +13168,8 @@ export default [
         },
         target: 'normal',
         desc: 'All healthy allies aid in damaging the target.',
-        // longDesc: "Hits one time for the user and one time for each unfainted Pokemon without a non-volatile status condition in the user's party. The power of each hit is equal to 5+(X/10), where X is each participating Pokemon's base Attack; each hit is considered to come from the user.",
+        longDesc:
+            "Hits one time for the user and one time for each unfainted Pokemon without a non-volatile status condition in the user's party. The power of each hit is equal to 5+(X/10), where X is each participating Pokemon's base Attack; each hit is considered to come from the user.",
     },
     {
         name: 'fakeOut',
@@ -13101,7 +13221,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits first. First turn out only. 100% flinch chance.',
-        // longDesc: "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
+        longDesc:
+            "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
     },
     {
         name: 'uproar',
@@ -13153,7 +13274,8 @@ export default [
         },
         target: 'randomNormal',
         desc: 'Lasts 3 turns. Active Pokemon cannot fall asleep.',
-        // longDesc: 'The user spends three turns locked into this move. This move targets an opponent at random on each turn. On the first of the three turns, all sleeping active Pokemon wake up. During the three turns, no active Pokemon can fall asleep by any means, and Pokemon switched in during the effect do not wake up. If the user is prevented from moving or the attack is not successful against the target during one of the turns, the effect ends.',
+        longDesc:
+            'The user spends three turns locked into this move. This move targets an opponent at random on each turn. On the first of the three turns, all sleeping active Pokemon wake up. During the three turns, no active Pokemon can fall asleep by any means, and Pokemon switched in during the effect do not wake up. If the user is prevented from moving or the attack is not successful against the target during one of the turns, the effect ends.',
     },
     {
         name: 'stockpile',
@@ -13205,7 +13327,8 @@ export default [
         },
         target: 'self',
         desc: "Raises user's Defense, Sp. Def by 1. Max 3 uses.",
-        // longDesc: "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
+        longDesc:
+            "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
     },
     {
         name: 'spitUp',
@@ -13257,7 +13380,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power with more uses of Stockpile.',
-        // longDesc: "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
+        longDesc:
+            "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
     },
     {
         name: 'swallow',
@@ -13309,7 +13433,8 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user based on uses of Stockpile.',
-        // longDesc: "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
+        longDesc:
+            "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
     },
     {
         name: 'heatWave',
@@ -13361,7 +13486,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '10% chance to burn the foe(s).',
-        // longDesc: 'Has a 10% chance to burn the target.',
+        longDesc: 'Has a 10% chance to burn the target.',
     },
     {
         name: 'hail',
@@ -13413,7 +13538,8 @@ export default [
         },
         target: 'all',
         desc: 'For 5 turns, hail crashes down.',
-        // longDesc: 'For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, Overcoat, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail.',
+        longDesc:
+            'For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, Overcoat, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail.',
     },
     {
         name: 'torment',
@@ -13465,7 +13591,8 @@ export default [
         },
         target: 'normal',
         desc: "Target can't select the same move twice in a row.",
-        // longDesc: 'Prevents the target from selecting the same move for use two turns in a row. This effect ends when the target is no longer active.',
+        longDesc:
+            'Prevents the target from selecting the same move for use two turns in a row. This effect ends when the target is no longer active.',
     },
     {
         name: 'flatter',
@@ -13517,7 +13644,7 @@ export default [
         },
         target: 'normal',
         desc: "Raises the target's Sp. Atk by 1 and confuses it.",
-        // longDesc: "Raises the target's Special Attack by 1 stage and confuses it.",
+        longDesc: "Raises the target's Special Attack by 1 stage and confuses it.",
     },
     {
         name: 'willOWisp',
@@ -13569,7 +13696,7 @@ export default [
         },
         target: 'normal',
         desc: 'Burns the target.',
-        // longDesc: 'Burns the target.',
+        longDesc: 'Burns the target.',
     },
     {
         name: 'memento',
@@ -13621,7 +13748,8 @@ export default [
         },
         target: 'normal',
         desc: "Lowers target's Attack, Sp. Atk by 2. User faints.",
-        // longDesc: "Lowers the target's Attack and Special Attack by 2 stages. The user faints unless this move misses or there is no target. Fails entirely if this move hits a substitute, but does not fail if the target's stats cannot be changed.",
+        longDesc:
+            "Lowers the target's Attack and Special Attack by 2 stages. The user faints unless this move misses or there is no target. Fails entirely if this move hits a substitute, but does not fail if the target's stats cannot be changed.",
     },
     {
         name: 'facade',
@@ -13673,7 +13801,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if user is burn/poison/paralyzed.',
-        // longDesc: "Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
+        longDesc:
+            "Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
     },
     {
         name: 'focusPunch',
@@ -13725,7 +13854,8 @@ export default [
         },
         target: 'normal',
         desc: 'Fails if the user takes damage before it hits.',
-        // longDesc: 'The user loses its focus and does nothing if it is hit by a damaging attack this turn before it can execute the move.',
+        longDesc:
+            'The user loses its focus and does nothing if it is hit by a damaging attack this turn before it can execute the move.',
     },
     {
         name: 'smellingSalts',
@@ -13777,7 +13907,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if target is paralyzed, and cures it.',
-        // longDesc: 'Power doubles if the target is paralyzed. If the user has not fainted, the target is cured of paralysis.',
+        longDesc:
+            'Power doubles if the target is paralyzed. If the user has not fainted, the target is cured of paralysis.',
     },
     {
         name: 'followMe',
@@ -13829,7 +13960,8 @@ export default [
         },
         target: 'self',
         desc: "The foes' moves target the user on the turn used.",
-        // longDesc: 'Until the end of the turn, all single-target attacks from the opposing side are redirected to the user. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal. This effect is ignored while the user is under the effect of Sky Drop.',
+        longDesc:
+            'Until the end of the turn, all single-target attacks from the opposing side are redirected to the user. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal. This effect is ignored while the user is under the effect of Sky Drop.',
     },
     {
         name: 'naturePower',
@@ -13881,7 +14013,8 @@ export default [
         },
         target: 'normal',
         desc: 'Attack depends on terrain (default Tri Attack).',
-        // longDesc: 'This move calls another move for use based on the battle terrain. Tri Attack on the regular Wi-Fi terrain, Thunderbolt during Electric Terrain, Moonblast during Misty Terrain, Energy Ball during Grassy Terrain, and Psychic during Psychic Terrain.',
+        longDesc:
+            'This move calls another move for use based on the battle terrain. Tri Attack on the regular Wi-Fi terrain, Thunderbolt during Electric Terrain, Moonblast during Misty Terrain, Energy Ball during Grassy Terrain, and Psychic during Psychic Terrain.',
     },
     {
         name: 'charge',
@@ -13933,7 +14066,8 @@ export default [
         },
         target: 'self',
         desc: "+1 SpD, user's next Electric move 2x power.",
-        // longDesc: "Raises the user's Special Defense by 1 stage. The user's next Electric-type attack will have its power doubled; the effect ends when the user is no longer active, or after the user attempts to use any Electric-type move besides Charge, even if it is not successful.",
+        longDesc:
+            "Raises the user's Special Defense by 1 stage. The user's next Electric-type attack will have its power doubled; the effect ends when the user is no longer active, or after the user attempts to use any Electric-type move besides Charge, even if it is not successful.",
     },
     {
         name: 'taunt',
@@ -13985,7 +14119,8 @@ export default [
         },
         target: 'normal',
         desc: "Target can't use status moves its next 3 turns.",
-        // longDesc: 'Prevents the target from using non-damaging moves for its next three turns. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.',
+        longDesc:
+            'Prevents the target from using non-damaging moves for its next three turns. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.',
     },
     {
         name: 'helpingHand',
@@ -14037,7 +14172,8 @@ export default [
         },
         target: 'adjacentAlly',
         desc: "One adjacent ally's move power is 1.5x this turn.",
-        // longDesc: "The power of the target's attack this turn is multiplied by 1.5 (this effect is stackable). Fails if there is no ally adjacent to the user or if the ally already moved this turn, but does not fail if the ally is using a two-turn move.",
+        longDesc:
+            "The power of the target's attack this turn is multiplied by 1.5 (this effect is stackable). Fails if there is no ally adjacent to the user or if the ally already moved this turn, but does not fail if the ally is using a two-turn move.",
     },
     {
         name: 'trick',
@@ -14089,7 +14225,8 @@ export default [
         },
         target: 'normal',
         desc: "User switches its held item with the target's.",
-        // longDesc: "The user swaps its held item with the target's held item. Fails if both the user and the target have no held item, or if the user is trying to give or take a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask to or from a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. The target is immune to this move if it has the Sticky Hold Ability.",
+        longDesc:
+            "The user swaps its held item with the target's held item. Fails if both the user and the target have no held item, or if the user is trying to give or take a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask to or from a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. The target is immune to this move if it has the Sticky Hold Ability.",
     },
     {
         name: 'rolePlay',
@@ -14141,7 +14278,8 @@ export default [
         },
         target: 'normal',
         desc: "User replaces its Ability with the target's.",
-        // longDesc: "The user's Ability changes to match the target's Ability. Fails if the user's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, Zero to Hero, or already matches the target, or if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Flower Gift, Forecast, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
+        longDesc:
+            "The user's Ability changes to match the target's Ability. Fails if the user's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, Zero to Hero, or already matches the target, or if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Flower Gift, Forecast, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
     },
     {
         name: 'wish',
@@ -14193,7 +14331,8 @@ export default [
         },
         target: 'self',
         desc: "Next turn, 50% of the user's max HP is restored.",
-        // longDesc: "At the end of the next turn, the Pokemon at the user's position has 1/2 of the user's maximum HP restored to it, rounded down. Fails if this move is already in effect for the user's position.",
+        longDesc:
+            "At the end of the next turn, the Pokemon at the user's position has 1/2 of the user's maximum HP restored to it, rounded down. Fails if this move is already in effect for the user's position.",
     },
     {
         name: 'assist',
@@ -14245,7 +14384,8 @@ export default [
         },
         target: 'self',
         desc: 'Uses a random move known by a team member.',
-        // longDesc: "A random move among those known by the user's party members is selected for use. Does not select Assist, Baneful Bunker, Beak Blast, Belch, Bestow, Blazing Torque, Bounce, Celebrate, Chatter, Circle Throw, Combat Torque, Copycat, Counter, Covet, Destiny Bond, Detect, Dig, Dive, Dragon Tail, Endure, Feint, Fly, Focus Punch, Follow Me, Helping Hand, Hold Hands, King's Shield, Magical Torque, Mat Block, Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Nature Power, Noxious Torque, Phantom Force, Protect, Rage Powder, Roar, Shadow Force, Shell Trap, Sketch, Sky Drop, Sleep Talk, Snatch, Spiky Shield, Spotlight, Struggle, Switcheroo, Tera Starstorm, Thief, Transform, Trick, Whirlwind, or Wicked Torque.",
+        longDesc:
+            "A random move among those known by the user's party members is selected for use. Does not select Assist, Baneful Bunker, Beak Blast, Belch, Bestow, Blazing Torque, Bounce, Celebrate, Chatter, Circle Throw, Combat Torque, Copycat, Counter, Covet, Destiny Bond, Detect, Dig, Dive, Dragon Tail, Endure, Feint, Fly, Focus Punch, Follow Me, Helping Hand, Hold Hands, King's Shield, Magical Torque, Mat Block, Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Nature Power, Noxious Torque, Phantom Force, Protect, Rage Powder, Roar, Shadow Force, Shell Trap, Sketch, Sky Drop, Sleep Talk, Snatch, Spiky Shield, Spotlight, Struggle, Switcheroo, Tera Starstorm, Thief, Transform, Trick, Whirlwind, or Wicked Torque.",
     },
     {
         name: 'ingrain',
@@ -14297,7 +14437,8 @@ export default [
         },
         target: 'self',
         desc: 'Traps/grounds user; heals 1/16 max HP per turn.',
-        // longDesc: 'The user has 1/16 of its maximum HP restored at the end of each turn, but it is prevented from switching out and other Pokemon cannot force the user to switch out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped and still receive the healing effect. During the effect, the user can be hit normally by Ground-type attacks and be affected by Spikes, Toxic Spikes, and Sticky Web, even if the user is a Flying type or has the Levitate Ability.',
+        longDesc:
+            'The user has 1/16 of its maximum HP restored at the end of each turn, but it is prevented from switching out and other Pokemon cannot force the user to switch out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped and still receive the healing effect. During the effect, the user can be hit normally by Ground-type attacks and be affected by Spikes, Toxic Spikes, and Sticky Web, even if the user is a Flying type or has the Levitate Ability.',
     },
     {
         name: 'superpower',
@@ -14349,7 +14490,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Attack and Defense by 1.",
-        // longDesc: "Lowers the user's Attack and Defense by 1 stage.",
+        longDesc: "Lowers the user's Attack and Defense by 1 stage.",
     },
     {
         name: 'magicCoat',
@@ -14401,7 +14542,8 @@ export default [
         },
         target: 'self',
         desc: 'Bounces back certain non-damaging moves.',
-        // longDesc: "Until the end of the turn, the user is unaffected by certain non-damaging moves directed at it and will instead use such moves against the original user. Moves reflected in this way are unable to be reflected again by this or the Magic Bounce Ability's effect. Spikes, Stealth Rock, Sticky Web, and Toxic Spikes can only be reflected once per side, by the leftmost Pokemon under this or the Magic Bounce Ability's effect. The Lightning Rod and Storm Drain Abilities redirect their respective moves before this move takes effect.",
+        longDesc:
+            "Until the end of the turn, the user is unaffected by certain non-damaging moves directed at it and will instead use such moves against the original user. Moves reflected in this way are unable to be reflected again by this or the Magic Bounce Ability's effect. Spikes, Stealth Rock, Sticky Web, and Toxic Spikes can only be reflected once per side, by the leftmost Pokemon under this or the Magic Bounce Ability's effect. The Lightning Rod and Storm Drain Abilities redirect their respective moves before this move takes effect.",
     },
     {
         name: 'recycle',
@@ -14453,7 +14595,8 @@ export default [
         },
         target: 'self',
         desc: 'Restores the item the user last used.',
-        // longDesc: 'The user regains the item it last used. Fails if the user is holding an item, if the user has not held an item, if the item was a popped Air Balloon, if the item was picked up by a Pokemon with the Pickup Ability, or if the item was lost to Bug Bite, Corrosive Gas, Covet, Incinerate, Knock Off, Pluck, or Thief. Items thrown with Fling can be regained.',
+        longDesc:
+            'The user regains the item it last used. Fails if the user is holding an item, if the user has not held an item, if the item was a popped Air Balloon, if the item was picked up by a Pokemon with the Pickup Ability, or if the item was lost to Bug Bite, Corrosive Gas, Covet, Incinerate, Knock Off, Pluck, or Thief. Items thrown with Fling can be regained.',
     },
     {
         name: 'revenge',
@@ -14505,7 +14648,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if user is damaged by the target.',
-        // longDesc: 'Power doubles if the user was hit by the target this turn.',
+        longDesc: 'Power doubles if the user was hit by the target this turn.',
     },
     {
         name: 'brickBreak',
@@ -14557,7 +14700,8 @@ export default [
         },
         target: 'normal',
         desc: 'Destroys screens, unless the target is immune.',
-        // longDesc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+        longDesc:
+            "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
     },
     {
         name: 'yawn',
@@ -14609,7 +14753,8 @@ export default [
         },
         target: 'normal',
         desc: 'Puts the target to sleep after 1 turn.',
-        // longDesc: 'Causes the target to fall asleep at the end of the next turn. Fails when used if the target cannot fall asleep or if it already has a non-volatile status condition. At the end of the next turn, if the target is still active, does not have a non-volatile status condition, and can fall asleep, it falls asleep. If the target becomes affected, this effect cannot be prevented by Safeguard or a substitute, or by falling asleep and waking up during the effect.',
+        longDesc:
+            'Causes the target to fall asleep at the end of the next turn. Fails when used if the target cannot fall asleep or if it already has a non-volatile status condition. At the end of the next turn, if the target is still active, does not have a non-volatile status condition, and can fall asleep, it falls asleep. If the target becomes affected, this effect cannot be prevented by Safeguard or a substitute, or by falling asleep and waking up during the effect.',
     },
     {
         name: 'knockOff',
@@ -14661,7 +14806,8 @@ export default [
         },
         target: 'normal',
         desc: '1.5x damage if foe holds an item. Removes item.',
-        // longDesc: "This move's power is multiplied by 1.5 if the target is holding an item, and the target loses its held item if the user has not fainted. A target with the Sticky Hold Ability does not lose its held item if it has not fainted. This move does not increase in power or remove the target's item if it is a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask held by a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively, or if the user is one of those species and the target is holding the respective item. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+        longDesc:
+            "This move's power is multiplied by 1.5 if the target is holding an item, and the target loses its held item if the user has not fainted. A target with the Sticky Hold Ability does not lose its held item if it has not fainted. This move does not increase in power or remove the target's item if it is a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask held by a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively, or if the user is one of those species and the target is holding the respective item. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
     },
     {
         name: 'endeavor',
@@ -14713,7 +14859,8 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's HP to the user's HP.",
-        // longDesc: "Deals damage to the target equal to (target's current HP - user's current HP). The target is unaffected if its current HP is less than or equal to the user's current HP.",
+        longDesc:
+            "Deals damage to the target equal to (target's current HP - user's current HP). The target is unaffected if its current HP is less than or equal to the user's current HP.",
     },
     {
         name: 'eruption',
@@ -14765,7 +14912,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "Less power as user's HP decreases. Hits foe(s).",
-        // longDesc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+        longDesc:
+            "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
     },
     {
         name: 'skillSwap',
@@ -14817,7 +14965,8 @@ export default [
         },
         target: 'normal',
         desc: 'The user and the target trade Abilities.',
-        // longDesc: "The user swaps its Ability with the target's Ability. Fails if either the user or the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Hunger Switch, Ice Face, Illusion, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Wonder Guard, Zen Mode, or Zero to Hero.",
+        longDesc:
+            "The user swaps its Ability with the target's Ability. Fails if either the user or the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Hunger Switch, Ice Face, Illusion, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Wonder Guard, Zen Mode, or Zero to Hero.",
     },
     {
         name: 'imprison',
@@ -14869,7 +15018,8 @@ export default [
         },
         target: 'self',
         desc: 'No foe can use any move known by the user.',
-        // longDesc: 'The user prevents all opposing Pokemon from using any moves that the user also knows as long as the user remains active.',
+        longDesc:
+            'The user prevents all opposing Pokemon from using any moves that the user also knows as long as the user remains active.',
     },
     {
         name: 'refresh',
@@ -14921,7 +15071,8 @@ export default [
         },
         target: 'self',
         desc: 'User cures its burn, poison, or paralysis.',
-        // longDesc: 'The user cures its burn, poison, or paralysis. Fails if the user is not burned, poisoned, or paralyzed.',
+        longDesc:
+            'The user cures its burn, poison, or paralysis. Fails if the user is not burned, poisoned, or paralyzed.',
     },
     {
         name: 'grudge',
@@ -14973,7 +15124,8 @@ export default [
         },
         target: 'self',
         desc: 'If the user faints, the attack used loses all its PP.',
-        // longDesc: "Until the user's next turn, if an opposing Pokemon's attack knocks the user out, that move loses all its remaining PP.",
+        longDesc:
+            "Until the user's next turn, if an opposing Pokemon's attack knocks the user out, that move loses all its remaining PP.",
     },
     {
         name: 'snatch',
@@ -15025,7 +15177,8 @@ export default [
         },
         target: 'self',
         desc: 'User steals certain support moves to use itself.',
-        // longDesc: 'If another Pokemon uses certain non-damaging moves this turn, the user steals that move to use itself. If multiple Pokemon use one of those moves this turn, the applicable moves are all stolen by the first Pokemon in turn order that used this move this turn. This effect is ignored while the user is under the effect of Sky Drop.',
+        longDesc:
+            'If another Pokemon uses certain non-damaging moves this turn, the user steals that move to use itself. If multiple Pokemon use one of those moves this turn, the applicable moves are all stolen by the first Pokemon in turn order that used this move this turn. This effect is ignored while the user is under the effect of Sky Drop.',
     },
     {
         name: 'secretPower',
@@ -15077,7 +15230,8 @@ export default [
         },
         target: 'normal',
         desc: 'Effect varies with terrain. (30% paralysis chance)',
-        // longDesc: 'Has a 30% chance to cause a secondary effect on the target based on the battle terrain. Causes paralysis on the regular Wi-Fi terrain, causes paralysis during Electric Terrain, lowers Special Attack by 1 stage during Misty Terrain, causes sleep during Grassy Terrain and lowers Speed by 1 stage during Psychic Terrain.',
+        longDesc:
+            'Has a 30% chance to cause a secondary effect on the target based on the battle terrain. Causes paralysis on the regular Wi-Fi terrain, causes paralysis during Electric Terrain, lowers Special Attack by 1 stage during Misty Terrain, causes sleep during Grassy Terrain and lowers Speed by 1 stage during Psychic Terrain.',
     },
     {
         name: 'dive',
@@ -15129,7 +15283,8 @@ export default [
         },
         target: 'normal',
         desc: 'Dives underwater turn 1, strikes turn 2.',
-        // longDesc: 'This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Surf and Whirlpool but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.',
+        longDesc:
+            'This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Surf and Whirlpool but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.',
     },
     {
         name: 'armThrust',
@@ -15181,7 +15336,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'camouflage',
@@ -15233,7 +15389,8 @@ export default [
         },
         target: 'self',
         desc: "Changes user's type by terrain (default Normal).",
-        // longDesc: "The user's type changes based on the battle terrain. Normal type on the regular Wi-Fi terrain, Electric type during Electric Terrain, Fairy type during Misty Terrain, Grass type during Grassy Terrain, and Psychic type during Psychic Terrain. Fails if the user's type cannot be changed or if the user is already purely that type.",
+        longDesc:
+            "The user's type changes based on the battle terrain. Normal type on the regular Wi-Fi terrain, Electric type during Electric Terrain, Fairy type during Misty Terrain, Grass type during Grassy Terrain, and Psychic type during Psychic Terrain. Fails if the user's type cannot be changed or if the user is already purely that type.",
     },
     {
         name: 'tailGlow',
@@ -15285,7 +15442,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Sp. Atk by 3.",
-        // longDesc: "Raises the user's Special Attack by 3 stages.",
+        longDesc: "Raises the user's Special Attack by 3 stages.",
     },
     {
         name: 'lusterPurge',
@@ -15337,7 +15494,7 @@ export default [
         },
         target: 'normal',
         desc: "50% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 50% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 50% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'mistBall',
@@ -15389,7 +15546,7 @@ export default [
         },
         target: 'normal',
         desc: "50% chance to lower the target's Sp. Atk by 1.",
-        // longDesc: "Has a 50% chance to lower the target's Special Attack by 1 stage.",
+        longDesc: "Has a 50% chance to lower the target's Special Attack by 1 stage.",
     },
     {
         name: 'featherDance',
@@ -15441,7 +15598,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Attack by 2.",
-        // longDesc: "Lowers the target's Attack by 2 stages.",
+        longDesc: "Lowers the target's Attack by 2 stages.",
     },
     {
         name: 'teeterDance',
@@ -15493,7 +15650,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'Confuses adjacent Pokemon.',
-        // longDesc: 'Causes the target to become confused.',
+        longDesc: 'Causes the target to become confused.',
     },
     {
         name: 'blazeKick',
@@ -15545,7 +15702,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio. 10% chance to burn.',
-        // longDesc: 'Has a 10% chance to burn the target and a higher chance for a critical hit.',
+        longDesc: 'Has a 10% chance to burn the target and a higher chance for a critical hit.',
     },
     {
         name: 'mudSport',
@@ -15597,7 +15754,8 @@ export default [
         },
         target: 'all',
         desc: 'For 5 turns, Electric-type attacks have 1/3 power.',
-        // longDesc: 'For 5 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.',
+        longDesc:
+            'For 5 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.',
     },
     {
         name: 'iceBall',
@@ -15649,7 +15807,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles with each hit. Repeats for 5 turns.',
-        // longDesc: 'If this move is successful, the user is locked into this move and cannot make another move until it misses, 5 turns have passed, or the attack cannot be used. Power doubles with each successful hit of this move and doubles again if Defense Curl was used previously by the user. If this move is called by Sleep Talk, the move is used for one turn.',
+        longDesc:
+            'If this move is successful, the user is locked into this move and cannot make another move until it misses, 5 turns have passed, or the attack cannot be used. Power doubles with each successful hit of this move and doubles again if Defense Curl was used previously by the user. If this move is called by Sleep Talk, the move is used for one turn.',
     },
     {
         name: 'needleArm',
@@ -15701,7 +15860,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'slackOff',
@@ -15753,7 +15912,7 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user by 50% of its max HP.',
-        // longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
+        longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
     },
     {
         name: 'hyperVoice',
@@ -15805,7 +15964,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'No additional effect. Hits adjacent foes.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'poisonFang',
@@ -15857,7 +16016,7 @@ export default [
         },
         target: 'normal',
         desc: '50% chance to badly poison the target.',
-        // longDesc: 'Has a 50% chance to badly poison the target.',
+        longDesc: 'Has a 50% chance to badly poison the target.',
     },
     {
         name: 'crushClaw',
@@ -15909,7 +16068,7 @@ export default [
         },
         target: 'normal',
         desc: "50% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 50% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 50% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'blastBurn',
@@ -15961,7 +16120,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'hydroCannon',
@@ -16013,7 +16173,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'meteorMash',
@@ -16065,7 +16226,7 @@ export default [
         },
         target: 'normal',
         desc: "20% chance to raise the user's Attack by 1.",
-        // longDesc: "Has a 20% chance to raise the user's Attack by 1 stage.",
+        longDesc: "Has a 20% chance to raise the user's Attack by 1 stage.",
     },
     {
         name: 'astonish',
@@ -16117,7 +16278,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'weatherBall',
@@ -16169,7 +16330,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles and type varies in each weather.',
-        // longDesc: "Power doubles if a weather condition other than Strong Winds is active, and this move's type changes to match. Ice type during Snow, Water type during Heavy Rain or Rain, Rock type during Sandstorm, and Fire type during Intense Sun or Sun. If the user is holding Utility Umbrella and uses Weather Ball during Heavy Rain, Rain, Intense Sun, or Sun, this move remains Normal type and does not double in power.",
+        longDesc:
+            "Power doubles if a weather condition other than Strong Winds is active, and this move's type changes to match. Ice type during Snow, Water type during Heavy Rain or Rain, Rock type during Sandstorm, and Fire type during Intense Sun or Sun. If the user is holding Utility Umbrella and uses Weather Ball during Heavy Rain, Rain, Intense Sun, or Sun, this move remains Normal type and does not double in power.",
     },
     {
         name: 'aromatherapy',
@@ -16221,7 +16383,8 @@ export default [
         },
         target: 'allyTeam',
         desc: "Cures the user's party of all status conditions.",
-        // longDesc: "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Sap Sipper Ability are not cured, unless they are the user.",
+        longDesc:
+            "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Sap Sipper Ability are not cured, unless they are the user.",
     },
     {
         name: 'fakeTears',
@@ -16273,7 +16436,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Sp. Def by 2.",
-        // longDesc: "Lowers the target's Special Defense by 2 stages.",
+        longDesc: "Lowers the target's Special Defense by 2 stages.",
     },
     {
         name: 'airCutter',
@@ -16325,7 +16488,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'High critical hit ratio. Hits adjacent foes.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'overheat',
@@ -16377,7 +16540,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Sp. Atk by 2.",
-        // longDesc: "Lowers the user's Special Attack by 2 stages.",
+        longDesc: "Lowers the user's Special Attack by 2 stages.",
     },
     {
         name: 'odorSleuth',
@@ -16429,7 +16592,8 @@ export default [
         },
         target: 'normal',
         desc: 'Fighting, Normal hit Ghost. Evasiveness ignored.',
-        // longDesc: 'As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Normal- and Fighting-type attacks can hit the target if it is a Ghost type. Fails if the target is already affected, or affected by Foresight or Miracle Eye.',
+        longDesc:
+            'As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Normal- and Fighting-type attacks can hit the target if it is a Ghost type. Fails if the target is already affected, or affected by Foresight or Miracle Eye.',
     },
     {
         name: 'rockTomb',
@@ -16481,7 +16645,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Speed by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'silverWind',
@@ -16533,7 +16697,8 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to raise all stats by 1 (not acc/eva).',
-        // longDesc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
+        longDesc:
+            "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
     },
     {
         name: 'metalSound',
@@ -16585,7 +16750,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Sp. Def by 2.",
-        // longDesc: "Lowers the target's Special Defense by 2 stages.",
+        longDesc: "Lowers the target's Special Defense by 2 stages.",
     },
     {
         name: 'grassWhistle',
@@ -16637,7 +16802,7 @@ export default [
         },
         target: 'normal',
         desc: 'Causes the target to fall asleep.',
-        // longDesc: 'Causes the target to fall asleep.',
+        longDesc: 'Causes the target to fall asleep.',
     },
     {
         name: 'tickle',
@@ -16689,7 +16854,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Attack and Defense by 1.",
-        // longDesc: "Lowers the target's Attack and Defense by 1 stage.",
+        longDesc: "Lowers the target's Attack and Defense by 1 stage.",
     },
     {
         name: 'cosmicPower',
@@ -16741,7 +16906,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense and Sp. Def by 1.",
-        // longDesc: "Raises the user's Defense and Special Defense by 1 stage.",
+        longDesc: "Raises the user's Defense and Special Defense by 1 stage.",
     },
     {
         name: 'waterSpout',
@@ -16793,7 +16958,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "Less power as user's HP decreases. Hits foe(s).",
-        // longDesc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+        longDesc:
+            "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
     },
     {
         name: 'signalBeam',
@@ -16845,7 +17011,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to confuse the target.',
-        // longDesc: 'Has a 10% chance to confuse the target.',
+        longDesc: 'Has a 10% chance to confuse the target.',
     },
     {
         name: 'shadowPunch',
@@ -16897,7 +17063,7 @@ export default [
         },
         target: 'normal',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'extrasensory',
@@ -16949,7 +17115,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to make the target flinch.',
-        // longDesc: 'Has a 10% chance to make the target flinch.',
+        longDesc: 'Has a 10% chance to make the target flinch.',
     },
     {
         name: 'skyUppercut',
@@ -17001,7 +17167,8 @@ export default [
         },
         target: 'normal',
         desc: 'Can hit Pokemon using Bounce, Fly, or Sky Drop.',
-        // longDesc: 'This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.',
+        longDesc:
+            'This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.',
     },
     {
         name: 'sandTomb',
@@ -17053,7 +17220,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'sheerCold',
@@ -17105,7 +17273,8 @@ export default [
         },
         target: 'normal',
         desc: "OHKOs non-Ice targets. Fails if user's lower level.",
-        // longDesc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + X)%, where X is 30 if the user is an Ice type and 20 otherwise, and fails if the target is at a higher level. Ice-type Pokemon and Pokemon with the Sturdy Ability are immune.",
+        longDesc:
+            "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + X)%, where X is 30 if the user is an Ice type and 20 otherwise, and fails if the target is at a higher level. Ice-type Pokemon and Pokemon with the Sturdy Ability are immune.",
     },
     {
         name: 'muddyWater',
@@ -17157,7 +17326,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '30% chance to lower the foe(s) accuracy by 1.',
-        // longDesc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
+        longDesc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
     },
     {
         name: 'bulletSeed',
@@ -17209,7 +17378,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'aerialAce',
@@ -17261,7 +17431,7 @@ export default [
         },
         target: 'any',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'icicleSpear',
@@ -17313,7 +17483,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'ironDefense',
@@ -17365,7 +17536,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense by 2.",
-        // longDesc: "Raises the user's Defense by 2 stages.",
+        longDesc: "Raises the user's Defense by 2 stages.",
     },
     {
         name: 'block',
@@ -17417,7 +17588,8 @@ export default [
         },
         target: 'normal',
         desc: 'Prevents the target from switching out.',
-        // longDesc: 'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
+        longDesc:
+            'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
     },
     {
         name: 'howl',
@@ -17469,7 +17641,7 @@ export default [
         },
         target: 'allies',
         desc: "Raises the user's and ally's Attack by 1.",
-        // longDesc: 'Raises the Attack of the user and all allies 1 stage.',
+        longDesc: 'Raises the Attack of the user and all allies 1 stage.',
     },
     {
         name: 'dragonClaw',
@@ -17521,7 +17693,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'frenzyPlant',
@@ -17573,7 +17745,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'bulkUp',
@@ -17625,7 +17798,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Attack and Defense by 1.",
-        // longDesc: "Raises the user's Attack and Defense by 1 stage.",
+        longDesc: "Raises the user's Attack and Defense by 1 stage.",
     },
     {
         name: 'bounce',
@@ -17677,7 +17850,8 @@ export default [
         },
         target: 'any',
         desc: 'Bounces turn 1. Hits turn 2. 30% paralyze.',
-        // longDesc: 'Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister, and Gust and Twister have doubled power when used against it. If the user is holding a Power Herb, the move completes in one turn.',
+        longDesc:
+            'Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister, and Gust and Twister have doubled power when used against it. If the user is holding a Power Herb, the move completes in one turn.',
     },
     {
         name: 'mudShot',
@@ -17729,7 +17903,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Speed by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'poisonTail',
@@ -17781,7 +17955,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio. 10% chance to poison.',
-        // longDesc: 'Has a 10% chance to poison the target and a higher chance for a critical hit.',
+        longDesc: 'Has a 10% chance to poison the target and a higher chance for a critical hit.',
     },
     {
         name: 'covet',
@@ -17833,7 +18007,8 @@ export default [
         },
         target: 'normal',
         desc: "If the user has no item, it steals the target's.",
-        // longDesc: "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. A target with the Sticky Hold Ability does not lose its held item if it has not fainted. The target's item is not stolen if it is a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask held by a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively, or if the user is one of those species and the target is holding the respective item. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+        longDesc:
+            "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. A target with the Sticky Hold Ability does not lose its held item if it has not fainted. The target's item is not stolen if it is a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask held by a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively, or if the user is one of those species and the target is holding the respective item. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
     },
     {
         name: 'voltTackle',
@@ -17885,7 +18060,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 33% recoil. 10% chance to paralyze target.',
-        // longDesc: 'Has a 10% chance to paralyze the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'Has a 10% chance to paralyze the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'magicalLeaf',
@@ -17937,7 +18113,7 @@ export default [
         },
         target: 'normal',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'waterSport',
@@ -17989,7 +18165,8 @@ export default [
         },
         target: 'all',
         desc: 'For 5 turns, Fire-type attacks have 1/3 power.',
-        // longDesc: 'For 5 turns, all Fire-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.',
+        longDesc:
+            'For 5 turns, all Fire-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.',
     },
     {
         name: 'calmMind',
@@ -18041,7 +18218,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Sp. Atk and Sp. Def by 1.",
-        // longDesc: "Raises the user's Special Attack and Special Defense by 1 stage.",
+        longDesc: "Raises the user's Special Attack and Special Defense by 1 stage.",
     },
     {
         name: 'leafBlade',
@@ -18093,7 +18270,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'dragonDance',
@@ -18145,7 +18322,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Attack and Speed by 1.",
-        // longDesc: "Raises the user's Attack and Speed by 1 stage.",
+        longDesc: "Raises the user's Attack and Speed by 1 stage.",
     },
     {
         name: 'rockBlast',
@@ -18197,7 +18374,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'shockWave',
@@ -18249,7 +18427,7 @@ export default [
         },
         target: 'normal',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'waterPulse',
@@ -18301,7 +18479,7 @@ export default [
         },
         target: 'any',
         desc: '20% chance to confuse the target.',
-        // longDesc: 'Has a 20% chance to confuse the target.',
+        longDesc: 'Has a 20% chance to confuse the target.',
     },
     {
         name: 'doomDesire',
@@ -18353,7 +18531,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits two turns after being used.',
-        // longDesc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Future Sight is already in effect for the target's position.",
+        longDesc:
+            "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Future Sight is already in effect for the target's position.",
     },
     {
         name: 'psychoBoost',
@@ -18405,7 +18584,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Sp. Atk by 2.",
-        // longDesc: "Lowers the user's Special Attack by 2 stages.",
+        longDesc: "Lowers the user's Special Attack by 2 stages.",
     },
     {
         name: 'roost',
@@ -18457,7 +18636,8 @@ export default [
         },
         target: 'self',
         desc: "Heals 50% HP. Flying-type removed 'til turn ends.",
-        // longDesc: "The user restores 1/2 of its maximum HP, rounded half up. If the user is not Terastallized, until the end of the turn Flying-type users lose their Flying type and pure Flying-type users become Normal type. Does nothing if the user's HP is full.",
+        longDesc:
+            "The user restores 1/2 of its maximum HP, rounded half up. If the user is not Terastallized, until the end of the turn Flying-type users lose their Flying type and pure Flying-type users become Normal type. Does nothing if the user's HP is full.",
     },
     {
         name: 'gravity',
@@ -18509,7 +18689,8 @@ export default [
         },
         target: 'all',
         desc: '5 turns: no Ground immunities, 1.67x accuracy.',
-        // longDesc: 'For 5 turns, the evasiveness of all active Pokemon is multiplied by 0.6. At the time of use, Bounce, Fly, Magnet Rise, Sky Drop, and Telekinesis end immediately for all active Pokemon. During the effect, Bounce, Fly, Flying Press, High Jump Kick, Jump Kick, Magnet Rise, Sky Drop, Splash, and Telekinesis are prevented from being used by all active Pokemon. Ground-type attacks, Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability can affect Flying types or Pokemon with the Levitate Ability. Fails if this move is already in effect.',
+        longDesc:
+            'For 5 turns, the evasiveness of all active Pokemon is multiplied by 0.6. At the time of use, Bounce, Fly, Magnet Rise, Sky Drop, and Telekinesis end immediately for all active Pokemon. During the effect, Bounce, Fly, Flying Press, High Jump Kick, Jump Kick, Magnet Rise, Sky Drop, Splash, and Telekinesis are prevented from being used by all active Pokemon. Ground-type attacks, Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability can affect Flying types or Pokemon with the Levitate Ability. Fails if this move is already in effect.',
     },
     {
         name: 'miracleEye',
@@ -18561,7 +18742,8 @@ export default [
         },
         target: 'normal',
         desc: 'Psychic hits Dark. Evasiveness ignored.',
-        // longDesc: 'As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Psychic-type attacks can hit the target if it is a Dark type. Fails if the target is already affected, or affected by Foresight or Odor Sleuth.',
+        longDesc:
+            'As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Psychic-type attacks can hit the target if it is a Dark type. Fails if the target is already affected, or affected by Foresight or Odor Sleuth.',
     },
     {
         name: 'wakeUpSlap',
@@ -18613,7 +18795,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if target is asleep, and wakes it.',
-        // longDesc: 'Power doubles if the target is asleep. If the user has not fainted, the target wakes up.',
+        longDesc:
+            'Power doubles if the target is asleep. If the user has not fainted, the target wakes up.',
     },
     {
         name: 'hammerArm',
@@ -18665,7 +18848,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Speed by 1.",
-        // longDesc: "Lowers the user's Speed by 1 stage.",
+        longDesc: "Lowers the user's Speed by 1 stage.",
     },
     {
         name: 'gyroBall',
@@ -18717,7 +18900,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the slower the user than the target.',
-        // longDesc: "Power is equal to (25 * target's current Speed / user's current Speed) + 1, rounded down, but not more than 150. If the user's current Speed is 0, this move's power is 1.",
+        longDesc:
+            "Power is equal to (25 * target's current Speed / user's current Speed) + 1, rounded down, but not more than 150. If the user's current Speed is 0, this move's power is 1.",
     },
     {
         name: 'healingWish',
@@ -18769,7 +18953,8 @@ export default [
         },
         target: 'self',
         desc: 'User faints. Next hurt Pokemon is fully healed.',
-        // longDesc: "The user faints, and if the Pokemon brought out to replace it does not have full HP or has a non-volatile status condition, its HP is fully restored along with having any non-volatile status condition cured. The replacement is sent out at the end of the turn, and the healing happens before hazards take effect. This effect continues until a Pokemon that meets either of these conditions switches in at the user's position or gets swapped into the position with Ally Switch. Fails if the user is the last unfainted Pokemon in its party.",
+        longDesc:
+            "The user faints, and if the Pokemon brought out to replace it does not have full HP or has a non-volatile status condition, its HP is fully restored along with having any non-volatile status condition cured. The replacement is sent out at the end of the turn, and the healing happens before hazards take effect. This effect continues until a Pokemon that meets either of these conditions switches in at the user's position or gets swapped into the position with Ally Switch. Fails if the user is the last unfainted Pokemon in its party.",
     },
     {
         name: 'brine',
@@ -18821,7 +19006,8 @@ export default [
         },
         target: 'normal',
         desc: "Power doubles if the target's HP is 50% or less.",
-        // longDesc: 'Power doubles if the target has less than or equal to half of its maximum HP remaining.',
+        longDesc:
+            'Power doubles if the target has less than or equal to half of its maximum HP remaining.',
     },
     {
         name: 'naturalGift',
@@ -18873,7 +19059,8 @@ export default [
         },
         target: 'normal',
         desc: "Power and type depends on the user's Berry.",
-        // longDesc: "The type and power of this move depend on the user's held Berry, and the Berry is lost. Fails if the user is not holding a Berry, if the user has the Klutz Ability, or if Embargo or Magic Room is in effect for the user.",
+        longDesc:
+            "The type and power of this move depend on the user's held Berry, and the Berry is lost. Fails if the user is not holding a Berry, if the user has the Klutz Ability, or if Embargo or Magic Room is in effect for the user.",
     },
     {
         name: 'feint',
@@ -18925,7 +19112,8 @@ export default [
         },
         target: 'normal',
         desc: 'Nullifies Detect, Protect, and Quick/Wide Guard.',
-        // longDesc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
+        longDesc:
+            "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
     },
     {
         name: 'pluck',
@@ -18977,7 +19165,8 @@ export default [
         },
         target: 'any',
         desc: "User steals and eats the target's Berry.",
-        // longDesc: "If this move is successful and the user has not fainted, it steals the target's held Berry if it is holding one and eats it immediately, gaining its effects even if the user's item is being ignored. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+        longDesc:
+            "If this move is successful and the user has not fainted, it steals the target's held Berry if it is holding one and eats it immediately, gaining its effects even if the user's item is being ignored. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
     },
     {
         name: 'tailwind',
@@ -19029,7 +19218,8 @@ export default [
         },
         target: 'allySide',
         desc: "For 4 turns, allies' Speed is doubled.",
-        // longDesc: "For 4 turns, the user and its party members have their Speed doubled. Fails if this move is already in effect for the user's side.",
+        longDesc:
+            "For 4 turns, the user and its party members have their Speed doubled. Fails if this move is already in effect for the user's side.",
     },
     {
         name: 'acupressure',
@@ -19081,7 +19271,8 @@ export default [
         },
         target: 'adjacentAllyOrSelf',
         desc: 'Raises a random stat of the user or an ally by 2.',
-        // longDesc: 'Raises a random stat by 2 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an adjacent ally. Fails if no stat stage can be raised or if used on an ally with a substitute.',
+        longDesc:
+            'Raises a random stat by 2 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an adjacent ally. Fails if no stat stage can be raised or if used on an ally with a substitute.',
     },
     {
         name: 'metalBurst',
@@ -19133,7 +19324,8 @@ export default [
         },
         target: 'scripted',
         desc: 'If hit by an attack, returns 1.5x damage.',
-        // longDesc: "Deals damage to the last opposing Pokemon to hit the user with a physical or special attack this turn equal to 1.5 times the HP lost by the user from that attack, rounded down. If the user did not lose HP from that attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical or special attack this turn.",
+        longDesc:
+            "Deals damage to the last opposing Pokemon to hit the user with a physical or special attack this turn equal to 1.5 times the HP lost by the user from that attack, rounded down. If the user did not lose HP from that attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical or special attack this turn.",
     },
     {
         name: 'uTurn',
@@ -19185,7 +19377,8 @@ export default [
         },
         target: 'normal',
         desc: 'User switches out after damaging the target.',
-        // longDesc: 'If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.',
+        longDesc:
+            'If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.',
     },
     {
         name: 'closeCombat',
@@ -19237,7 +19430,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Defense and Sp. Def by 1.",
-        // longDesc: "Lowers the user's Defense and Special Defense by 1 stage.",
+        longDesc: "Lowers the user's Defense and Special Defense by 1 stage.",
     },
     {
         name: 'payback',
@@ -19289,7 +19482,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if the user moves after the target.',
-        // longDesc: 'Power doubles if the user moves after the target this turn, including actions taken through Instruct or the Dancer Ability. Switching in does not count as an action.',
+        longDesc:
+            'Power doubles if the user moves after the target this turn, including actions taken through Instruct or the Dancer Ability. Switching in does not count as an action.',
     },
     {
         name: 'assurance',
@@ -19341,7 +19535,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if target was damaged this turn.',
-        // longDesc: 'Power doubles if the target has already taken damage this turn, other than direct damage from Belly Drum, confusion, Curse, or Pain Split.',
+        longDesc:
+            'Power doubles if the target has already taken damage this turn, other than direct damage from Belly Drum, confusion, Curse, or Pain Split.',
     },
     {
         name: 'embargo',
@@ -19393,7 +19588,8 @@ export default [
         },
         target: 'normal',
         desc: "For 5 turns, the target's item has no effect.",
-        // longDesc: "For 5 turns, the target's held item has no effect. An item's effect of causing forme changes is unaffected, but any other effects from such items are negated. During the effect, Fling and Natural Gift are prevented from being used by the target. Items thrown at the target with Fling will still activate for it. If the target uses Baton Pass, the replacement will remain unable to use items.",
+        longDesc:
+            "For 5 turns, the target's held item has no effect. An item's effect of causing forme changes is unaffected, but any other effects from such items are negated. During the effect, Fling and Natural Gift are prevented from being used by the target. Items thrown at the target with Fling will still activate for it. If the target uses Baton Pass, the replacement will remain unable to use items.",
     },
     {
         name: 'fling',
@@ -19445,7 +19641,8 @@ export default [
         },
         target: 'normal',
         desc: "Flings the user's item at the target. Power varies.",
-        // longDesc: "The power of this move is based on the user's held item. The held item is lost and it activates for the target if applicable. If there is no target or the target avoids this move by protecting itself, the user's held item is still lost. The user can regain a thrown item with Recycle or the Harvest Ability. Fails if the user has no held item, if the held item cannot be thrown, if the user is under the effect of Embargo or Magic Room, or if the user has the Klutz Ability.",
+        longDesc:
+            "The power of this move is based on the user's held item. The held item is lost and it activates for the target if applicable. If there is no target or the target avoids this move by protecting itself, the user's held item is still lost. The user can regain a thrown item with Recycle or the Harvest Ability. Fails if the user has no held item, if the held item cannot be thrown, if the user is under the effect of Embargo or Magic Room, or if the user has the Klutz Ability.",
     },
     {
         name: 'psychoShift',
@@ -19497,7 +19694,8 @@ export default [
         },
         target: 'normal',
         desc: "Transfers the user's status ailment to the target.",
-        // longDesc: "The user's non-volatile status condition is transferred to the target, and the user is then cured. Fails if the user has no non-volatile status condition or if the target already has one.",
+        longDesc:
+            "The user's non-volatile status condition is transferred to the target, and the user is then cured. Fails if the user has no non-volatile status condition or if the target already has one.",
     },
     {
         name: 'trumpCard',
@@ -19549,7 +19747,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the fewer PP this move has left.',
-        // longDesc: 'The power of this move is based on the amount of PP remaining after normal PP reduction and the Pressure Ability resolve. 200 power for 0 PP, 80 power for 1 PP, 60 power for 2 PP, 50 power for 3 PP, and 40 power for 4 or more PP.',
+        longDesc:
+            'The power of this move is based on the amount of PP remaining after normal PP reduction and the Pressure Ability resolve. 200 power for 0 PP, 80 power for 1 PP, 60 power for 2 PP, 50 power for 3 PP, and 40 power for 4 or more PP.',
     },
     {
         name: 'healBlock',
@@ -19601,7 +19800,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'For 5 turns, the foe(s) is prevented from healing.',
-        // longDesc: 'For 5 turns, the target is prevented from restoring any HP as long as it remains active. During the effect, healing and draining moves are unusable, and Abilities and items that grant healing will not heal the user. If an affected Pokemon uses Baton Pass, the replacement will remain unable to restore its HP. Pain Split and the Regenerator Ability are unaffected.',
+        longDesc:
+            'For 5 turns, the target is prevented from restoring any HP as long as it remains active. During the effect, healing and draining moves are unusable, and Abilities and items that grant healing will not heal the user. If an affected Pokemon uses Baton Pass, the replacement will remain unable to restore its HP. Pain Split and the Regenerator Ability are unaffected.',
     },
     {
         name: 'wringOut',
@@ -19653,7 +19853,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the more HP the target has left.',
-        // longDesc: "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
+        longDesc:
+            "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
     },
     {
         name: 'powerTrick',
@@ -19705,7 +19906,8 @@ export default [
         },
         target: 'self',
         desc: "Switches user's Attack and Defense stats.",
-        // longDesc: 'The user swaps its Attack and Defense stats, and stat stage changes remain on their respective stats. This move can be used again to swap the stats back. If the user uses Baton Pass, the replacement will have its Attack and Defense stats swapped if the effect is active. If the user has its stats recalculated by changing forme while its stats are swapped, this effect is ignored but is still active for the purposes of Baton Pass.',
+        longDesc:
+            'The user swaps its Attack and Defense stats, and stat stage changes remain on their respective stats. This move can be used again to swap the stats back. If the user uses Baton Pass, the replacement will have its Attack and Defense stats swapped if the effect is active. If the user has its stats recalculated by changing forme while its stats are swapped, this effect is ignored but is still active for the purposes of Baton Pass.',
     },
     {
         name: 'gastroAcid',
@@ -19757,7 +19959,8 @@ export default [
         },
         target: 'normal',
         desc: "Nullifies the target's Ability.",
-        // longDesc: "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
+        longDesc:
+            "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
     },
     {
         name: 'luckyChant',
@@ -19809,7 +20012,8 @@ export default [
         },
         target: 'allySide',
         desc: "For 5 turns, shields user's party from critical hits.",
-        // longDesc: "For 5 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
+        longDesc:
+            "For 5 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
     },
     {
         name: 'meFirst',
@@ -19861,7 +20065,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Copies a foe at 1.5x power. User must be faster.',
-        // longDesc: "The user uses the move the target chose for use this turn against it, if possible, with its power multiplied by 1.5. The move must be a damaging move other than Beak Blast, Belch, Blazing Torque, Combat Torque, Comeuppance, Counter, Covet, Focus Punch, Magical Torque, Me First, Metal Burst, Mirror Coat, Noxious Torque, Shell Trap, Struggle, Thief, or Wicked Torque. Fails if the target moves before the user. Ignores the target's substitute for the purpose of copying the move.",
+        longDesc:
+            "The user uses the move the target chose for use this turn against it, if possible, with its power multiplied by 1.5. The move must be a damaging move other than Beak Blast, Belch, Blazing Torque, Combat Torque, Comeuppance, Counter, Covet, Focus Punch, Magical Torque, Me First, Metal Burst, Mirror Coat, Noxious Torque, Shell Trap, Struggle, Thief, or Wicked Torque. Fails if the target moves before the user. Ignores the target's substitute for the purpose of copying the move.",
     },
     {
         name: 'copycat',
@@ -19913,7 +20118,8 @@ export default [
         },
         target: 'self',
         desc: 'Uses the last move used in the battle.',
-        // longDesc: "The user uses the last move used by any Pokemon, including itself. Fails if no move has been used, or if the last move used was Assist, Baneful Bunker, Beak Blast, Behemoth Bash, Behemoth Blade, Belch, Bestow, Blazing Torque, Celebrate, Chatter, Circle Throw, Combat Torque, Copycat, Counter, Covet, Destiny Bond, Detect, Dragon Tail, Dynamax Cannon, Endure, Feint, Focus Punch, Follow Me, Helping Hand, Hold Hands, King's Shield, Magical Torque, Mat Block, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Protect, Rage Powder, Roar, Shell Trap, Sketch, Sleep Talk, Snatch, Spiky Shield, Spotlight, Struggle, Switcheroo, Tera Starstorm, Thief, Transform, Trick, Whirlwind, or Wicked Torque.",
+        longDesc:
+            "The user uses the last move used by any Pokemon, including itself. Fails if no move has been used, or if the last move used was Assist, Baneful Bunker, Beak Blast, Behemoth Bash, Behemoth Blade, Belch, Bestow, Blazing Torque, Celebrate, Chatter, Circle Throw, Combat Torque, Copycat, Counter, Covet, Destiny Bond, Detect, Dragon Tail, Dynamax Cannon, Endure, Feint, Focus Punch, Follow Me, Helping Hand, Hold Hands, King's Shield, Magical Torque, Mat Block, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Protect, Rage Powder, Roar, Shell Trap, Sketch, Sleep Talk, Snatch, Spiky Shield, Spotlight, Struggle, Switcheroo, Tera Starstorm, Thief, Transform, Trick, Whirlwind, or Wicked Torque.",
     },
     {
         name: 'powerSwap',
@@ -19965,7 +20171,8 @@ export default [
         },
         target: 'normal',
         desc: 'Swaps Attack and Sp. Atk stat stages with target.',
-        // longDesc: 'The user swaps its Attack and Special Attack stat stage changes with the target.',
+        longDesc:
+            'The user swaps its Attack and Special Attack stat stage changes with the target.',
     },
     {
         name: 'guardSwap',
@@ -20017,7 +20224,8 @@ export default [
         },
         target: 'normal',
         desc: 'Swaps Defense and Sp. Def changes with target.',
-        // longDesc: 'The user swaps its Defense and Special Defense stat stage changes with the target.',
+        longDesc:
+            'The user swaps its Defense and Special Defense stat stage changes with the target.',
     },
     {
         name: 'punishment',
@@ -20069,7 +20277,8 @@ export default [
         },
         target: 'normal',
         desc: "60 power +20 for each of the target's stat boosts.",
-        // longDesc: "Power is equal to 60+(X*20), where X is the target's total stat stage changes that are greater than 0, but not more than 200 power.",
+        longDesc:
+            "Power is equal to 60+(X*20), where X is the target's total stat stage changes that are greater than 0, but not more than 200 power.",
     },
     {
         name: 'lastResort',
@@ -20121,7 +20330,8 @@ export default [
         },
         target: 'normal',
         desc: 'Fails unless each known move has been used.',
-        // longDesc: 'This move fails unless the user knows this move and at least one other move, and has used all the other moves it knows at least once each since it became active or Transformed.',
+        longDesc:
+            'This move fails unless the user knows this move and at least one other move, and has used all the other moves it knows at least once each since it became active or Transformed.',
     },
     {
         name: 'worrySeed',
@@ -20173,7 +20383,8 @@ export default [
         },
         target: 'normal',
         desc: "The target's Ability becomes Insomnia.",
-        // longDesc: "Causes the target's Ability to become Insomnia. Fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Insomnia, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Truant, Zen Mode, or Zero to Hero.",
+        longDesc:
+            "Causes the target's Ability to become Insomnia. Fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Insomnia, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Truant, Zen Mode, or Zero to Hero.",
     },
     {
         name: 'suckerPunch',
@@ -20225,7 +20436,8 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first. Fails if target is not attacking.',
-        // longDesc: 'Fails if the target did not select a physical attack, special attack, or Me First for use this turn, or if the target moves before the user.',
+        longDesc:
+            'Fails if the target did not select a physical attack, special attack, or Me First for use this turn, or if the target moves before the user.',
     },
     {
         name: 'toxicSpikes',
@@ -20277,7 +20489,8 @@ export default [
         },
         target: 'foeSide',
         desc: 'Poisons grounded foes on switch-in. Max 2 layers.',
-        // longDesc: 'Sets up a hazard on the opposing side of the field, poisoning each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to two times before failing. Opposing Pokemon become poisoned with one layer and badly poisoned with two layers. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, is hit by Defog, or a grounded Poison-type Pokemon switches in. Safeguard prevents the opposing party from being poisoned on switch-in, but a substitute does not.',
+        longDesc:
+            'Sets up a hazard on the opposing side of the field, poisoning each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to two times before failing. Opposing Pokemon become poisoned with one layer and badly poisoned with two layers. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, is hit by Defog, or a grounded Poison-type Pokemon switches in. Safeguard prevents the opposing party from being poisoned on switch-in, but a substitute does not.',
     },
     {
         name: 'heartSwap',
@@ -20329,7 +20542,7 @@ export default [
         },
         target: 'normal',
         desc: 'Swaps all stat changes with target.',
-        // longDesc: 'The user swaps all its stat stage changes with the target.',
+        longDesc: 'The user swaps all its stat stage changes with the target.',
     },
     {
         name: 'aquaRing',
@@ -20381,7 +20594,8 @@ export default [
         },
         target: 'self',
         desc: 'User recovers 1/16 max HP per turn.',
-        // longDesc: 'The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.',
+        longDesc:
+            'The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.',
     },
     {
         name: 'magnetRise',
@@ -20433,7 +20647,8 @@ export default [
         },
         target: 'self',
         desc: 'For 5 turns, the user has immunity to Ground.',
-        // longDesc: 'For 5 turns, the user is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability as long as it remains active. If the user uses Baton Pass, the replacement will gain the effect. Ingrain, Smack Down, Thousand Arrows, and Iron Ball override this move if the user is under any of their effects. Fails if the user is already under this effect or the effects of Ingrain, Smack Down, or Thousand Arrows.',
+        longDesc:
+            'For 5 turns, the user is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability as long as it remains active. If the user uses Baton Pass, the replacement will gain the effect. Ingrain, Smack Down, Thousand Arrows, and Iron Ball override this move if the user is under any of their effects. Fails if the user is already under this effect or the effects of Ingrain, Smack Down, or Thousand Arrows.',
     },
     {
         name: 'flareBlitz',
@@ -20485,7 +20700,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 33% recoil. 10% chance to burn. Thaws user.',
-        // longDesc: 'Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'forcePalm',
@@ -20537,7 +20753,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to paralyze the target.',
-        // longDesc: 'Has a 30% chance to paralyze the target.',
+        longDesc: 'Has a 30% chance to paralyze the target.',
     },
     {
         name: 'auraSphere',
@@ -20589,7 +20805,7 @@ export default [
         },
         target: 'any',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'rockPolish',
@@ -20641,7 +20857,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Speed by 2.",
-        // longDesc: "Raises the user's Speed by 2 stages.",
+        longDesc: "Raises the user's Speed by 2 stages.",
     },
     {
         name: 'poisonJab',
@@ -20693,7 +20909,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to poison the target.',
-        // longDesc: 'Has a 30% chance to poison the target.',
+        longDesc: 'Has a 30% chance to poison the target.',
     },
     {
         name: 'darkPulse',
@@ -20745,7 +20961,7 @@ export default [
         },
         target: 'any',
         desc: '20% chance to make the target flinch.',
-        // longDesc: 'Has a 20% chance to make the target flinch.',
+        longDesc: 'Has a 20% chance to make the target flinch.',
     },
     {
         name: 'nightSlash',
@@ -20797,7 +21013,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'aquaTail',
@@ -20849,7 +21065,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'seedBomb',
@@ -20901,7 +21117,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'airSlash',
@@ -20953,7 +21169,7 @@ export default [
         },
         target: 'any',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'xScissor',
@@ -21005,7 +21221,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'bugBuzz',
@@ -21057,7 +21273,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'dragonPulse',
@@ -21109,7 +21325,7 @@ export default [
         },
         target: 'any',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'dragonRush',
@@ -21161,7 +21377,8 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to make the target flinch.',
-        // longDesc: 'Has a 20% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
+        longDesc:
+            'Has a 20% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
     },
     {
         name: 'powerGem',
@@ -21213,7 +21430,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'drainPunch',
@@ -21265,7 +21482,8 @@ export default [
         },
         target: 'normal',
         desc: 'User recovers 50% of the damage dealt.',
-        // longDesc: 'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'vacuumWave',
@@ -21317,7 +21535,7 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'focusBlast',
@@ -21369,7 +21587,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'energyBall',
@@ -21421,7 +21639,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'braveBird',
@@ -21473,7 +21691,8 @@ export default [
         },
         target: 'any',
         desc: 'Has 33% recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'earthPower',
@@ -21525,7 +21744,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'switcheroo',
@@ -21577,7 +21796,8 @@ export default [
         },
         target: 'normal',
         desc: "User switches its held item with the target's.",
-        // longDesc: "The user swaps its held item with the target's held item. Fails if both the user and the target have no held item, or if the user is trying to give or take a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask to or from a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. The target is immune to this move if it has the Sticky Hold Ability.",
+        longDesc:
+            "The user swaps its held item with the target's held item. Fails if both the user and the target have no held item, or if the user is trying to give or take a Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask to or from a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon, respectively. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. The target is immune to this move if it has the Sticky Hold Ability.",
     },
     {
         name: 'gigaImpact',
@@ -21629,7 +21849,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'nastyPlot',
@@ -21681,7 +21902,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Sp. Atk by 2.",
-        // longDesc: "Raises the user's Special Attack by 2 stages.",
+        longDesc: "Raises the user's Special Attack by 2 stages.",
     },
     {
         name: 'bulletPunch',
@@ -21733,7 +21954,7 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'avalanche',
@@ -21785,7 +22006,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if user is damaged by the target.',
-        // longDesc: 'Power doubles if the user was hit by the target this turn.',
+        longDesc: 'Power doubles if the user was hit by the target this turn.',
     },
     {
         name: 'iceShard',
@@ -21837,7 +22058,7 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'shadowClaw',
@@ -21889,7 +22110,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'thunderFang',
@@ -21941,7 +22162,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to paralyze. 10% chance to flinch.',
-        // longDesc: 'Has a 10% chance to paralyze the target and a 10% chance to make it flinch.',
+        longDesc: 'Has a 10% chance to paralyze the target and a 10% chance to make it flinch.',
     },
     {
         name: 'iceFang',
@@ -21993,7 +22214,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to freeze. 10% chance to flinch.',
-        // longDesc: 'Has a 10% chance to freeze the target and a 10% chance to make it flinch.',
+        longDesc: 'Has a 10% chance to freeze the target and a 10% chance to make it flinch.',
     },
     {
         name: 'fireFang',
@@ -22045,7 +22266,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to burn. 10% chance to flinch.',
-        // longDesc: 'Has a 10% chance to burn the target and a 10% chance to make it flinch.',
+        longDesc: 'Has a 10% chance to burn the target and a 10% chance to make it flinch.',
     },
     {
         name: 'shadowSneak',
@@ -22097,7 +22318,7 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'mudBomb',
@@ -22149,7 +22370,7 @@ export default [
         },
         target: 'normal',
         desc: "30% chance to lower the target's accuracy by 1.",
-        // longDesc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
+        longDesc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
     },
     {
         name: 'psychoCut',
@@ -22201,7 +22422,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'zenHeadbutt',
@@ -22253,7 +22474,7 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to make the target flinch.',
-        // longDesc: 'Has a 20% chance to make the target flinch.',
+        longDesc: 'Has a 20% chance to make the target flinch.',
     },
     {
         name: 'mirrorShot',
@@ -22305,7 +22526,7 @@ export default [
         },
         target: 'normal',
         desc: "30% chance to lower the target's accuracy by 1.",
-        // longDesc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
+        longDesc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
     },
     {
         name: 'flashCannon',
@@ -22357,7 +22578,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'rockClimb',
@@ -22409,7 +22630,7 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to confuse the target.',
-        // longDesc: 'Has a 20% chance to confuse the target.',
+        longDesc: 'Has a 20% chance to confuse the target.',
     },
     {
         name: 'defog',
@@ -22461,7 +22682,8 @@ export default [
         },
         target: 'normal',
         desc: '-1 evasion; ends user and target hazards/terrain.',
-        // longDesc: "Lowers the target's evasiveness by 1 stage. If this move is successful and whether or not the target's evasiveness was affected, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side. Ignores a target's substitute, although a substitute will still block the lowering of evasiveness. If there is a terrain active and this move is successful, the terrain will be cleared.",
+        longDesc:
+            "Lowers the target's evasiveness by 1 stage. If this move is successful and whether or not the target's evasiveness was affected, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side. Ignores a target's substitute, although a substitute will still block the lowering of evasiveness. If there is a terrain active and this move is successful, the terrain will be cleared.",
     },
     {
         name: 'trickRoom',
@@ -22513,7 +22735,8 @@ export default [
         },
         target: 'all',
         desc: 'Goes last. For 5 turns, turn order is reversed.',
-        // longDesc: "For 5 turns, the Speed of every Pokemon is recalculated for the purposes of determining turn order. During the effect, each Pokemon's Speed is considered to be (10000 - its normal Speed), and if this value is greater than 8191, 8192 is subtracted from it. If this move is used during the effect, the effect ends.",
+        longDesc:
+            "For 5 turns, the Speed of every Pokemon is recalculated for the purposes of determining turn order. During the effect, each Pokemon's Speed is considered to be (10000 - its normal Speed), and if this value is greater than 8191, 8192 is subtracted from it. If this move is used during the effect, the effect ends.",
     },
     {
         name: 'dracoMeteor',
@@ -22565,7 +22788,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Sp. Atk by 2.",
-        // longDesc: "Lowers the user's Special Attack by 2 stages.",
+        longDesc: "Lowers the user's Special Attack by 2 stages.",
     },
     {
         name: 'discharge',
@@ -22617,7 +22840,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: '30% chance to paralyze adjacent Pokemon.',
-        // longDesc: 'Has a 30% chance to paralyze the target.',
+        longDesc: 'Has a 30% chance to paralyze the target.',
     },
     {
         name: 'lavaPlume',
@@ -22669,7 +22892,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: '30% chance to burn adjacent Pokemon.',
-        // longDesc: 'Has a 30% chance to burn the target.',
+        longDesc: 'Has a 30% chance to burn the target.',
     },
     {
         name: 'leafStorm',
@@ -22721,7 +22944,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Sp. Atk by 2.",
-        // longDesc: "Lowers the user's Special Attack by 2 stages.",
+        longDesc: "Lowers the user's Special Attack by 2 stages.",
     },
     {
         name: 'powerWhip',
@@ -22773,7 +22996,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'rockWrecker',
@@ -22825,7 +23048,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'crossPoison',
@@ -22877,7 +23101,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio. 10% chance to poison.',
-        // longDesc: 'Has a 10% chance to poison the target and a higher chance for a critical hit.',
+        longDesc: 'Has a 10% chance to poison the target and a higher chance for a critical hit.',
     },
     {
         name: 'gunkShot',
@@ -22929,7 +23153,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to poison the target.',
-        // longDesc: 'Has a 30% chance to poison the target.',
+        longDesc: 'Has a 30% chance to poison the target.',
     },
     {
         name: 'ironHead',
@@ -22981,7 +23205,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'magnetBomb',
@@ -23033,7 +23257,7 @@ export default [
         },
         target: 'normal',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'stoneEdge',
@@ -23085,7 +23309,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'captivate',
@@ -23137,7 +23361,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Lowers the foe(s) Sp. Atk by 2 if opposite gender.',
-        // longDesc: "Lowers the target's Special Attack by 2 stages. The target is unaffected if both the user and the target are the same gender, or if either is genderless. Pokemon with the Oblivious Ability are immune.",
+        longDesc:
+            "Lowers the target's Special Attack by 2 stages. The target is unaffected if both the user and the target are the same gender, or if either is genderless. Pokemon with the Oblivious Ability are immune.",
     },
     {
         name: 'stealthRock',
@@ -23189,7 +23414,8 @@ export default [
         },
         target: 'foeSide',
         desc: 'Hurts foes on switch-in. Factors Rock weakness.',
-        // longDesc: 'Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Fails if the effect is already active on the opposing side. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
+        longDesc:
+            'Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Fails if the effect is already active on the opposing side. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
     },
     {
         name: 'grassKnot',
@@ -23241,7 +23467,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the heavier the target.',
-        // longDesc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
+        longDesc:
+            "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
     },
     {
         name: 'chatter',
@@ -23293,7 +23520,7 @@ export default [
         },
         target: 'any',
         desc: '100% chance to confuse the target.',
-        // longDesc: 'Has a 100% chance to confuse the target.',
+        longDesc: 'Has a 100% chance to confuse the target.',
     },
     {
         name: 'judgment',
@@ -23345,7 +23572,7 @@ export default [
         },
         target: 'normal',
         desc: 'Type varies based on the held Plate.',
-        // longDesc: "This move's type depends on the user's held Plate.",
+        longDesc: "This move's type depends on the user's held Plate.",
     },
     {
         name: 'bugBite',
@@ -23397,7 +23624,8 @@ export default [
         },
         target: 'normal',
         desc: "User steals and eats the target's Berry.",
-        // longDesc: "If this move is successful and the user has not fainted, it steals the target's held Berry if it is holding one and eats it immediately, gaining its effects even if the user's item is being ignored. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+        longDesc:
+            "If this move is successful and the user has not fainted, it steals the target's held Berry if it is holding one and eats it immediately, gaining its effects even if the user's item is being ignored. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
     },
     {
         name: 'chargeBeam',
@@ -23449,7 +23677,7 @@ export default [
         },
         target: 'normal',
         desc: "70% chance to raise the user's Sp. Atk by 1.",
-        // longDesc: "Has a 70% chance to raise the user's Special Attack by 1 stage.",
+        longDesc: "Has a 70% chance to raise the user's Special Attack by 1 stage.",
     },
     {
         name: 'woodHammer',
@@ -23501,7 +23729,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 33% recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'aquaJet',
@@ -23553,7 +23782,7 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'attackOrder',
@@ -23605,7 +23834,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'defendOrder',
@@ -23657,7 +23886,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense and Sp. Def by 1.",
-        // longDesc: "Raises the user's Defense and Special Defense by 1 stage.",
+        longDesc: "Raises the user's Defense and Special Defense by 1 stage.",
     },
     {
         name: 'healOrder',
@@ -23709,7 +23938,7 @@ export default [
         },
         target: 'self',
         desc: 'Heals the user by 50% of its max HP.',
-        // longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
+        longDesc: 'The user restores 1/2 of its maximum HP, rounded half up.',
     },
     {
         name: 'headSmash',
@@ -23761,7 +23990,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 1/2 recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'doubleHit',
@@ -23813,7 +24043,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2 times in one turn.',
-        // longDesc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+        longDesc:
+            "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
     },
     {
         name: 'roarOfTime',
@@ -23865,7 +24096,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'spacialRend',
@@ -23917,7 +24149,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'lunarDance',
@@ -23968,8 +24200,9 @@ export default [
             pledgecombo: false,
         },
         target: 'self',
-        desc: 'User faints. Next hurt Pkmn is cured, max HP/PP.',
-        // longDesc: "The user faints, and if the Pokemon brought out to replace it does not have full HP or PP, or has a non-volatile status condition, its HP and PP are fully restored along with having any non-volatile status condition cured. The replacement is sent out at the end of the turn, and the healing happens before hazards take effect. This effect continues until a Pokemon that meets any of these conditions switches in at the user's position or gets swapped into the position with Ally Switch. Fails if the user is the last unfainted Pokemon in its party.",
+        desc: 'User faints. Next hurt Pokemon is cured, max HP/PP.',
+        longDesc:
+            "The user faints, and if the Pokemon brought out to replace it does not have full HP or PP, or has a non-volatile status condition, its HP and PP are fully restored along with having any non-volatile status condition cured. The replacement is sent out at the end of the turn, and the healing happens before hazards take effect. This effect continues until a Pokemon that meets any of these conditions switches in at the user's position or gets swapped into the position with Ally Switch. Fails if the user is the last unfainted Pokemon in its party.",
     },
     {
         name: 'crushGrip',
@@ -24021,7 +24254,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the more HP the target has left.',
-        // longDesc: "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
+        longDesc:
+            "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
     },
     {
         name: 'magmaStorm',
@@ -24073,7 +24307,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'darkVoid',
@@ -24125,7 +24360,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Darkrai: Causes the foe(s) to fall asleep.',
-        // longDesc: "Causes the target to fall asleep. This move cannot be used successfully unless the user's current form, while considering Transform, is Darkrai.",
+        longDesc:
+            "Causes the target to fall asleep. This move cannot be used successfully unless the user's current form, while considering Transform, is Darkrai.",
     },
     {
         name: 'seedFlare',
@@ -24177,7 +24413,7 @@ export default [
         },
         target: 'normal',
         desc: "40% chance to lower the target's Sp. Def by 2.",
-        // longDesc: "Has a 40% chance to lower the target's Special Defense by 2 stages.",
+        longDesc: "Has a 40% chance to lower the target's Special Defense by 2 stages.",
     },
     {
         name: 'ominousWind',
@@ -24229,7 +24465,8 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to raise all stats by 1 (not acc/eva).',
-        // longDesc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
+        longDesc:
+            "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
     },
     {
         name: 'shadowForce',
@@ -24281,7 +24518,8 @@ export default [
         },
         target: 'normal',
         desc: 'Disappears turn 1. Hits turn 2. Breaks protection.',
-        // longDesc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
+        longDesc:
+            "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
     },
     {
         name: 'honeClaws',
@@ -24333,7 +24571,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Attack and accuracy by 1.",
-        // longDesc: "Raises the user's Attack and accuracy by 1 stage.",
+        longDesc: "Raises the user's Attack and accuracy by 1 stage.",
     },
     {
         name: 'wideGuard',
@@ -24385,7 +24623,8 @@ export default [
         },
         target: 'allySide',
         desc: 'Protects allies from multi-target moves this turn.',
-        // longDesc: "The user and its party members are protected from moves made by other Pokemon, including allies, during this turn that target all adjacent foes or all adjacent Pokemon. This move modifies the same 1/X chance of being successful used by other protection moves, where X starts at 1 and triples each time this move is successfully used, but does not use the chance to check for failure. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
+        longDesc:
+            "The user and its party members are protected from moves made by other Pokemon, including allies, during this turn that target all adjacent foes or all adjacent Pokemon. This move modifies the same 1/X chance of being successful used by other protection moves, where X starts at 1 and triples each time this move is successfully used, but does not use the chance to check for failure. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
     },
     {
         name: 'guardSplit',
@@ -24437,7 +24676,8 @@ export default [
         },
         target: 'normal',
         desc: 'Averages Defense and Sp. Def stats with target.',
-        // longDesc: "The user and the target have their Defense and Special Defense stats set to be equal to the average of the user and the target's Defense and Special Defense stats, respectively, rounded down. Stat stage changes are unaffected.",
+        longDesc:
+            "The user and the target have their Defense and Special Defense stats set to be equal to the average of the user and the target's Defense and Special Defense stats, respectively, rounded down. Stat stage changes are unaffected.",
     },
     {
         name: 'powerSplit',
@@ -24489,7 +24729,8 @@ export default [
         },
         target: 'normal',
         desc: 'Averages Attack and Sp. Atk stats with target.',
-        // longDesc: "The user and the target have their Attack and Special Attack stats set to be equal to the average of the user and the target's Attack and Special Attack stats, respectively, rounded down. Stat stage changes are unaffected.",
+        longDesc:
+            "The user and the target have their Attack and Special Attack stats set to be equal to the average of the user and the target's Attack and Special Attack stats, respectively, rounded down. Stat stage changes are unaffected.",
     },
     {
         name: 'wonderRoom',
@@ -24541,7 +24782,8 @@ export default [
         },
         target: 'all',
         desc: 'For 5 turns, all Defense and Sp. Def stats switch.',
-        // longDesc: 'For 5 turns, all active Pokemon have their Defense and Special Defense stats swapped. Stat stage changes are unaffected. If this move is used during the effect, the effect ends.',
+        longDesc:
+            'For 5 turns, all active Pokemon have their Defense and Special Defense stats swapped. Stat stage changes are unaffected. If this move is used during the effect, the effect ends.',
     },
     {
         name: 'psyshock',
@@ -24593,7 +24835,7 @@ export default [
         },
         target: 'normal',
         desc: 'Damages target based on Defense, not Sp. Def.',
-        // longDesc: 'Deals damage to the target based on its Defense instead of Special Defense.',
+        longDesc: 'Deals damage to the target based on its Defense instead of Special Defense.',
     },
     {
         name: 'venoshock',
@@ -24645,7 +24887,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if the target is poisoned.',
-        // longDesc: 'Power doubles if the target is poisoned.',
+        longDesc: 'Power doubles if the target is poisoned.',
     },
     {
         name: 'autotomize',
@@ -24697,7 +24939,8 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Speed by 2; user loses 100 kg.",
-        // longDesc: "Raises the user's Speed by 2 stages. If the user's Speed was changed, the user's weight is reduced by 100 kg as long as it remains active. This effect is stackable but cannot reduce the user's weight to less than 0.1 kg.",
+        longDesc:
+            "Raises the user's Speed by 2 stages. If the user's Speed was changed, the user's weight is reduced by 100 kg as long as it remains active. This effect is stackable but cannot reduce the user's weight to less than 0.1 kg.",
     },
     {
         name: 'ragePowder',
@@ -24749,7 +24992,8 @@ export default [
         },
         target: 'self',
         desc: "The foes' moves target the user on the turn used.",
-        // longDesc: 'Until the end of the turn, all single-target attacks from the opposing side are redirected to the user. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal. This effect is ignored while the user is under the effect of Sky Drop.',
+        longDesc:
+            'Until the end of the turn, all single-target attacks from the opposing side are redirected to the user. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal. This effect is ignored while the user is under the effect of Sky Drop.',
     },
     {
         name: 'telekinesis',
@@ -24801,7 +25045,8 @@ export default [
         },
         target: 'normal',
         desc: "For 3 turns, target floats but moves can't miss it.",
-        // longDesc: 'For 3 turns, the target cannot avoid any attacks made against it, other than OHKO moves, as long as it remains active. During the effect, the target is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability as long as it remains active. If the target uses Baton Pass, the replacement will gain the effect. Ingrain, Smack Down, Thousand Arrows, and Iron Ball override this move if the target is under any of their effects. Fails if the target is already under this effect or the effects of Ingrain, Smack Down, or Thousand Arrows. The target is immune to this move on use if its species is Diglett, Dugtrio, Alolan Diglett, Alolan Dugtrio, Sandygast, Palossand, or Gengar while Mega-Evolved. Mega Gengar cannot be under this effect by any means.',
+        longDesc:
+            'For 3 turns, the target cannot avoid any attacks made against it, other than OHKO moves, as long as it remains active. During the effect, the target is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability as long as it remains active. If the target uses Baton Pass, the replacement will gain the effect. Ingrain, Smack Down, Thousand Arrows, and Iron Ball override this move if the target is under any of their effects. Fails if the target is already under this effect or the effects of Ingrain, Smack Down, or Thousand Arrows. The target is immune to this move on use if its species is Diglett, Dugtrio, Alolan Diglett, Alolan Dugtrio, Sandygast, Palossand, or Gengar while Mega-Evolved. Mega Gengar cannot be under this effect by any means.',
     },
     {
         name: 'magicRoom',
@@ -24853,7 +25098,8 @@ export default [
         },
         target: 'all',
         desc: 'For 5 turns, all held items have no effect.',
-        // longDesc: "For 5 turns, the held items of all active Pokemon have no effect. An item's effect of causing forme changes is unaffected, but any other effects from such items are negated. During the effect, Fling and Natural Gift are prevented from being used by all active Pokemon. If this move is used during the effect, the effect ends.",
+        longDesc:
+            "For 5 turns, the held items of all active Pokemon have no effect. An item's effect of causing forme changes is unaffected, but any other effects from such items are negated. During the effect, Fling and Natural Gift are prevented from being used by all active Pokemon. If this move is used during the effect, the effect ends.",
     },
     {
         name: 'smackDown',
@@ -24905,7 +25151,8 @@ export default [
         },
         target: 'normal',
         desc: "Removes the target's Ground immunity.",
-        // longDesc: 'This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.',
+        longDesc:
+            'This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.',
     },
     {
         name: 'stormThrow',
@@ -24957,7 +25204,8 @@ export default [
         },
         target: 'normal',
         desc: 'Always results in a critical hit.',
-        // longDesc: 'This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.',
+        longDesc:
+            'This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.',
     },
     {
         name: 'flameBurst',
@@ -25009,7 +25257,8 @@ export default [
         },
         target: 'normal',
         desc: 'Damages Pokemon next to the target as well.',
-        // longDesc: "If this move is successful, the target's ally loses 1/16 of its maximum HP, rounded down, unless it has the Magic Guard Ability.",
+        longDesc:
+            "If this move is successful, the target's ally loses 1/16 of its maximum HP, rounded down, unless it has the Magic Guard Ability.",
     },
     {
         name: 'sludgeWave',
@@ -25061,7 +25310,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: '10% chance to poison adjacent Pokemon.',
-        // longDesc: 'Has a 10% chance to poison the target.',
+        longDesc: 'Has a 10% chance to poison the target.',
     },
     {
         name: 'quiverDance',
@@ -25113,7 +25362,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Sp. Atk, Sp. Def, Speed by 1.",
-        // longDesc: "Raises the user's Special Attack, Special Defense, and Speed by 1 stage.",
+        longDesc: "Raises the user's Special Attack, Special Defense, and Speed by 1 stage.",
     },
     {
         name: 'heavySlam',
@@ -25165,7 +25414,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the heavier the user than the target.',
-        // longDesc: "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+        longDesc:
+            "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
     },
     {
         name: 'synchronoise',
@@ -25217,7 +25467,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: "Hits adjacent Pokemon sharing the user's type.",
-        // longDesc: 'The target is immune if it does not share a type with the user.',
+        longDesc: 'The target is immune if it does not share a type with the user.',
     },
     {
         name: 'electroBall',
@@ -25269,7 +25519,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the faster the user is than the target.',
-        // longDesc: "The power of this move depends on (user's current Speed / target's current Speed), rounded down. Power is equal to 150 if the result is 4 or more, 120 if 3, 80 if 2, 60 if 1, 40 if less than 1. If the target's current Speed is 0, this move's power is 40.",
+        longDesc:
+            "The power of this move depends on (user's current Speed / target's current Speed), rounded down. Power is equal to 150 if the result is 4 or more, 120 if 3, 80 if 2, 60 if 1, 40 if less than 1. If the target's current Speed is 0, this move's power is 40.",
     },
     {
         name: 'soak',
@@ -25321,7 +25572,8 @@ export default [
         },
         target: 'normal',
         desc: "Changes the target's type to Water.",
-        // longDesc: 'Causes the target to become a Water type. Fails if the target is an Arceus or a Silvally, if the target is already purely Water type, or if the target is Terastallized.',
+        longDesc:
+            'Causes the target to become a Water type. Fails if the target is an Arceus or a Silvally, if the target is already purely Water type, or if the target is Terastallized.',
     },
     {
         name: 'flameCharge',
@@ -25373,7 +25625,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to raise the user's Speed by 1.",
-        // longDesc: "Has a 100% chance to raise the user's Speed by 1 stage.",
+        longDesc: "Has a 100% chance to raise the user's Speed by 1 stage.",
     },
     {
         name: 'coil',
@@ -25425,7 +25677,7 @@ export default [
         },
         target: 'self',
         desc: "Raises user's Attack, Defense, accuracy by 1.",
-        // longDesc: "Raises the user's Attack, Defense, and accuracy by 1 stage.",
+        longDesc: "Raises the user's Attack, Defense, and accuracy by 1 stage.",
     },
     {
         name: 'lowSweep',
@@ -25477,7 +25729,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Speed by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'acidSpray',
@@ -25529,7 +25781,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Sp. Def by 2.",
-        // longDesc: "Has a 100% chance to lower the target's Special Defense by 2 stages.",
+        longDesc: "Has a 100% chance to lower the target's Special Defense by 2 stages.",
     },
     {
         name: 'foulPlay',
@@ -25581,7 +25833,8 @@ export default [
         },
         target: 'normal',
         desc: "Uses target's Attack stat in damage calculation.",
-        // longDesc: "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
+        longDesc:
+            "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
     },
     {
         name: 'simpleBeam',
@@ -25633,7 +25886,8 @@ export default [
         },
         target: 'normal',
         desc: "The target's Ability becomes Simple.",
-        // longDesc: "Causes the target's Ability to become Simple. Fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Simple, Stance Change, Tera Shift, Truant, Zen Mode, or Zero to Hero.",
+        longDesc:
+            "Causes the target's Ability to become Simple. Fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Simple, Stance Change, Tera Shift, Truant, Zen Mode, or Zero to Hero.",
     },
     {
         name: 'entrainment',
@@ -25685,7 +25939,8 @@ export default [
         },
         target: 'normal',
         desc: "The target's Ability changes to match the user's.",
-        // longDesc: "Causes the target's Ability to become the same as the user's. Fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Truant, Zen Mode, or Zero to Hero, or the same Ability as the user, or if the user's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Flower Gift, Forecast, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
+        longDesc:
+            "Causes the target's Ability to become the same as the user's. Fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Truant, Zen Mode, or Zero to Hero, or the same Ability as the user, or if the user's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Flower Gift, Forecast, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
     },
     {
         name: 'afterYou',
@@ -25737,7 +25992,8 @@ export default [
         },
         target: 'normal',
         desc: 'The target makes its move right after the user.',
-        // longDesc: 'The target makes its move immediately after the user this turn, no matter the priority of its selected move. Fails if the target would have moved next anyway, or if the target already moved this turn.',
+        longDesc:
+            'The target makes its move immediately after the user this turn, no matter the priority of its selected move. Fails if the target would have moved next anyway, or if the target already moved this turn.',
     },
     {
         name: 'round',
@@ -25789,7 +26045,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if others used Round this turn.',
-        // longDesc: "If there are other active Pokemon that chose this move for use this turn, those Pokemon take their turn immediately after the user, in Speed order, and this move's power is 120 for each other user.",
+        longDesc:
+            "If there are other active Pokemon that chose this move for use this turn, those Pokemon take their turn immediately after the user, in Speed order, and this move's power is 120 for each other user.",
     },
     {
         name: 'echoedVoice',
@@ -25841,7 +26098,8 @@ export default [
         },
         target: 'normal',
         desc: 'Power increases when used on consecutive turns.',
-        // longDesc: "For every consecutive turn that this move is used by at least one Pokemon, this move's power is multiplied by the number of turns to pass, but not more than 5.",
+        longDesc:
+            "For every consecutive turn that this move is used by at least one Pokemon, this move's power is multiplied by the number of turns to pass, but not more than 5.",
     },
     {
         name: 'chipAway',
@@ -25893,7 +26151,7 @@ export default [
         },
         target: 'normal',
         desc: "Ignores the target's stat stage changes.",
-        // longDesc: "Ignores the target's stat stage changes, including evasiveness.",
+        longDesc: "Ignores the target's stat stage changes, including evasiveness.",
     },
     {
         name: 'clearSmog',
@@ -25945,7 +26203,7 @@ export default [
         },
         target: 'normal',
         desc: "Resets all of the target's stat stages to 0.",
-        // longDesc: "Resets all of the target's stat stages to 0.",
+        longDesc: "Resets all of the target's stat stages to 0.",
     },
     {
         name: 'storedPower',
@@ -25996,8 +26254,9 @@ export default [
             pledgecombo: false,
         },
         target: 'normal',
-        desc: "+ 20 power for each of the user's stat boosts.",
-        // longDesc: "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
+        desc: "+20 power for each of the user's stat boosts.",
+        longDesc:
+            "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
     },
     {
         name: 'quickGuard',
@@ -26049,7 +26308,8 @@ export default [
         },
         target: 'allySide',
         desc: 'Protects allies from priority attacks this turn.',
-        // longDesc: "The user and its party members are protected from attacks with original or altered priority greater than 0 made by other Pokemon, including allies, during this turn. This move modifies the same 1/X chance of being successful used by other protection moves, where X starts at 1 and triples each time this move is successfully used, but does not use the chance to check for failure. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
+        longDesc:
+            "The user and its party members are protected from attacks with original or altered priority greater than 0 made by other Pokemon, including allies, during this turn. This move modifies the same 1/X chance of being successful used by other protection moves, where X starts at 1 and triples each time this move is successfully used, but does not use the chance to check for failure. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
     },
     {
         name: 'allySwitch',
@@ -26101,7 +26361,8 @@ export default [
         },
         target: 'self',
         desc: 'User and ally swap positions; using again can fail.',
-        // longDesc: "The user swaps positions with its ally. Fails if the user is the only Pokemon on its side. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails or if the user's last move used is not Ally Switch.",
+        longDesc:
+            "The user swaps positions with its ally. Fails if the user is the only Pokemon on its side. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails or if the user's last move used is not Ally Switch.",
     },
     {
         name: 'scald',
@@ -26153,7 +26414,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to burn the target. Thaws target.',
-        // longDesc: 'Has a 30% chance to burn the target. The target thaws out if it is frozen.',
+        longDesc: 'Has a 30% chance to burn the target. The target thaws out if it is frozen.',
     },
     {
         name: 'shellSmash',
@@ -26205,7 +26466,8 @@ export default [
         },
         target: 'self',
         desc: 'Lowers Def, SpD by 1; raises Atk, SpA, Spe by 2.',
-        // longDesc: "Lowers the user's Defense and Special Defense by 1 stage. Raises the user's Attack, Special Attack, and Speed by 2 stages.",
+        longDesc:
+            "Lowers the user's Defense and Special Defense by 1 stage. Raises the user's Attack, Special Attack, and Speed by 2 stages.",
     },
     {
         name: 'healPulse',
@@ -26257,7 +26519,8 @@ export default [
         },
         target: 'any',
         desc: 'Heals the target by 50% of its max HP.',
-        // longDesc: 'The target restores 1/2 of its maximum HP, rounded half up. If the user has the Mega Launcher Ability, the target instead restores 3/4 of its maximum HP, rounded half down.',
+        longDesc:
+            'The target restores 1/2 of its maximum HP, rounded half up. If the user has the Mega Launcher Ability, the target instead restores 3/4 of its maximum HP, rounded half down.',
     },
     {
         name: 'hex',
@@ -26309,7 +26572,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if the target has a status ailment.',
-        // longDesc: 'Power doubles if the target has a non-volatile status condition.',
+        longDesc: 'Power doubles if the target has a non-volatile status condition.',
     },
     {
         name: 'skyDrop',
@@ -26361,7 +26624,8 @@ export default [
         },
         target: 'any',
         desc: 'User and foe fly up turn 1. Damages on turn 2.',
-        // longDesc: 'This attack takes the target into the air with the user on the first turn and executes on the second. Pokemon weighing 200 kg or more cannot be lifted. On the first turn, the user and the target avoid all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister. The user and the target cannot make a move between turns, but the target can select a move to use. This move cannot damage Flying-type Pokemon. Fails on the first turn if the target is an ally, if the target has a substitute, or if the target is using Bounce, Dig, Dive, Fly, Phantom Force, Shadow Force, or Sky Drop.',
+        longDesc:
+            'This attack takes the target into the air with the user on the first turn and executes on the second. Pokemon weighing 200 kg or more cannot be lifted. On the first turn, the user and the target avoid all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister. The user and the target cannot make a move between turns, but the target can select a move to use. This move cannot damage Flying-type Pokemon. Fails on the first turn if the target is an ally, if the target has a substitute, or if the target is using Bounce, Dig, Dive, Fly, Phantom Force, Shadow Force, or Sky Drop.',
     },
     {
         name: 'shiftGear',
@@ -26413,7 +26677,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Speed by 2 and Attack by 1.",
-        // longDesc: "Raises the user's Speed by 2 stages and its Attack by 1 stage.",
+        longDesc: "Raises the user's Speed by 2 stages and its Attack by 1 stage.",
     },
     {
         name: 'circleThrow',
@@ -26465,7 +26729,8 @@ export default [
         },
         target: 'normal',
         desc: 'Forces the target to switch to a random ally.',
-        // longDesc: 'If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target is under the effect of Ingrain, has the Suction Cups Ability, or this move hit a substitute.',
+        longDesc:
+            'If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target is under the effect of Ingrain, has the Suction Cups Ability, or this move hit a substitute.',
     },
     {
         name: 'incinerate',
@@ -26517,7 +26782,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Destroys the foe(s) Berry/Gem.',
-        // longDesc: 'The target loses its held item if it is a Berry or a Gem. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item. Items lost to this move cannot be regained with Recycle or the Harvest Ability.',
+        longDesc:
+            'The target loses its held item if it is a Berry or a Gem. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item. Items lost to this move cannot be regained with Recycle or the Harvest Ability.',
     },
     {
         name: 'quash',
@@ -26569,7 +26835,8 @@ export default [
         },
         target: 'normal',
         desc: 'Forces the target to move last this turn.',
-        // longDesc: 'Causes the target to take its turn after all other Pokemon this turn, no matter the priority of its selected move. Fails if the target already moved this turn.',
+        longDesc:
+            'Causes the target to take its turn after all other Pokemon this turn, no matter the priority of its selected move. Fails if the target already moved this turn.',
     },
     {
         name: 'acrobatics',
@@ -26621,7 +26888,7 @@ export default [
         },
         target: 'any',
         desc: 'Power doubles if the user has no held item.',
-        // longDesc: 'Power doubles if the user has no held item.',
+        longDesc: 'Power doubles if the user has no held item.',
     },
     {
         name: 'reflectType',
@@ -26673,7 +26940,8 @@ export default [
         },
         target: 'normal',
         desc: 'User becomes the same type as the target.',
-        // longDesc: "Causes the user's types to become the same as the current types of the target. If the target's current types include typeless and a non-added type, typeless is ignored. If the target's current types include typeless and an added type from Forest's Curse or Trick-or-Treat, typeless is copied as the Normal type instead. Fails if the user is an Arceus or a Silvally, if the user is Terastallized, or if the target's current type is typeless alone.",
+        longDesc:
+            "Causes the user's types to become the same as the current types of the target. If the target's current types include typeless and a non-added type, typeless is ignored. If the target's current types include typeless and an added type from Forest's Curse or Trick-or-Treat, typeless is copied as the Normal type instead. Fails if the user is an Arceus or a Silvally, if the user is Terastallized, or if the target's current type is typeless alone.",
     },
     {
         name: 'retaliate',
@@ -26725,7 +26993,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if an ally fainted last turn.',
-        // longDesc: "Power doubles if one of the user's party members fainted last turn.",
+        longDesc: "Power doubles if one of the user's party members fainted last turn.",
     },
     {
         name: 'finalGambit',
@@ -26777,7 +27045,8 @@ export default [
         },
         target: 'normal',
         desc: "Does damage equal to the user's HP. User faints.",
-        // longDesc: "Deals damage to the target equal to the user's current HP. If this move is successful, the user faints.",
+        longDesc:
+            "Deals damage to the target equal to the user's current HP. If this move is successful, the user faints.",
     },
     {
         name: 'bestow',
@@ -26829,7 +27098,8 @@ export default [
         },
         target: 'normal',
         desc: 'User passes its held item to the target.',
-        // longDesc: "The target receives the user's held item. Fails if the user has no item or is holding a Z-Crystal, if the target is already holding an item, if the item is a Mega Stone and either the user or the target is the species that can Mega Evolve with it, or if the item is a Blue Orb, Red Orb, Griseous Orb, Plate, Drive, or Memory and either the user or the target is a Kyogre, Groudon, Giratina, Arceus, Genesect, or Silvally, respectively.",
+        longDesc:
+            "The target receives the user's held item. Fails if the user has no item or is holding a Z-Crystal, if the target is already holding an item, if the item is a Mega Stone and either the user or the target is the species that can Mega Evolve with it, or if the item is a Blue Orb, Red Orb, Griseous Orb, Plate, Drive, or Memory and either the user or the target is a Kyogre, Groudon, Giratina, Arceus, Genesect, or Silvally, respectively.",
     },
     {
         name: 'inferno',
@@ -26881,7 +27151,7 @@ export default [
         },
         target: 'normal',
         desc: '100% chance to burn the target.',
-        // longDesc: 'Has a 100% chance to burn the target.',
+        longDesc: 'Has a 100% chance to burn the target.',
     },
     {
         name: 'waterPledge',
@@ -26933,7 +27203,8 @@ export default [
         },
         target: 'normal',
         desc: 'Use with Grass or Fire Pledge for added effect.',
-        // longDesc: "If one of the user's allies chose to use Fire Pledge or Grass Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Fire Pledge, the ally uses Water Pledge with 150 power and a rainbow appears on the user's side for 4 turns, which doubles secondary effect chances and stacks with the Serene Grace Ability, except effects that cause flinching can only have their chance doubled once. If combined with Grass Pledge, the ally uses Grass Pledge with 150 power and a swamp appears on the target's side for 4 turns, which quarters the Speed of each Pokemon on that side. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Water Gem, and cannot be redirected by the Storm Drain Ability.",
+        longDesc:
+            "If one of the user's allies chose to use Fire Pledge or Grass Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Fire Pledge, the ally uses Water Pledge with 150 power and a rainbow appears on the user's side for 4 turns, which doubles secondary effect chances and stacks with the Serene Grace Ability, except effects that cause flinching can only have their chance doubled once. If combined with Grass Pledge, the ally uses Grass Pledge with 150 power and a swamp appears on the target's side for 4 turns, which quarters the Speed of each Pokemon on that side. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Water Gem, and cannot be redirected by the Storm Drain Ability.",
     },
     {
         name: 'firePledge',
@@ -26985,7 +27256,8 @@ export default [
         },
         target: 'normal',
         desc: 'Use with Grass or Water Pledge for added effect.',
-        // longDesc: "If one of the user's allies chose to use Grass Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Grass Pledge, the ally uses Fire Pledge with 150 power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect, including the last turn. If combined with Water Pledge, the ally uses Water Pledge with 150 power and a rainbow appears on the user's side for 4 turns, which doubles secondary effect chances and stacks with the Serene Grace Ability, except effects that cause flinching can only have their chance doubled once. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Fire Gem.",
+        longDesc:
+            "If one of the user's allies chose to use Grass Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Grass Pledge, the ally uses Fire Pledge with 150 power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect, including the last turn. If combined with Water Pledge, the ally uses Water Pledge with 150 power and a rainbow appears on the user's side for 4 turns, which doubles secondary effect chances and stacks with the Serene Grace Ability, except effects that cause flinching can only have their chance doubled once. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Fire Gem.",
     },
     {
         name: 'grassPledge',
@@ -27037,7 +27309,8 @@ export default [
         },
         target: 'normal',
         desc: 'Use with Fire or Water Pledge for added effect.',
-        // longDesc: "If one of the user's allies chose to use Fire Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Fire Pledge, the ally uses Fire Pledge with 150 power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect, including the last turn. If combined with Water Pledge, the ally uses Grass Pledge with 150 power and a swamp appears on the target's side for 4 turns, which quarters the Speed of each Pokemon on that side. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Grass Gem.",
+        longDesc:
+            "If one of the user's allies chose to use Fire Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Fire Pledge, the ally uses Fire Pledge with 150 power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect, including the last turn. If combined with Water Pledge, the ally uses Grass Pledge with 150 power and a swamp appears on the target's side for 4 turns, which quarters the Speed of each Pokemon on that side. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Grass Gem.",
     },
     {
         name: 'voltSwitch',
@@ -27089,7 +27362,8 @@ export default [
         },
         target: 'normal',
         desc: 'User switches out after damaging the target.',
-        // longDesc: 'If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.',
+        longDesc:
+            'If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.',
     },
     {
         name: 'struggleBug',
@@ -27141,7 +27415,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '100% chance to lower the foe(s) Sp. Atk by 1.',
-        // longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
     },
     {
         name: 'bulldoze',
@@ -27192,8 +27466,8 @@ export default [
             pledgecombo: false,
         },
         target: 'allAdjacent',
-        desc: '100% chance lower adjacent Pkmn Speed by 1.',
-        // longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+        desc: '100% chance lower adjacent Pokemon Speed by 1.',
+        longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'frostBreath',
@@ -27245,7 +27519,8 @@ export default [
         },
         target: 'normal',
         desc: 'Always results in a critical hit.',
-        // longDesc: 'This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.',
+        longDesc:
+            'This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.',
     },
     {
         name: 'dragonTail',
@@ -27297,7 +27572,8 @@ export default [
         },
         target: 'normal',
         desc: 'Forces the target to switch to a random ally.',
-        // longDesc: 'If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target used Ingrain previously, has the Suction Cups Ability, or this move hit a substitute.',
+        longDesc:
+            'If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target used Ingrain previously, has the Suction Cups Ability, or this move hit a substitute.',
     },
     {
         name: 'workUp',
@@ -27349,7 +27625,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Attack and Sp. Atk by 1.",
-        // longDesc: "Raises the user's Attack and Special Attack by 1 stage.",
+        longDesc: "Raises the user's Attack and Special Attack by 1 stage.",
     },
     {
         name: 'electroweb',
@@ -27401,7 +27677,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '100% chance to lower the foe(s) Speed by 1.',
-        // longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'wildCharge',
@@ -27453,7 +27729,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 1/4 recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'drillRun',
@@ -27505,7 +27782,7 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio.',
-        // longDesc: 'Has a higher chance for a critical hit.',
+        longDesc: 'Has a higher chance for a critical hit.',
     },
     {
         name: 'dualChop',
@@ -27557,7 +27834,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2 times in one turn.',
-        // longDesc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+        longDesc:
+            "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
     },
     {
         name: 'heartStamp',
@@ -27609,7 +27887,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'hornLeech',
@@ -27661,7 +27939,8 @@ export default [
         },
         target: 'normal',
         desc: 'User recovers 50% of the damage dealt.',
-        // longDesc: 'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'sacredSword',
@@ -27713,7 +27992,7 @@ export default [
         },
         target: 'normal',
         desc: "Ignores the target's stat stage changes.",
-        // longDesc: "Ignores the target's stat stage changes, including evasiveness.",
+        longDesc: "Ignores the target's stat stage changes, including evasiveness.",
     },
     {
         name: 'razorShell',
@@ -27765,7 +28044,7 @@ export default [
         },
         target: 'normal',
         desc: "50% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 50% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 50% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'heatCrash',
@@ -27817,7 +28096,8 @@ export default [
         },
         target: 'normal',
         desc: 'More power the heavier the user than the target.',
-        // longDesc: "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+        longDesc:
+            "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
     },
     {
         name: 'leafTornado',
@@ -27869,7 +28149,7 @@ export default [
         },
         target: 'normal',
         desc: "50% chance to lower the target's accuracy by 1.",
-        // longDesc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
+        longDesc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
     },
     {
         name: 'steamroller',
@@ -27921,7 +28201,8 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
+        longDesc:
+            'Has a 30% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
     },
     {
         name: 'cottonGuard',
@@ -27973,7 +28254,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense by 3.",
-        // longDesc: "Raises the user's Defense by 3 stages.",
+        longDesc: "Raises the user's Defense by 3 stages.",
     },
     {
         name: 'nightDaze',
@@ -28025,7 +28306,7 @@ export default [
         },
         target: 'normal',
         desc: "40% chance to lower the target's accuracy by 1.",
-        // longDesc: "Has a 40% chance to lower the target's accuracy by 1 stage.",
+        longDesc: "Has a 40% chance to lower the target's accuracy by 1 stage.",
     },
     {
         name: 'psystrike',
@@ -28077,7 +28358,7 @@ export default [
         },
         target: 'normal',
         desc: 'Damages target based on Defense, not Sp. Def.',
-        // longDesc: 'Deals damage to the target based on its Defense instead of Special Defense.',
+        longDesc: 'Deals damage to the target based on its Defense instead of Special Defense.',
     },
     {
         name: 'tailSlap',
@@ -28129,7 +28410,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'hurricane',
@@ -28181,7 +28463,8 @@ export default [
         },
         target: 'any',
         desc: "30% chance to confuse target. Can't miss in rain.",
-        // longDesc: "Has a 30% chance to confuse the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Heavy Rain or Rain, this move does not check accuracy. If the weather is Intense Sun or Sun, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
+        longDesc:
+            "Has a 30% chance to confuse the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Heavy Rain or Rain, this move does not check accuracy. If the weather is Intense Sun or Sun, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
     },
     {
         name: 'headCharge',
@@ -28233,7 +28516,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 1/4 recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'gearGrind',
@@ -28285,7 +28569,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2 times in one turn.',
-        // longDesc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+        longDesc:
+            "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
     },
     {
         name: 'searingShot',
@@ -28337,7 +28622,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: '30% chance to burn adjacent Pokemon.',
-        // longDesc: 'Has a 30% chance to burn the target.',
+        longDesc: 'Has a 30% chance to burn the target.',
     },
     {
         name: 'technoBlast',
@@ -28389,7 +28674,7 @@ export default [
         },
         target: 'normal',
         desc: 'Type varies based on the held Drive.',
-        // longDesc: "This move's type depends on the user's held Drive.",
+        longDesc: "This move's type depends on the user's held Drive.",
     },
     {
         name: 'relicSong',
@@ -28441,7 +28726,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '10% chance to sleep foe(s). Meloetta transforms.',
-        // longDesc: 'Has a 10% chance to cause the target to fall asleep. If this move is successful on at least one target and the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.',
+        longDesc:
+            'Has a 10% chance to cause the target to fall asleep. If this move is successful on at least one target and the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.',
     },
     {
         name: 'secretSword',
@@ -28493,7 +28779,7 @@ export default [
         },
         target: 'normal',
         desc: 'Damages target based on Defense, not Sp. Def.',
-        // longDesc: 'Deals damage to the target based on its Defense instead of Special Defense.',
+        longDesc: 'Deals damage to the target based on its Defense instead of Special Defense.',
     },
     {
         name: 'glaciate',
@@ -28545,7 +28831,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '100% chance to lower the foe(s) Speed by 1.',
-        // longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'boltStrike',
@@ -28597,7 +28883,7 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to paralyze the target.',
-        // longDesc: 'Has a 20% chance to paralyze the target.',
+        longDesc: 'Has a 20% chance to paralyze the target.',
     },
     {
         name: 'blueFlare',
@@ -28649,7 +28935,7 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to burn the target.',
-        // longDesc: 'Has a 20% chance to burn the target.',
+        longDesc: 'Has a 20% chance to burn the target.',
     },
     {
         name: 'fieryDance',
@@ -28701,7 +28987,7 @@ export default [
         },
         target: 'normal',
         desc: "50% chance to raise the user's Sp. Atk by 1.",
-        // longDesc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
+        longDesc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
     },
     {
         name: 'freezeShock',
@@ -28753,7 +29039,8 @@ export default [
         },
         target: 'normal',
         desc: 'Charges turn 1. Hits turn 2. 30% paralyze.',
-        // longDesc: 'Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.',
+        longDesc:
+            'Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.',
     },
     {
         name: 'iceBurn',
@@ -28805,7 +29092,8 @@ export default [
         },
         target: 'normal',
         desc: 'Charges turn 1. Hits turn 2. 30% burn.',
-        // longDesc: 'Has a 30% chance to burn the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.',
+        longDesc:
+            'Has a 30% chance to burn the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.',
     },
     {
         name: 'snarl',
@@ -28857,7 +29145,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '100% chance to lower the foe(s) Sp. Atk by 1.',
-        // longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
     },
     {
         name: 'icicleCrash',
@@ -28909,7 +29197,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'vCreate',
@@ -28961,7 +29249,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Defense, Sp. Def, Speed by 1.",
-        // longDesc: "Lowers the user's Speed, Defense, and Special Defense by 1 stage.",
+        longDesc: "Lowers the user's Speed, Defense, and Special Defense by 1 stage.",
     },
     {
         name: 'fusionFlare',
@@ -29013,7 +29301,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if used after Fusion Bolt this turn.',
-        // longDesc: 'Power doubles if the last move used by any Pokemon this turn was Fusion Bolt.',
+        longDesc: 'Power doubles if the last move used by any Pokemon this turn was Fusion Bolt.',
     },
     {
         name: 'fusionBolt',
@@ -29065,7 +29353,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if used after Fusion Flare this turn.',
-        // longDesc: 'Power doubles if the last move used by any Pokemon this turn was Fusion Flare.',
+        longDesc: 'Power doubles if the last move used by any Pokemon this turn was Fusion Flare.',
     },
     {
         name: 'flyingPress',
@@ -29117,7 +29405,8 @@ export default [
         },
         target: 'any',
         desc: 'Combines Flying in its type effectiveness.',
-        // longDesc: 'This move combines Flying in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
+        longDesc:
+            'This move combines Flying in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.',
     },
     {
         name: 'matBlock',
@@ -29169,7 +29458,8 @@ export default [
         },
         target: 'allySide',
         desc: 'Protects allies from damaging attacks. Turn 1 only.',
-        // longDesc: "The user and its party members are protected from damaging attacks made by other Pokemon, including allies, during this turn. Fails unless it is the user's first turn on the field, if the user moves last this turn, or if this move is already in effect for the user's side.",
+        longDesc:
+            "The user and its party members are protected from damaging attacks made by other Pokemon, including allies, during this turn. Fails unless it is the user's first turn on the field, if the user moves last this turn, or if this move is already in effect for the user's side.",
     },
     {
         name: 'belch',
@@ -29221,7 +29511,8 @@ export default [
         },
         target: 'normal',
         desc: 'Cannot be selected until the user eats a Berry.',
-        // longDesc: 'This move cannot be selected until the user eats a Berry, either by eating one that was held, stealing and eating one off another Pokemon with Bug Bite or Pluck, or eating one that was thrown at it with Fling. Once the condition is met, this move can be selected and used for the rest of the battle even if the user gains or uses another item or switches out. Consuming a Berry with Natural Gift does not count for the purposes of eating one.',
+        longDesc:
+            'This move cannot be selected until the user eats a Berry, either by eating one that was held, stealing and eating one off another Pokemon with Bug Bite or Pluck, or eating one that was thrown at it with Fling. Once the condition is met, this move can be selected and used for the rest of the battle even if the user gains or uses another item or switches out. Consuming a Berry with Natural Gift does not count for the purposes of eating one.',
     },
     {
         name: 'rototiller',
@@ -29273,7 +29564,8 @@ export default [
         },
         target: 'all',
         desc: 'Raises Atk/Sp. Atk of grounded Grass types by 1.',
-        // longDesc: 'Raises the Attack and Special Attack of all grounded Grass-type Pokemon on the field by 1 stage.',
+        longDesc:
+            'Raises the Attack and Special Attack of all grounded Grass-type Pokemon on the field by 1 stage.',
     },
     {
         name: 'stickyWeb',
@@ -29325,7 +29617,8 @@ export default [
         },
         target: 'foeSide',
         desc: 'Lowers Speed of grounded foes by 1 on switch-in.',
-        // longDesc: 'Sets up a hazard on the opposing side of the field, lowering the Speed by 1 stage of each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Fails if the effect is already active on the opposing side. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
+        longDesc:
+            'Sets up a hazard on the opposing side of the field, lowering the Speed by 1 stage of each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Fails if the effect is already active on the opposing side. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
     },
     {
         name: 'fellStinger',
@@ -29377,7 +29670,7 @@ export default [
         },
         target: 'normal',
         desc: "Raises user's Attack by 3 if this KOes the target.",
-        // longDesc: "Raises the user's Attack by 3 stages if this move knocks out the target.",
+        longDesc: "Raises the user's Attack by 3 stages if this move knocks out the target.",
     },
     {
         name: 'phantomForce',
@@ -29429,7 +29722,8 @@ export default [
         },
         target: 'normal',
         desc: 'Disappears turn 1. Hits turn 2. Breaks protection.',
-        // longDesc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
+        longDesc:
+            "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
     },
     {
         name: 'trickOrTreat',
@@ -29481,7 +29775,8 @@ export default [
         },
         target: 'normal',
         desc: "Adds Ghost to the target's type(s).",
-        // longDesc: "Causes the Ghost type to be added to the target, effectively making it have two or three types. Fails if the target is already a Ghost type. If Forest's Curse adds a type to the target, it replaces the type added by this move and vice versa.",
+        longDesc:
+            "Causes the Ghost type to be added to the target, effectively making it have two or three types. Fails if the target is already a Ghost type. If Forest's Curse adds a type to the target, it replaces the type added by this move and vice versa.",
     },
     {
         name: 'nobleRoar',
@@ -29533,7 +29828,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Attack and Sp. Atk by 1.",
-        // longDesc: "Lowers the target's Attack and Special Attack by 1 stage.",
+        longDesc: "Lowers the target's Attack and Special Attack by 1 stage.",
     },
     {
         name: 'ionDeluge',
@@ -29585,7 +29880,8 @@ export default [
         },
         target: 'all',
         desc: 'Normal moves become Electric type this turn.',
-        // longDesc: "Causes Normal-type moves to become Electric type this turn. The effect happens after other effects that change a move's type.",
+        longDesc:
+            "Causes Normal-type moves to become Electric type this turn. The effect happens after other effects that change a move's type.",
     },
     {
         name: 'parabolicCharge',
@@ -29637,7 +29933,8 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'User recovers 50% of the damage dealt.',
-        // longDesc: 'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'forestsCurse',
@@ -29689,7 +29986,8 @@ export default [
         },
         target: 'normal',
         desc: "Adds Grass to the target's type(s).",
-        // longDesc: 'Causes the Grass type to be added to the target, effectively making it have two or three types. Fails if the target is already a Grass type. If Trick-or-Treat adds a type to the target, it replaces the type added by this move and vice versa.',
+        longDesc:
+            'Causes the Grass type to be added to the target, effectively making it have two or three types. Fails if the target is already a Grass type. If Trick-or-Treat adds a type to the target, it replaces the type added by this move and vice versa.',
     },
     {
         name: 'petalBlizzard',
@@ -29741,7 +30039,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'No additional effect. Hits adjacent Pokemon.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'freezeDry',
@@ -29793,7 +30091,8 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to freeze. Super effective on Water.',
-        // longDesc: "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+        longDesc:
+            "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
     },
     {
         name: 'disarmingVoice',
@@ -29845,7 +30144,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'This move does not check accuracy. Hits foes.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'partingShot',
@@ -29897,7 +30196,8 @@ export default [
         },
         target: 'normal',
         desc: "Lowers target's Atk, Sp. Atk by 1. User switches.",
-        // longDesc: "Lowers the target's Attack and Special Attack by 1 stage. If this move is successful, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if the target's Attack and Special Attack stat stages were both unchanged, or if there are no unfainted party members.",
+        longDesc:
+            "Lowers the target's Attack and Special Attack by 1 stage. If this move is successful, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if the target's Attack and Special Attack stat stages were both unchanged, or if there are no unfainted party members.",
     },
     {
         name: 'topsyTurvy',
@@ -29949,7 +30249,8 @@ export default [
         },
         target: 'normal',
         desc: "Inverts the target's stat stages.",
-        // longDesc: "The target's positive stat stages become negative and vice versa. Fails if all of the target's stat stages are 0.",
+        longDesc:
+            "The target's positive stat stages become negative and vice versa. Fails if all of the target's stat stages are 0.",
     },
     {
         name: 'drainingKiss',
@@ -30001,7 +30302,8 @@ export default [
         },
         target: 'normal',
         desc: 'User recovers 75% of the damage dealt.',
-        // longDesc: 'The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'craftyShield',
@@ -30053,7 +30355,8 @@ export default [
         },
         target: 'allySide',
         desc: 'Protects allies from Status moves this turn.',
-        // longDesc: "The user and its party members are protected from non-damaging attacks made by other Pokemon, including allies, during this turn. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
+        longDesc:
+            "The user and its party members are protected from non-damaging attacks made by other Pokemon, including allies, during this turn. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
     },
     {
         name: 'flowerShield',
@@ -30105,7 +30408,8 @@ export default [
         },
         target: 'all',
         desc: 'Raises Defense by 1 of all active Grass types.',
-        // longDesc: 'Raises the Defense of all active Grass-type Pokemon by 1 stage. Fails if there are no active Grass-type Pokemon.',
+        longDesc:
+            'Raises the Defense of all active Grass-type Pokemon by 1 stage. Fails if there are no active Grass-type Pokemon.',
     },
     {
         name: 'grassyTerrain',
@@ -30157,7 +30461,8 @@ export default [
         },
         target: 'all',
         desc: '5 turns. Grounded: +Grass power, +1/16 max HP.',
-        // longDesc: 'For 5 turns, the terrain becomes Grassy Terrain. During the effect, the power of Grass-type attacks used by grounded Pokemon is multiplied by 1.3, the power of Bulldoze, Earthquake, and Magnitude used against grounded Pokemon is multiplied by 0.5, and grounded Pokemon have 1/16 of their maximum HP, rounded down, restored at the end of each turn, including the last turn. Camouflage transforms the user into a Grass type, Nature Power becomes Energy Ball, and Secret Power has a 30% chance to cause sleep. Fails if the current terrain is Grassy Terrain.',
+        longDesc:
+            'For 5 turns, the terrain becomes Grassy Terrain. During the effect, the power of Grass-type attacks used by grounded Pokemon is multiplied by 1.3, the power of Bulldoze, Earthquake, and Magnitude used against grounded Pokemon is multiplied by 0.5, and grounded Pokemon have 1/16 of their maximum HP, rounded down, restored at the end of each turn, including the last turn. Camouflage transforms the user into a Grass type, Nature Power becomes Energy Ball, and Secret Power has a 30% chance to cause sleep. Fails if the current terrain is Grassy Terrain.',
     },
     {
         name: 'mistyTerrain',
@@ -30209,7 +30514,8 @@ export default [
         },
         target: 'all',
         desc: "5 turns. Can't status,-Dragon power vs grounded.",
-        // longDesc: 'For 5 turns, the terrain becomes Misty Terrain. During the effect, the power of Dragon-type attacks used against grounded Pokemon is multiplied by 0.5 and grounded Pokemon cannot be inflicted with a non-volatile status condition nor confusion. Grounded Pokemon can become affected by Yawn but cannot fall asleep from its effect. Camouflage transforms the user into a Fairy type, Nature Power becomes Moonblast, and Secret Power has a 30% chance to lower Special Attack by 1 stage. Fails if the current terrain is Misty Terrain.',
+        longDesc:
+            'For 5 turns, the terrain becomes Misty Terrain. During the effect, the power of Dragon-type attacks used against grounded Pokemon is multiplied by 0.5 and grounded Pokemon cannot be inflicted with a non-volatile status condition nor confusion. Grounded Pokemon can become affected by Yawn but cannot fall asleep from its effect. Camouflage transforms the user into a Fairy type, Nature Power becomes Moonblast, and Secret Power has a 30% chance to lower Special Attack by 1 stage. Fails if the current terrain is Misty Terrain.',
     },
     {
         name: 'electrify',
@@ -30261,7 +30567,8 @@ export default [
         },
         target: 'normal',
         desc: "Changes the target's move to Electric this turn.",
-        // longDesc: "Causes the target's move to become Electric type this turn. Among effects that can change a move's type, this effect happens last. Fails if the target already moved this turn.",
+        longDesc:
+            "Causes the target's move to become Electric type this turn. Among effects that can change a move's type, this effect happens last. Fails if the target already moved this turn.",
     },
     {
         name: 'playRough',
@@ -30313,7 +30620,7 @@ export default [
         },
         target: 'normal',
         desc: "10% chance to lower the target's Attack by 1.",
-        // longDesc: "Has a 10% chance to lower the target's Attack by 1 stage.",
+        longDesc: "Has a 10% chance to lower the target's Attack by 1 stage.",
     },
     {
         name: 'fairyWind',
@@ -30365,7 +30672,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'moonblast',
@@ -30417,7 +30724,7 @@ export default [
         },
         target: 'normal',
         desc: "30% chance to lower the target's Sp. Atk by 1.",
-        // longDesc: "Has a 30% chance to lower the target's Special Attack by 1 stage.",
+        longDesc: "Has a 30% chance to lower the target's Special Attack by 1 stage.",
     },
     {
         name: 'boomburst',
@@ -30469,7 +30776,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'No additional effect. Hits adjacent Pokemon.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'fairyLock',
@@ -30521,7 +30828,8 @@ export default [
         },
         target: 'all',
         desc: 'Prevents all Pokemon from switching next turn.',
-        // longDesc: 'Prevents all active Pokemon from switching next turn. A Pokemon can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the effect is already active.',
+        longDesc:
+            'Prevents all active Pokemon from switching next turn. A Pokemon can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the effect is already active.',
     },
     {
         name: 'kingsShield',
@@ -30573,7 +30881,8 @@ export default [
         },
         target: 'self',
         desc: 'Protects from damaging attacks. Contact: -1 Atk.',
-        // longDesc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Attack lowered by 1 stage. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        longDesc:
+            "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Attack lowered by 1 stage. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
     },
     {
         name: 'playNice',
@@ -30625,7 +30934,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Attack by 1.",
-        // longDesc: "Lowers the target's Attack by 1 stage.",
+        longDesc: "Lowers the target's Attack by 1 stage.",
     },
     {
         name: 'confide',
@@ -30677,7 +30986,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Sp. Atk by 1.",
-        // longDesc: "Lowers the target's Special Attack by 1 stage.",
+        longDesc: "Lowers the target's Special Attack by 1 stage.",
     },
     {
         name: 'diamondStorm',
@@ -30728,8 +31037,8 @@ export default [
             pledgecombo: false,
         },
         target: 'allAdjacentFoes',
-        desc: "50% chance to raise user's Defense by 2.",
-        // longDesc: "Has a 50% chance to raise the user's Defense by 2 stages.",
+        desc: "50% chance to raise user's Defense by 2 if hit during use.",
+        longDesc: "Has a 50% chance to raise the user's Defense by 2 stages if hit during use.",
     },
     {
         name: 'steamEruption',
@@ -30781,7 +31090,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to burn the target. Thaws target.',
-        // longDesc: 'Has a 30% chance to burn the target. The target thaws out if it is frozen.',
+        longDesc: 'Has a 30% chance to burn the target. The target thaws out if it is frozen.',
     },
     {
         name: 'hyperspaceHole',
@@ -30833,7 +31142,8 @@ export default [
         },
         target: 'normal',
         desc: "Breaks the target's protection for this turn.",
-        // longDesc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
+        longDesc:
+            "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
     },
     {
         name: 'waterShuriken',
@@ -30885,7 +31195,8 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first. Hits 2-5 times in one turn.',
-        // longDesc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is an Ash-Greninja with the Battle Bond Ability, this move has a power of 20 and always hits three times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is an Ash-Greninja with the Battle Bond Ability, this move has a power of 20 and always hits three times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'mysticalFire',
@@ -30937,7 +31248,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Sp. Atk by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
     },
     {
         name: 'spikyShield',
@@ -30989,7 +31300,8 @@ export default [
         },
         target: 'self',
         desc: 'Protects from moves. Contact: loses 1/8 max HP.',
-        // longDesc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        longDesc:
+            "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
     },
     {
         name: 'aromaticMist',
@@ -31041,7 +31353,8 @@ export default [
         },
         target: 'adjacentAlly',
         desc: "Raises an ally's Sp. Def by 1.",
-        // longDesc: "Raises the target's Special Defense by 1 stage. Fails if there is no ally adjacent to the user.",
+        longDesc:
+            "Raises the target's Special Defense by 1 stage. Fails if there is no ally adjacent to the user.",
     },
     {
         name: 'eerieImpulse',
@@ -31093,7 +31406,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Sp. Atk by 2.",
-        // longDesc: "Lowers the target's Special Attack by 2 stages.",
+        longDesc: "Lowers the target's Special Attack by 2 stages.",
     },
     {
         name: 'venomDrench',
@@ -31145,7 +31458,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Lowers Atk/Sp. Atk/Speed of poisoned foes by 1.',
-        // longDesc: "Lowers the target's Attack, Special Attack, and Speed by 1 stage if the target is poisoned. Fails if the target is not poisoned.",
+        longDesc:
+            "Lowers the target's Attack, Special Attack, and Speed by 1 stage if the target is poisoned. Fails if the target is not poisoned.",
     },
     {
         name: 'powder',
@@ -31197,7 +31511,8 @@ export default [
         },
         target: 'normal',
         desc: 'If using a Fire move, target loses 1/4 max HP.',
-        // longDesc: 'If the target uses a Fire-type move this turn, it is prevented from executing and the target loses 1/4 of its maximum HP, rounded half up. This effect does not happen if the Fire-type move is prevented by Primordial Sea.',
+        longDesc:
+            'If the target uses a Fire-type move this turn, it is prevented from executing and the target loses 1/4 of its maximum HP, rounded half up. This effect does not happen if the Fire-type move is prevented by Primordial Sea.',
     },
     {
         name: 'geomancy',
@@ -31249,7 +31564,8 @@ export default [
         },
         target: 'self',
         desc: 'Charges, then raises SpA, SpD, Spe by 2 turn 2.',
-        // longDesc: "Raises the user's Special Attack, Special Defense, and Speed by 2 stages. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
+        longDesc:
+            "Raises the user's Special Attack, Special Defense, and Speed by 2 stages. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
     },
     {
         name: 'magneticFlux',
@@ -31301,7 +31617,8 @@ export default [
         },
         target: 'allySide',
         desc: 'Raises Def, Sp. Def of allies with Plus/Minus by 1.',
-        // longDesc: "Raises the Defense and Special Defense of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
+        longDesc:
+            "Raises the Defense and Special Defense of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
     },
     {
         name: 'happyHour',
@@ -31353,7 +31670,7 @@ export default [
         },
         target: 'allySide',
         desc: 'No competitive use.',
-        // longDesc: 'No competitive use.',
+        longDesc: 'No competitive use.',
     },
     {
         name: 'electricTerrain',
@@ -31405,7 +31722,8 @@ export default [
         },
         target: 'all',
         desc: "5 turns. Grounded: +Electric power, can't sleep.",
-        // longDesc: 'For 5 turns, the terrain becomes Electric Terrain. During the effect, the power of Electric-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot fall asleep; Pokemon already asleep do not wake up. Grounded Pokemon cannot become affected by Yawn or fall asleep from its effect. Camouflage transforms the user into an Electric type, Nature Power becomes Thunderbolt, and Secret Power has a 30% chance to cause paralysis. Fails if the current terrain is Electric Terrain.',
+        longDesc:
+            'For 5 turns, the terrain becomes Electric Terrain. During the effect, the power of Electric-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot fall asleep; Pokemon already asleep do not wake up. Grounded Pokemon cannot become affected by Yawn or fall asleep from its effect. Camouflage transforms the user into an Electric type, Nature Power becomes Thunderbolt, and Secret Power has a 30% chance to cause paralysis. Fails if the current terrain is Electric Terrain.',
     },
     {
         name: 'dazzlingGleam',
@@ -31457,7 +31775,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'No additional effect. Hits adjacent foes.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'celebrate',
@@ -31509,7 +31827,7 @@ export default [
         },
         target: 'self',
         desc: 'No competitive use.',
-        // longDesc: 'No competitive use.',
+        longDesc: 'No competitive use.',
     },
     {
         name: 'holdHands',
@@ -31561,7 +31879,7 @@ export default [
         },
         target: 'adjacentAlly',
         desc: 'No competitive use.',
-        // longDesc: 'No competitive use. Fails if there is no ally adjacent to the user.',
+        longDesc: 'No competitive use. Fails if there is no ally adjacent to the user.',
     },
     {
         name: 'babyDollEyes',
@@ -31613,7 +31931,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Attack by 1.",
-        // longDesc: "Lowers the target's Attack by 1 stage.",
+        longDesc: "Lowers the target's Attack by 1 stage.",
     },
     {
         name: 'nuzzle',
@@ -31665,7 +31983,7 @@ export default [
         },
         target: 'normal',
         desc: '100% chance to paralyze the target.',
-        // longDesc: 'Has a 100% chance to paralyze the target.',
+        longDesc: 'Has a 100% chance to paralyze the target.',
     },
     {
         name: 'holdBack',
@@ -31717,7 +32035,7 @@ export default [
         },
         target: 'normal',
         desc: 'Always leaves the target with at least 1 HP.',
-        // longDesc: 'Leaves the target with at least 1 HP.',
+        longDesc: 'Leaves the target with at least 1 HP.',
     },
     {
         name: 'infestation',
@@ -31769,7 +32087,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'powerUpPunch',
@@ -31821,7 +32140,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to raise the user's Attack by 1.",
-        // longDesc: "Has a 100% chance to raise the user's Attack by 1 stage.",
+        longDesc: "Has a 100% chance to raise the user's Attack by 1 stage.",
     },
     {
         name: 'oblivionWing',
@@ -31873,7 +32192,8 @@ export default [
         },
         target: 'any',
         desc: 'User recovers 75% of the damage dealt.',
-        // longDesc: 'The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'thousandArrows',
@@ -31925,7 +32245,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Grounds adjacent foes. First hit neutral on Flying.',
-        // longDesc: 'This move can hit airborne Pokemon, which includes Flying-type Pokemon, Pokemon with the Levitate Ability, Pokemon holding an Air Balloon, and Pokemon under the effect of Magnet Rise or Telekinesis. If the target is a Flying type and is not already grounded, this move deals neutral damage regardless of its other type(s). This move can hit a target using Bounce, Fly, or Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.',
+        longDesc:
+            'This move can hit airborne Pokemon, which includes Flying-type Pokemon, Pokemon with the Levitate Ability, Pokemon holding an Air Balloon, and Pokemon under the effect of Magnet Rise or Telekinesis. If the target is a Flying type and is not already grounded, this move deals neutral damage regardless of its other type(s). This move can hit a target using Bounce, Fly, or Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.',
     },
     {
         name: 'thousandWaves',
@@ -31977,7 +32298,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Hits adjacent foes. Prevents them from switching.',
-        // longDesc: 'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
+        longDesc:
+            'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
     },
     {
         name: 'landsWrath',
@@ -32029,7 +32351,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'No additional effect. Hits adjacent foes.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'lightOfRuin',
@@ -32081,7 +32403,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 1/2 recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'originPulse',
@@ -32133,7 +32456,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'No additional effect. Hits adjacent foes.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'precipiceBlades',
@@ -32185,7 +32508,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'No additional effect. Hits adjacent foes.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'dragonAscent',
@@ -32237,7 +32560,7 @@ export default [
         },
         target: 'any',
         desc: "Lowers the user's Defense and Sp. Def by 1.",
-        // longDesc: "Lowers the user's Defense and Special Defense by 1 stage.",
+        longDesc: "Lowers the user's Defense and Special Defense by 1 stage.",
     },
     {
         name: 'hyperspaceFury',
@@ -32289,7 +32612,8 @@ export default [
         },
         target: 'normal',
         desc: "Hoopa-U: Lowers user's Def by 1; breaks protect.",
-        // longDesc: "Lowers the user's Defense by 1 stage. This move cannot be used successfully unless the user's current form, while considering Transform, is Hoopa Unbound. If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
+        longDesc:
+            "Lowers the user's Defense by 1 stage. This move cannot be used successfully unless the user's current form, while considering Transform, is Hoopa Unbound. If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
     },
     {
         name: 'catastropika',
@@ -32341,7 +32665,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'shoreUp',
@@ -32393,7 +32717,8 @@ export default [
         },
         target: 'self',
         desc: 'User restores 1/2 its max HP; 2/3 in Sandstorm.',
-        // longDesc: 'The user restores 1/2 of its maximum HP, rounded half down. If the weather is Sandstorm, the user instead restores 2/3 of its maximum HP, rounded half down.',
+        longDesc:
+            'The user restores 1/2 of its maximum HP, rounded half down. If the weather is Sandstorm, the user instead restores 2/3 of its maximum HP, rounded half down.',
     },
     {
         name: 'firstImpression',
@@ -32445,7 +32770,7 @@ export default [
         },
         target: 'normal',
         desc: 'Nearly always goes first. First turn out only.',
-        // longDesc: "Fails unless it is the user's first turn on the field.",
+        longDesc: "Fails unless it is the user's first turn on the field.",
     },
     {
         name: 'banefulBunker',
@@ -32497,7 +32822,8 @@ export default [
         },
         target: 'self',
         desc: 'Protects from moves. Contact: poison.',
-        // longDesc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user become poisoned. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        longDesc:
+            "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user become poisoned. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
     },
     {
         name: 'spiritShackle',
@@ -32549,7 +32875,8 @@ export default [
         },
         target: 'normal',
         desc: 'Prevents the target from switching out.',
-        // longDesc: 'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
+        longDesc:
+            'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
     },
     {
         name: 'darkestLariat',
@@ -32601,7 +32928,7 @@ export default [
         },
         target: 'normal',
         desc: "Ignores the target's stat stage changes.",
-        // longDesc: "Ignores the target's stat stage changes, including evasiveness.",
+        longDesc: "Ignores the target's stat stage changes, including evasiveness.",
     },
     {
         name: 'sparklingAria',
@@ -32653,7 +32980,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'The target is cured of its burn.',
-        // longDesc: 'If the user has not fainted, the target is cured of its burn.',
+        longDesc: 'If the user has not fainted, the target is cured of its burn.',
     },
     {
         name: 'iceHammer',
@@ -32705,7 +33032,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Speed by 1.",
-        // longDesc: "Lowers the user's Speed by 1 stage.",
+        longDesc: "Lowers the user's Speed by 1 stage.",
     },
     {
         name: 'floralHealing',
@@ -32757,7 +33084,8 @@ export default [
         },
         target: 'normal',
         desc: 'Heals the target by 50% of its max HP.',
-        // longDesc: 'The target restores 1/2 of its maximum HP, rounded half up. If the terrain is Grassy Terrain, the target instead restores 2/3 of its maximum HP, rounded half down.',
+        longDesc:
+            'The target restores 1/2 of its maximum HP, rounded half up. If the terrain is Grassy Terrain, the target instead restores 2/3 of its maximum HP, rounded half down.',
     },
     {
         name: 'highHorsepower',
@@ -32809,7 +33137,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'strengthSap',
@@ -32861,7 +33189,8 @@ export default [
         },
         target: 'normal',
         desc: "User heals HP=target's Atk stat. Lowers Atk by 1.",
-        // longDesc: "Lowers the target's Attack by 1 stage. The user restores its HP equal to the target's Attack stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack stat stage is -6.",
+        longDesc:
+            "Lowers the target's Attack by 1 stage. The user restores its HP equal to the target's Attack stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack stat stage is -6.",
     },
     {
         name: 'solarBlade',
@@ -32913,7 +33242,8 @@ export default [
         },
         target: 'normal',
         desc: 'Charges turn 1. Hits turn 2. No charge in sunlight.',
-        // longDesc: 'This attack charges on the first turn and executes on the second. Power is halved if the weather is Hail, Heavy Rain, Rain, or Sandstorm and the user is not holding Utility Umbrella. If the user is holding a Power Herb or the weather is Intense Sun or Sun, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Intense Sun or Sun, the move still requires a turn to charge.',
+        longDesc:
+            'This attack charges on the first turn and executes on the second. Power is halved if the weather is Hail, Heavy Rain, Rain, or Sandstorm and the user is not holding Utility Umbrella. If the user is holding a Power Herb or the weather is Intense Sun or Sun, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Intense Sun or Sun, the move still requires a turn to charge.',
     },
     {
         name: 'leafage',
@@ -32965,7 +33295,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'spotlight',
@@ -33017,7 +33347,8 @@ export default [
         },
         target: 'normal',
         desc: "Target's foes' moves are redirected to it this turn.",
-        // longDesc: 'Until the end of the turn, all single-target attacks from opponents of the target are redirected to the target. Such attacks are redirected to the target before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal.',
+        longDesc:
+            'Until the end of the turn, all single-target attacks from opponents of the target are redirected to the target. Such attacks are redirected to the target before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal.',
     },
     {
         name: 'toxicThread',
@@ -33069,7 +33400,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Speed by 1 and poisons it.",
-        // longDesc: "Lowers the target's Speed by 1 stage and poisons it.",
+        longDesc: "Lowers the target's Speed by 1 stage and poisons it.",
     },
     {
         name: 'laserFocus',
@@ -33121,7 +33452,7 @@ export default [
         },
         target: 'self',
         desc: "Until the end of the next turn, user's moves crit.",
-        // longDesc: "Until the end of the next turn, the user's attacks will be critical hits.",
+        longDesc: "Until the end of the next turn, the user's attacks will be critical hits.",
     },
     {
         name: 'gearUp',
@@ -33173,7 +33504,8 @@ export default [
         },
         target: 'allySide',
         desc: 'Raises Atk, Sp. Atk of allies with Plus/Minus by 1.',
-        // longDesc: "Raises the Attack and Special Attack of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
+        longDesc:
+            "Raises the Attack and Special Attack of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
     },
     {
         name: 'throatChop',
@@ -33225,7 +33557,7 @@ export default [
         },
         target: 'normal',
         desc: 'For 2 turns, the target cannot use sound moves.',
-        // longDesc: 'For 2 turns, the target cannot use sound-based moves.',
+        longDesc: 'For 2 turns, the target cannot use sound-based moves.',
     },
     {
         name: 'pollenPuff',
@@ -33277,7 +33609,8 @@ export default [
         },
         target: 'normal',
         desc: 'If the target is an ally, heals 50% of its max HP.',
-        // longDesc: 'If the target is an ally, this move restores 1/2 of its maximum HP, rounded down, instead of dealing damage.',
+        longDesc:
+            'If the target is an ally, this move restores 1/2 of its maximum HP, rounded down, instead of dealing damage.',
     },
     {
         name: 'anchorShot',
@@ -33329,7 +33662,8 @@ export default [
         },
         target: 'normal',
         desc: 'Prevents the target from switching out.',
-        // longDesc: 'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
+        longDesc:
+            'Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
     },
     {
         name: 'psychicTerrain',
@@ -33381,7 +33715,8 @@ export default [
         },
         target: 'all',
         desc: '5 turns. Grounded: +Psychic power, priority-safe.',
-        // longDesc: "For 5 turns, the terrain becomes Psychic Terrain. During the effect, the power of Psychic-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot be hit by moves with priority greater than 0, unless the target is an ally. Camouflage transforms the user into a Psychic type, Nature Power becomes Psychic, and Secret Power has a 30% chance to lower the target's Speed by 1 stage. Fails if the current terrain is Psychic Terrain.",
+        longDesc:
+            "For 5 turns, the terrain becomes Psychic Terrain. During the effect, the power of Psychic-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot be hit by moves with priority greater than 0, unless the target is an ally. Camouflage transforms the user into a Psychic type, Nature Power becomes Psychic, and Secret Power has a 30% chance to lower the target's Speed by 1 stage. Fails if the current terrain is Psychic Terrain.",
     },
     {
         name: 'lunge',
@@ -33433,7 +33768,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Attack by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Attack by 1 stage.",
     },
     {
         name: 'fireLash',
@@ -33485,7 +33820,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'powerTrip',
@@ -33536,8 +33871,9 @@ export default [
             pledgecombo: false,
         },
         target: 'normal',
-        desc: "+ 20 power for each of the user's stat boosts.",
-        // longDesc: "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
+        desc: "+20 power for each of the user's stat boosts.",
+        longDesc:
+            "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
     },
     {
         name: 'burnUp',
@@ -33589,7 +33925,8 @@ export default [
         },
         target: 'normal',
         desc: "User's Fire type becomes typeless; must be Fire.",
-        // longDesc: "Fails unless the user is a Fire type. If this move is successful and the user is not Terastallized, the user's Fire type becomes typeless as long as it remains active.",
+        longDesc:
+            "Fails unless the user is a Fire type. If this move is successful and the user is not Terastallized, the user's Fire type becomes typeless as long as it remains active.",
     },
     {
         name: 'speedSwap',
@@ -33641,7 +33978,8 @@ export default [
         },
         target: 'normal',
         desc: 'Swaps Speed stat with target.',
-        // longDesc: 'The user swaps its Speed stat with the target. Stat stage changes are unaffected.',
+        longDesc:
+            'The user swaps its Speed stat with the target. Stat stage changes are unaffected.',
     },
     {
         name: 'smartStrike',
@@ -33693,7 +34031,7 @@ export default [
         },
         target: 'normal',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'purify',
@@ -33745,7 +34083,8 @@ export default [
         },
         target: 'normal',
         desc: "Cures target's status; heals user 1/2 max HP if so.",
-        // longDesc: 'The target is cured if it has a non-volatile status condition. If the target was cured, the user restores 1/2 of its maximum HP, rounded down.',
+        longDesc:
+            'The target is cured if it has a non-volatile status condition. If the target was cured, the user restores 1/2 of its maximum HP, rounded down.',
     },
     {
         name: 'revelationDance',
@@ -33797,7 +34136,8 @@ export default [
         },
         target: 'normal',
         desc: "Type varies based on the user's primary type.",
-        // longDesc: "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
+        longDesc:
+            "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
     },
     {
         name: 'coreEnforcer',
@@ -33849,7 +34189,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'Nullifies the foe(s) Ability if the foe(s) move first.',
-        // longDesc: "If the user moves after the target, the target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+        longDesc:
+            "If the user moves after the target, the target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
     },
     {
         name: 'tropKick',
@@ -33901,7 +34242,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Attack by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Attack by 1 stage.",
     },
     {
         name: 'instruct',
@@ -33953,7 +34294,8 @@ export default [
         },
         target: 'normal',
         desc: 'The target immediately uses its last used move.',
-        // longDesc: "The target immediately uses its last used move. Fails if the target has not made a move, if the move has 0 PP, if the target is preparing to use Beak Blast, Focus Punch, or Shell Trap, or if the move is Assist, Beak Blast, Belch, Bide, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Focus Punch, Hold Hands, Ice Ball, Instruct, King's Shield, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Obstruct, Outrage, Petal Dance, Rollout, Shell Trap, Sketch, Sleep Talk, Struggle, Thrash, Transform, Uproar, Wicked Torque, any two-turn move, or any recharge move.",
+        longDesc:
+            "The target immediately uses its last used move. Fails if the target has not made a move, if the move has 0 PP, if the target is preparing to use Beak Blast, Focus Punch, or Shell Trap, or if the move is Assist, Beak Blast, Belch, Bide, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Focus Punch, Hold Hands, Ice Ball, Instruct, King's Shield, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Obstruct, Outrage, Petal Dance, Rollout, Shell Trap, Sketch, Sleep Talk, Struggle, Thrash, Transform, Uproar, Wicked Torque, any two-turn move, or any recharge move.",
     },
     {
         name: 'beakBlast',
@@ -34005,7 +34347,8 @@ export default [
         },
         target: 'normal',
         desc: 'Burns on contact with the user before it moves.',
-        // longDesc: 'If the user is hit by a contact move this turn before it can execute this move, the attacker is burned.',
+        longDesc:
+            'If the user is hit by a contact move this turn before it can execute this move, the attacker is burned.',
     },
     {
         name: 'clangingScales',
@@ -34057,7 +34400,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "Lowers the user's Defense by 1.",
-        // longDesc: "Lowers the user's Defense by 1 stage.",
+        longDesc: "Lowers the user's Defense by 1 stage.",
     },
     {
         name: 'dragonHammer',
@@ -34109,7 +34452,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'brutalSwing',
@@ -34161,7 +34504,7 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'No additional effect. Hits adjacent Pokemon.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'auroraVeil',
@@ -34213,7 +34556,8 @@ export default [
         },
         target: 'allySide',
         desc: 'For 5 turns, damage to allies halved. Snow only.',
-        // longDesc: "For 5 turns, the user and its party members take 0.5x damage from physical and special attacks, or 0.66x damage if in a Double Battle; does not reduce damage further with Reflect or Light Screen. Critical hits ignore this protection. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Brick Break and Psychic Fangs remove the effect before damage is calculated. Lasts for 8 turns if the user is holding Light Clay. Fails unless the weather is Snow.",
+        longDesc:
+            "For 5 turns, the user and its party members take 0.5x damage from physical and special attacks, or 0.66x damage if in a Double Battle; does not reduce damage further with Reflect or Light Screen. Critical hits ignore this protection. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Brick Break and Psychic Fangs remove the effect before damage is calculated. Lasts for 8 turns if the user is holding Light Clay. Fails unless the weather is Snow.",
     },
     {
         name: 'sinisterArrowRaid',
@@ -34265,7 +34609,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'maliciousMoonsault',
@@ -34317,7 +34661,8 @@ export default [
         },
         target: 'normal',
         desc: 'Damage doubles if the target used Minimize.',
-        // longDesc: 'Damage doubles and no accuracy check is done if the target has used Minimize while active.',
+        longDesc:
+            'Damage doubles and no accuracy check is done if the target has used Minimize while active.',
     },
     {
         name: 'oceanicOperetta',
@@ -34369,7 +34714,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'guardianOfAlola',
@@ -34421,7 +34766,8 @@ export default [
         },
         target: 'normal',
         desc: "Does damage equal to 3/4 target's current HP.",
-        // longDesc: 'Deals damage to the target equal to 3/4 of its current HP, rounded down, but not less than 1 HP.',
+        longDesc:
+            'Deals damage to the target equal to 3/4 of its current HP, rounded down, but not less than 1 HP.',
     },
     {
         name: 'soulStealing7StarStrike',
@@ -34473,7 +34819,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'stokedSparksurfer',
@@ -34525,7 +34871,7 @@ export default [
         },
         target: 'normal',
         desc: '100% chance to paralyze the target.',
-        // longDesc: 'Has a 100% chance to paralyze the target.',
+        longDesc: 'Has a 100% chance to paralyze the target.',
     },
     {
         name: 'pulverizingPancake',
@@ -34577,7 +34923,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'extremeEvoboost',
@@ -34629,7 +34975,8 @@ export default [
         },
         target: 'self',
         desc: "Raises user's Atk, Def, SpA, SpD, and Spe by 2.",
-        // longDesc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 2 stages.",
+        longDesc:
+            "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 2 stages.",
     },
     {
         name: 'genesisSupernova',
@@ -34681,7 +35028,7 @@ export default [
         },
         target: 'normal',
         desc: 'Summons Psychic Terrain.',
-        // longDesc: 'If this move is successful, the terrain becomes Psychic Terrain.',
+        longDesc: 'If this move is successful, the terrain becomes Psychic Terrain.',
     },
     {
         name: 'shellTrap',
@@ -34733,7 +35080,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'User must take physical damage before moving.',
-        // longDesc: "Fails unless the user is hit by a physical attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's physical attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
+        longDesc:
+            "Fails unless the user is hit by a physical attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's physical attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
     },
     {
         name: 'fleurCannon',
@@ -34785,7 +35133,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Sp. Atk by 2.",
-        // longDesc: "Lowers the user's Special Attack by 2 stages.",
+        longDesc: "Lowers the user's Special Attack by 2 stages.",
     },
     {
         name: 'psychicFangs',
@@ -34837,7 +35185,8 @@ export default [
         },
         target: 'normal',
         desc: 'Destroys screens, unless the target is immune.',
-        // longDesc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+        longDesc:
+            "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
     },
     {
         name: 'stompingTantrum',
@@ -34889,7 +35238,8 @@ export default [
         },
         target: 'normal',
         desc: "Power doubles if the user's last move failed.",
-        // longDesc: "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will not double this move's power, nor will Bounce or Fly ending early due to the effect of Gravity, Smack Down, or Thousand Arrows.",
+        longDesc:
+            "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will not double this move's power, nor will Bounce or Fly ending early due to the effect of Gravity, Smack Down, or Thousand Arrows.",
     },
     {
         name: 'shadowBone',
@@ -34941,7 +35291,7 @@ export default [
         },
         target: 'normal',
         desc: "20% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 20% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 20% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'accelerock',
@@ -34993,7 +35343,7 @@ export default [
         },
         target: 'normal',
         desc: 'Usually goes first.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'liquidation',
@@ -35045,7 +35395,7 @@ export default [
         },
         target: 'normal',
         desc: "20% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 20% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 20% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'prismaticLaser',
@@ -35097,7 +35447,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'spectralThief',
@@ -35149,7 +35500,8 @@ export default [
         },
         target: 'normal',
         desc: "Steals target's boosts before dealing damage.",
-        // longDesc: "The target's stat stages greater than 0 are stolen from it and applied to the user before dealing damage.",
+        longDesc:
+            "The target's stat stages greater than 0 are stolen from it and applied to the user before dealing damage.",
     },
     {
         name: 'sunsteelStrike',
@@ -35201,7 +35553,7 @@ export default [
         },
         target: 'normal',
         desc: 'Ignores the Abilities of other Pokemon.',
-        // longDesc: 'This move and its effects ignore the Abilities of other Pokemon.',
+        longDesc: 'This move and its effects ignore the Abilities of other Pokemon.',
     },
     {
         name: 'moongeistBeam',
@@ -35253,7 +35605,7 @@ export default [
         },
         target: 'normal',
         desc: 'Ignores the Abilities of other Pokemon.',
-        // longDesc: 'This move and its effects ignore the Abilities of other Pokemon.',
+        longDesc: 'This move and its effects ignore the Abilities of other Pokemon.',
     },
     {
         name: 'tearfulLook',
@@ -35305,7 +35657,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the target's Attack and Sp. Atk by 1.",
-        // longDesc: "Lowers the target's Attack and Special Attack by 1 stage.",
+        longDesc: "Lowers the target's Attack and Special Attack by 1 stage.",
     },
     {
         name: 'zingZap',
@@ -35357,7 +35709,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'naturesMadness',
@@ -35409,7 +35761,8 @@ export default [
         },
         target: 'normal',
         desc: "Does damage equal to 1/2 target's current HP.",
-        // longDesc: 'Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.',
+        longDesc:
+            'Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.',
     },
     {
         name: 'multiAttack',
@@ -35461,7 +35814,7 @@ export default [
         },
         target: 'normal',
         desc: 'Type varies based on the held Memory.',
-        // longDesc: "This move's type depends on the user's held Memory.",
+        longDesc: "This move's type depends on the user's held Memory.",
     },
     {
         name: '10000000VoltThunderbolt',
@@ -35513,7 +35866,7 @@ export default [
         },
         target: 'normal',
         desc: 'Very high critical hit ratio.',
-        // longDesc: 'Has a very high chance for a critical hit.',
+        longDesc: 'Has a very high chance for a critical hit.',
     },
     {
         name: 'mindBlown',
@@ -35565,7 +35918,8 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'User loses 50% max HP. Hits adjacent Pokemon.',
-        // longDesc: 'Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability. This move is prevented from executing and the user does not lose HP if any active Pokemon has the Damp Ability, or if this move is Fire type and the user is affected by Powder or the weather is Heavy Rain.',
+        longDesc:
+            'Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability. This move is prevented from executing and the user does not lose HP if any active Pokemon has the Damp Ability, or if this move is Fire type and the user is affected by Powder or the weather is Heavy Rain.',
     },
     {
         name: 'plasmaFists',
@@ -35617,7 +35971,8 @@ export default [
         },
         target: 'normal',
         desc: 'Normal moves become Electric type this turn.',
-        // longDesc: 'If this move is successful, causes Normal-type moves to become Electric type this turn.',
+        longDesc:
+            'If this move is successful, causes Normal-type moves to become Electric type this turn.',
     },
     {
         name: 'photonGeyser',
@@ -35669,7 +36024,8 @@ export default [
         },
         target: 'normal',
         desc: "Physical if user's Atk > Sp. Atk. Ignores Abilities.",
-        // longDesc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
+        longDesc:
+            "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
     },
     {
         name: 'lightThatBurnsTheSky',
@@ -35721,7 +36077,8 @@ export default [
         },
         target: 'normal',
         desc: "Physical if user's Atk > Sp. Atk. Ignores Abilities.",
-        // longDesc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
+        longDesc:
+            "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
     },
     {
         name: 'searingSunrazeSmash',
@@ -35773,7 +36130,7 @@ export default [
         },
         target: 'normal',
         desc: 'Ignores the Abilities of other Pokemon.',
-        // longDesc: 'This move and its effects ignore the Abilities of other Pokemon.',
+        longDesc: 'This move and its effects ignore the Abilities of other Pokemon.',
     },
     {
         name: 'menacingMoonrazeMaelstrom',
@@ -35825,7 +36182,7 @@ export default [
         },
         target: 'normal',
         desc: 'Ignores the Abilities of other Pokemon.',
-        // longDesc: 'This move and its effects ignore the Abilities of other Pokemon.',
+        longDesc: 'This move and its effects ignore the Abilities of other Pokemon.',
     },
     {
         name: 'letsSnuggleForever',
@@ -35877,7 +36234,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'splinteredStormshards',
@@ -35929,7 +36286,8 @@ export default [
         },
         target: 'normal',
         desc: 'Ends the effects of terrain.',
-        // longDesc: 'Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.',
+        longDesc:
+            'Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.',
     },
     {
         name: 'clangorousSoulblaze',
@@ -35980,8 +36338,9 @@ export default [
             pledgecombo: false,
         },
         target: 'allAdjacentFoes',
-        desc: "Raises the user's Atk/Def/SpAtk/SpDef/Spe by 1.",
-        // longDesc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
+        desc: "Raises the user's Atk/Def/SpAtk/SpDef/Spe by 1 if hit during use.",
+        longDesc:
+            "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage if hit during use.",
     },
     {
         name: 'zippyZap',
@@ -36033,7 +36392,7 @@ export default [
         },
         target: 'normal',
         desc: "Goes first. Raises user's evasion by 1.",
-        // longDesc: "Has a 100% chance to raise the user's evasion by 1 stage.",
+        longDesc: "Has a 100% chance to raise the user's evasion by 1 stage.",
     },
     {
         name: 'splishySplash',
@@ -36085,7 +36444,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '30% chance to paralyze the target.',
-        // longDesc: 'Has a 30% chance to paralyze the target.',
+        longDesc: 'Has a 30% chance to paralyze the target.',
     },
     {
         name: 'floatyFall',
@@ -36137,7 +36496,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'pikaPapow',
@@ -36189,7 +36548,7 @@ export default [
         },
         target: 'normal',
         desc: "Max happiness: 102 power. Can't miss.",
-        // longDesc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
+        longDesc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
     },
     {
         name: 'bouncyBubble',
@@ -36241,7 +36600,8 @@ export default [
         },
         target: 'normal',
         desc: 'User recovers 50% of the damage dealt.',
-        // longDesc: 'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
+        longDesc:
+            'The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.',
     },
     {
         name: 'buzzyBuzz',
@@ -36293,7 +36653,7 @@ export default [
         },
         target: 'normal',
         desc: '100% chance to paralyze the foe.',
-        // longDesc: 'Has a 100% chance to paralyze the foe.',
+        longDesc: 'Has a 100% chance to paralyze the foe.',
     },
     {
         name: 'sizzlySlide',
@@ -36345,7 +36705,7 @@ export default [
         },
         target: 'normal',
         desc: '100% chance to burn the foe.',
-        // longDesc: 'Has a 100% chance to burn the foe.',
+        longDesc: 'Has a 100% chance to burn the foe.',
     },
     {
         name: 'glitzyGlow',
@@ -36397,7 +36757,7 @@ export default [
         },
         target: 'normal',
         desc: 'Summons Light Screen.',
-        // longDesc: 'This move summons Light Screen for 5 turns upon use.',
+        longDesc: 'This move summons Light Screen for 5 turns upon use.',
     },
     {
         name: 'baddyBad',
@@ -36449,7 +36809,7 @@ export default [
         },
         target: 'normal',
         desc: 'Summons Reflect.',
-        // longDesc: 'This move summons Reflect for 5 turns upon use.',
+        longDesc: 'This move summons Reflect for 5 turns upon use.',
     },
     {
         name: 'sappySeed',
@@ -36501,7 +36861,7 @@ export default [
         },
         target: 'normal',
         desc: 'Summons Leech Seed.',
-        // longDesc: 'This move summons Leech Seed on the foe.',
+        longDesc: 'This move summons Leech Seed on the foe.',
     },
     {
         name: 'freezyFrost',
@@ -36553,7 +36913,7 @@ export default [
         },
         target: 'normal',
         desc: 'Eliminates all stat changes.',
-        // longDesc: 'Resets the stat stages of all active Pokemon to 0.',
+        longDesc: 'Resets the stat stages of all active Pokemon to 0.',
     },
     {
         name: 'sparklySwirl',
@@ -36605,7 +36965,8 @@ export default [
         },
         target: 'normal',
         desc: "Cures the user's party of all status conditions.",
-        // longDesc: "Every Pokemon in the user's party is cured of its non-volatile status condition.",
+        longDesc:
+            "Every Pokemon in the user's party is cured of its non-volatile status condition.",
     },
     {
         name: 'veeveeVolley',
@@ -36657,7 +37018,7 @@ export default [
         },
         target: 'normal',
         desc: "Max happiness: 102 power. Can't miss.",
-        // longDesc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
+        longDesc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
     },
     {
         name: 'doubleIronBash',
@@ -36709,7 +37070,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits twice. 30% chance to make the target flinch.',
-        // longDesc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. Has a 30% chance to make the target flinch.",
+        longDesc:
+            "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. Has a 30% chance to make the target flinch.",
     },
     {
         name: 'maxGuard',
@@ -36761,7 +37123,8 @@ export default [
         },
         target: 'self',
         desc: 'Protects user from moves & Max Moves this turn.',
-        // longDesc: "The user is protected from nearly all attacks made by other Pokemon during this turn, including Max and G-Max Moves. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        longDesc:
+            "The user is protected from nearly all attacks made by other Pokemon during this turn, including Max and G-Max Moves. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
     },
     {
         name: 'dynamaxCannon',
@@ -36813,7 +37176,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'snipeShot',
@@ -36865,7 +37228,8 @@ export default [
         },
         target: 'normal',
         desc: 'High critical hit ratio. Cannot be redirected.',
-        // longDesc: 'Has a higher chance for a critical hit. This move cannot be redirected to a different target by any effect.',
+        longDesc:
+            'Has a higher chance for a critical hit. This move cannot be redirected to a different target by any effect.',
     },
     {
         name: 'jawLock',
@@ -36917,7 +37281,8 @@ export default [
         },
         target: 'normal',
         desc: 'Prevents both user and target from switching out.',
-        // longDesc: 'Prevents the user and the target from switching out. The user and the target can still switch out if either of them is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
+        longDesc:
+            'Prevents the user and the target from switching out. The user and the target can still switch out if either of them is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.',
     },
     {
         name: 'stuffCheeks',
@@ -36969,7 +37334,8 @@ export default [
         },
         target: 'self',
         desc: 'Must hold Berry to use. User eats Berry, Def +2.',
-        // longDesc: 'This move cannot be selected unless the user is holding a Berry. The user eats its Berry and raises its Defense by 2 stages. This effect is not prevented by the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if the user is not holding a Berry.',
+        longDesc:
+            'This move cannot be selected unless the user is holding a Berry. The user eats its Berry and raises its Defense by 2 stages. This effect is not prevented by the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if the user is not holding a Berry.',
     },
     {
         name: 'noRetreat',
@@ -37021,7 +37387,8 @@ export default [
         },
         target: 'self',
         desc: 'Raises all stats by 1 (not acc/eva). Traps user.',
-        // longDesc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage, but it becomes prevented from switching out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the user has already been prevented from switching by this effect.",
+        longDesc:
+            "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage, but it becomes prevented from switching out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the user has already been prevented from switching by this effect.",
     },
     {
         name: 'tarShot',
@@ -37073,7 +37440,8 @@ export default [
         },
         target: 'normal',
         desc: 'Target gets -1 Spe and becomes weaker to Fire.',
-        // longDesc: "Lowers the target's Speed by 1 stage. Until the target switches out, the effectiveness of Fire-type moves is doubled against it.",
+        longDesc:
+            "Lowers the target's Speed by 1 stage. Until the target switches out, the effectiveness of Fire-type moves is doubled against it.",
     },
     {
         name: 'magicPowder',
@@ -37125,7 +37493,8 @@ export default [
         },
         target: 'normal',
         desc: "Changes the target's type to Psychic.",
-        // longDesc: 'Causes the target to become a Psychic type. Fails if the target is an Arceus or a Silvally, if the target is already purely Psychic type, or if the target is Terastallized.',
+        longDesc:
+            'Causes the target to become a Psychic type. Fails if the target is an Arceus or a Silvally, if the target is already purely Psychic type, or if the target is Terastallized.',
     },
     {
         name: 'dragonDarts',
@@ -37177,7 +37546,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits twice. Doubles: Tries to hit each foe once.',
-        // longDesc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. In Double Battles, this move attempts to hit the targeted Pokemon and its ally once each. If hitting one of these Pokemon would be prevented by immunity, protection, semi-invulnerability, an Ability, or accuracy, it attempts to hit the other Pokemon twice instead. If this move is redirected, it hits that target twice.",
+        longDesc:
+            "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. In Double Battles, this move attempts to hit the targeted Pokemon and its ally once each. If hitting one of these Pokemon would be prevented by immunity, protection, semi-invulnerability, an Ability, or accuracy, it attempts to hit the other Pokemon twice instead. If this move is redirected, it hits that target twice.",
     },
     {
         name: 'teatime',
@@ -37229,7 +37599,8 @@ export default [
         },
         target: 'all',
         desc: 'All active Pokemon consume held Berries.',
-        // longDesc: 'All active Pokemon consume their held Berries. This effect is not prevented by substitutes, the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if no active Pokemon is holding a Berry.',
+        longDesc:
+            'All active Pokemon consume their held Berries. This effect is not prevented by substitutes, the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if no active Pokemon is holding a Berry.',
     },
     {
         name: 'octolock',
@@ -37281,7 +37652,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps target, lowers Def and SpD by 1 each turn.',
-        // longDesc: "Prevents the target from switching out. At the end of each turn during effect, the target's Defense and Special Defense are lowered by 1 stage. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.",
+        longDesc:
+            "Prevents the target from switching out. At the end of each turn during effect, the target's Defense and Special Defense are lowered by 1 stage. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.",
     },
     {
         name: 'boltBeak',
@@ -37333,7 +37705,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if user moves before the target.',
-        // longDesc: 'Power doubles if the user moves before the target.',
+        longDesc: 'Power doubles if the user moves before the target.',
     },
     {
         name: 'fishiousRend',
@@ -37385,7 +37757,7 @@ export default [
         },
         target: 'normal',
         desc: 'Power doubles if user moves before the target.',
-        // longDesc: 'Power doubles if the user moves before the target.',
+        longDesc: 'Power doubles if the user moves before the target.',
     },
     {
         name: 'courtChange',
@@ -37437,7 +37809,8 @@ export default [
         },
         target: 'all',
         desc: "Swaps user's field effects with the opposing side.",
-        // longDesc: "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        longDesc:
+            "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
     },
     {
         name: 'maxFlare',
@@ -37489,7 +37862,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Starts Sun.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Sun begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the effect of Sun begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxFlutterby',
@@ -37541,7 +37915,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Foes: -1 Sp. Atk.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Attack of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Special Attack of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxLightning',
@@ -37593,7 +37968,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Starts Electric Terrain.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Electric Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the effect of Electric Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxStrike',
@@ -37645,7 +38021,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Foes: -1 Speed.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxKnuckle',
@@ -37697,7 +38074,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Allies: +1 Attack.',
-        // longDesc: "Boosts the user and its allies' Attack by 1 stage. BP scales with the base move's BP. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Boosts the user and its allies' Attack by 1 stage. BP scales with the base move's BP. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxPhantasm',
@@ -37749,7 +38127,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Foes: -1 Defense.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Defense of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Defense of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxHailstorm',
@@ -37801,7 +38180,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Starts Hail.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Hail begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the effect of Hail begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxOoze',
@@ -37853,7 +38233,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Allies: +1 Sp. Atk.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Attack of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Special Attack of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxGeyser',
@@ -37905,7 +38286,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Starts Rain.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Rain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the effect of Rain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxAirstream',
@@ -37957,7 +38339,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Allies: +1 Speed.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxStarfall',
@@ -38009,7 +38392,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Starts Misty Terrain.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Misty Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the effect of Misty Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxWyrmwind',
@@ -38061,7 +38445,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Foes: -1 Attack.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Attack of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Attack of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxMindstorm',
@@ -38113,7 +38498,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Starts Psychic Terrain.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Psychic Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the effect of Psychic Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxRockfall',
@@ -38165,7 +38551,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Starts Sandstorm.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Sandstorm begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the effect of Sandstorm begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxQuake',
@@ -38217,7 +38604,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Allies: +1 Sp. Def.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Defense of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Special Defense of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxDarkness',
@@ -38269,7 +38657,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Foes: -1 Sp. Def.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Defense of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Special Defense of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxOvergrowth',
@@ -38321,7 +38710,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Starts Grassy Terrain.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Grassy Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the effect of Grassy Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'maxSteelspike',
@@ -38373,7 +38763,8 @@ export default [
         },
         target: 'adjacentFoe',
         desc: 'Base move affects power. Allies: +1 Defense.',
-        // longDesc: "Power is equal to the base move's Max Move power. If this move is successful, the Defense of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+        longDesc:
+            "Power is equal to the base move's Max Move power. If this move is successful, the Defense of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
     },
     {
         name: 'clangorousSoul',
@@ -38425,7 +38816,8 @@ export default [
         },
         target: 'self',
         desc: 'User loses 33% of its max HP. +1 to all stats.',
-        // longDesc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage in exchange for the user losing 33% of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Defense, Special Attack, Special Defense, and Speed stat stages would not change.",
+        longDesc:
+            "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage in exchange for the user losing 33% of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Defense, Special Attack, Special Defense, and Speed stat stages would not change.",
     },
     {
         name: 'bodyPress',
@@ -38477,7 +38869,8 @@ export default [
         },
         target: 'normal',
         desc: "Uses user's Def stat as Atk in damage calculation.",
-        // longDesc: "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal.",
+        longDesc:
+            "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal.",
     },
     {
         name: 'decorate',
@@ -38529,7 +38922,7 @@ export default [
         },
         target: 'normal',
         desc: "Raises the target's Attack and Sp. Atk by 2.",
-        // longDesc: "Raises the target's Attack and Special Attack by 2 stages.",
+        longDesc: "Raises the target's Attack and Special Attack by 2 stages.",
     },
     {
         name: 'drumBeating',
@@ -38581,7 +38974,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Speed by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Speed by 1 stage.",
     },
     {
         name: 'snapTrap',
@@ -38633,7 +39026,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'pyroBall',
@@ -38685,7 +39079,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to burn the target. Thaws user.',
-        // longDesc: 'Has a 10% chance to burn the target.',
+        longDesc: 'Has a 10% chance to burn the target.',
     },
     {
         name: 'behemothBlade',
@@ -38737,7 +39131,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'behemothBash',
@@ -38789,7 +39183,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'auraWheel',
@@ -38841,7 +39235,8 @@ export default [
         },
         target: 'normal',
         desc: 'Morpeko: Electric; Hangry: Dark; 100% +1 Spe.',
-        // longDesc: "Has a 100% chance to raise the user's Speed by 1 stage. If the user is a Morpeko in Full Belly Mode, this move is Electric type. If the user is a Morpeko in Hangry Mode, this move is Dark type. This move cannot be used successfully unless the user's current form, while considering Transform, is Full Belly or Hangry Mode Morpeko.",
+        longDesc:
+            "Has a 100% chance to raise the user's Speed by 1 stage. If the user is a Morpeko in Full Belly Mode, this move is Electric type. If the user is a Morpeko in Hangry Mode, this move is Dark type. This move cannot be used successfully unless the user's current form, while considering Transform, is Full Belly or Hangry Mode Morpeko.",
     },
     {
         name: 'breakingSwipe',
@@ -38893,7 +39288,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '100% chance to lower the foe(s) Attack by 1.',
-        // longDesc: "Has a 100% chance to lower the target's Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Attack by 1 stage.",
     },
     {
         name: 'branchPoke',
@@ -38945,7 +39340,7 @@ export default [
         },
         target: 'normal',
         desc: 'No additional effect.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'overdrive',
@@ -38997,7 +39392,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'No additional effect. Hits foe(s).',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'appleAcid',
@@ -39049,7 +39444,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Sp. Def by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Special Defense by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Special Defense by 1 stage.",
     },
     {
         name: 'gravApple',
@@ -39101,7 +39496,8 @@ export default [
         },
         target: 'normal',
         desc: 'Target: 100% -1 Def. During Gravity: 1.5x power.',
-        // longDesc: "Has a 100% chance to lower the target's Defense by 1 stage. Power is multiplied by 1.5 during Gravity's effect.",
+        longDesc:
+            "Has a 100% chance to lower the target's Defense by 1 stage. Power is multiplied by 1.5 during Gravity's effect.",
     },
     {
         name: 'spiritBreak',
@@ -39153,7 +39549,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Sp. Atk by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
     },
     {
         name: 'strangeSteam',
@@ -39205,7 +39601,7 @@ export default [
         },
         target: 'normal',
         desc: '20% chance to confuse the target.',
-        // longDesc: 'Has a 20% chance to confuse the target.',
+        longDesc: 'Has a 20% chance to confuse the target.',
     },
     {
         name: 'lifeDew',
@@ -39257,7 +39653,8 @@ export default [
         },
         target: 'allies',
         desc: 'Heals the user and its allies by 1/4 their max HP.',
-        // longDesc: "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        longDesc:
+            "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
     },
     {
         name: 'obstruct',
@@ -39309,7 +39706,8 @@ export default [
         },
         target: 'self',
         desc: 'Protects from damaging attacks. Contact: -2 Def.',
-        // longDesc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Defense lowered by 2 stages. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        longDesc:
+            "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Defense lowered by 2 stages. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
     },
     {
         name: 'falseSurrender',
@@ -39361,7 +39759,7 @@ export default [
         },
         target: 'normal',
         desc: 'This move does not check accuracy.',
-        // longDesc: 'This move does not check accuracy.',
+        longDesc: 'This move does not check accuracy.',
     },
     {
         name: 'meteorAssault',
@@ -39413,7 +39811,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'eternabeam',
@@ -39465,7 +39864,8 @@ export default [
         },
         target: 'normal',
         desc: 'User cannot move next turn.',
-        // longDesc: 'If this move is successful, the user must recharge on the following turn and cannot select a move.',
+        longDesc:
+            'If this move is successful, the user must recharge on the following turn and cannot select a move.',
     },
     {
         name: 'steelBeam',
@@ -39517,7 +39917,8 @@ export default [
         },
         target: 'normal',
         desc: 'User loses 50% max HP.',
-        // longDesc: 'Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.',
+        longDesc:
+            'Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.',
     },
     {
         name: 'expandingForce',
@@ -39569,7 +39970,8 @@ export default [
         },
         target: 'normal',
         desc: 'User on Psychic Terrain: 1.5x power, hits foes.',
-        // longDesc: 'If the current terrain is Psychic Terrain and the user is grounded, this move hits all opposing Pokemon and has its power multiplied by 1.5.',
+        longDesc:
+            'If the current terrain is Psychic Terrain and the user is grounded, this move hits all opposing Pokemon and has its power multiplied by 1.5.',
     },
     {
         name: 'steelRoller',
@@ -39621,7 +40023,8 @@ export default [
         },
         target: 'normal',
         desc: 'Fails if there is no terrain active. Ends the terrain.',
-        // longDesc: 'Fails if there is no terrain active. Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.',
+        longDesc:
+            'Fails if there is no terrain active. Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.',
     },
     {
         name: 'scaleShot',
@@ -39673,7 +40076,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2-5 times. User: -1 Def, +1 Spe after last hit.',
-        // longDesc: "Hits two to five times. Lowers the user's Defense by 1 stage and raises the user's Speed by 1 stage after the last hit. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+        longDesc:
+            "Hits two to five times. Lowers the user's Defense by 1 stage and raises the user's Speed by 1 stage after the last hit. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
     },
     {
         name: 'meteorBeam',
@@ -39725,7 +40129,8 @@ export default [
         },
         target: 'normal',
         desc: "Raises user's Sp. Atk by 1 on turn 1. Hits turn 2.",
-        // longDesc: "This attack charges on the first turn and executes on the second. Raises the user's Special Attack by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
+        longDesc:
+            "This attack charges on the first turn and executes on the second. Raises the user's Special Attack by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
     },
     {
         name: 'shellSideArm',
@@ -39777,7 +40182,8 @@ export default [
         },
         target: 'normal',
         desc: '20% psn. Physical+contact if it would be stronger.',
-        // longDesc: "Has a 20% chance to poison the target. This move becomes a physical attack that makes contact if the value of ((((2 * the user's level / 5 + 2) * 90 * X) / Y) / 50), where X is the user's Attack stat and Y is the target's Defense stat, is greater than the same value where X is the user's Special Attack stat and Y is the target's Special Defense stat. No stat modifiers other than stat stage changes are considered for this purpose. If the two values are equal, this move chooses a damage category at random.",
+        longDesc:
+            "Has a 20% chance to poison the target. This move becomes a physical attack that makes contact if the value of ((((2 * the user's level / 5 + 2) * 90 * X) / Y) / 50), where X is the user's Attack stat and Y is the target's Defense stat, is greater than the same value where X is the user's Special Attack stat and Y is the target's Special Defense stat. No stat modifiers other than stat stage changes are considered for this purpose. If the two values are equal, this move chooses a damage category at random.",
     },
     {
         name: 'mistyExplosion',
@@ -39829,7 +40235,8 @@ export default [
         },
         target: 'allAdjacent',
         desc: 'User faints. User on Misty Terrain: 1.5x power.',
-        // longDesc: "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+        longDesc:
+            "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
     },
     {
         name: 'grassyGlide',
@@ -39881,7 +40288,8 @@ export default [
         },
         target: 'normal',
         desc: 'User on Grassy Terrain: +1 priority.',
-        // longDesc: 'If the current terrain is Grassy Terrain and the user is grounded, this move has its priority increased by 1.',
+        longDesc:
+            'If the current terrain is Grassy Terrain and the user is grounded, this move has its priority increased by 1.',
     },
     {
         name: 'risingVoltage',
@@ -39933,7 +40341,8 @@ export default [
         },
         target: 'normal',
         desc: '2x power if target is grounded in Electric Terrain.',
-        // longDesc: "If the current terrain is Electric Terrain and the target is grounded, this move's power is doubled.",
+        longDesc:
+            "If the current terrain is Electric Terrain and the target is grounded, this move's power is doubled.",
     },
     {
         name: 'terrainPulse',
@@ -39985,7 +40394,8 @@ export default [
         },
         target: 'normal',
         desc: 'User on terrain: power doubles, type varies.',
-        // longDesc: "Power doubles if the user is grounded and a terrain is active, and this move's type changes to match. Electric type during Electric Terrain, Grass type during Grassy Terrain, Fairy type during Misty Terrain, and Psychic type during Psychic Terrain.",
+        longDesc:
+            "Power doubles if the user is grounded and a terrain is active, and this move's type changes to match. Electric type during Electric Terrain, Grass type during Grassy Terrain, Fairy type during Misty Terrain, and Psychic type during Psychic Terrain.",
     },
     {
         name: 'skitterSmack',
@@ -40037,7 +40447,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower target's Sp. Atk by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
     },
     {
         name: 'burningJealousy',
@@ -40089,7 +40499,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '100% burns a target that had a stat rise this turn.',
-        // longDesc: 'Has a 100% chance to burn the target if it had a stat stage raised this turn.',
+        longDesc: 'Has a 100% chance to burn the target if it had a stat stage raised this turn.',
     },
     {
         name: 'lashOut',
@@ -40141,7 +40551,7 @@ export default [
         },
         target: 'normal',
         desc: '2x power if the user had a stat lowered this turn.',
-        // longDesc: 'Power doubles if the user had a stat stage lowered this turn.',
+        longDesc: 'Power doubles if the user had a stat stage lowered this turn.',
     },
     {
         name: 'poltergeist',
@@ -40193,7 +40603,7 @@ export default [
         },
         target: 'normal',
         desc: 'Fails if the target has no held item.',
-        // longDesc: 'Fails if the target has no held item.',
+        longDesc: 'Fails if the target has no held item.',
     },
     {
         name: 'corrosiveGas',
@@ -40245,7 +40655,8 @@ export default [
         },
         target: 'allAdjacent',
         desc: "Removes adjacent Pokemon's held items.",
-        // longDesc: 'The target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon to lose their Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask, respectively. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. Items lost to this move cannot be regained with Recycle or the Harvest Ability.',
+        longDesc:
+            'The target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, Groudon, Dialga, Palkia, Giratina, Arceus, Genesect, Silvally, Zacian, Zamazenta, Paradox Pokemon, or Ogerpon to lose their Blue Orb, Red Orb, Adamant Crystal, Lustrous Globe, Griseous Core, Plate, Drive, Memory, Rusted Sword, Rusted Shield, Booster Energy, or Mask, respectively. In this case, Paradox Pokemon include every species with the Protosynthesis and Quark Drive Abilities, except Gouging Fire, Raging Bolt, Iron Boulder, and Iron Crown. Items lost to this move cannot be regained with Recycle or the Harvest Ability.',
     },
     {
         name: 'coaching',
@@ -40297,7 +40708,8 @@ export default [
         },
         target: 'adjacentAlly',
         desc: "Raises an ally's Attack and Defense by 1.",
-        // longDesc: "Raises the target's Attack and Defense by 1 stage. Fails if there is no ally adjacent to the user.",
+        longDesc:
+            "Raises the target's Attack and Defense by 1 stage. Fails if there is no ally adjacent to the user.",
     },
     {
         name: 'flipTurn',
@@ -40349,7 +40761,8 @@ export default [
         },
         target: 'normal',
         desc: 'User switches out after damaging the target.',
-        // longDesc: 'If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.',
+        longDesc:
+            'If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.',
     },
     {
         name: 'tripleAxel',
@@ -40401,7 +40814,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 3 times. Each hit can miss, but power rises.',
-        // longDesc: "Hits three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
+        longDesc:
+            "Hits three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
     },
     {
         name: 'dualWingbeat',
@@ -40453,7 +40867,8 @@ export default [
         },
         target: 'normal',
         desc: 'Hits 2 times in one turn.',
-        // longDesc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+        longDesc:
+            "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
     },
     {
         name: 'scorchingSands',
@@ -40505,7 +40920,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to burn the target. Thaws target.',
-        // longDesc: 'Has a 30% chance to burn the target. The target thaws out if it is frozen.',
+        longDesc: 'Has a 30% chance to burn the target. The target thaws out if it is frozen.',
     },
     {
         name: 'jungleHealing',
@@ -40557,7 +40972,8 @@ export default [
         },
         target: 'allies',
         desc: 'User and allies: healed 1/4 max HP, status cured.',
-        // longDesc: "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
+        longDesc:
+            "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
     },
     {
         name: 'wickedBlow',
@@ -40609,7 +41025,8 @@ export default [
         },
         target: 'normal',
         desc: 'Always results in a critical hit.',
-        // longDesc: 'This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.',
+        longDesc:
+            'This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.',
     },
     {
         name: 'surgingStrikes',
@@ -40661,7 +41078,8 @@ export default [
         },
         target: 'normal',
         desc: 'Always results in a critical hit. Hits 3 times.',
-        // longDesc: 'Hits three times. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.',
+        longDesc:
+            'Hits three times. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.',
     },
     {
         name: 'thunderCage',
@@ -40713,7 +41131,8 @@ export default [
         },
         target: 'normal',
         desc: 'Traps and damages the target for 4-5 turns.',
-        // longDesc: 'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
+        longDesc:
+            'Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.',
     },
     {
         name: 'dragonEnergy',
@@ -40765,7 +41184,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "Less power as user's HP decreases. Hits foe(s).",
-        // longDesc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+        longDesc:
+            "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
     },
     {
         name: 'freezingGlare',
@@ -40817,7 +41237,7 @@ export default [
         },
         target: 'normal',
         desc: '10% chance to freeze the target.',
-        // longDesc: 'Has a 10% chance to freeze the target.',
+        longDesc: 'Has a 10% chance to freeze the target.',
     },
     {
         name: 'fieryWrath',
@@ -40869,7 +41289,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '20% chance to make the foe(s) flinch.',
-        // longDesc: 'Has a 20% chance to make the target flinch.',
+        longDesc: 'Has a 20% chance to make the target flinch.',
     },
     {
         name: 'thunderousKick',
@@ -40921,7 +41341,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Defense by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Defense by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Defense by 1 stage.",
     },
     {
         name: 'glacialLance',
@@ -40973,7 +41393,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'No additional effect. Hits adjacent foes.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'astralBarrage',
@@ -41025,7 +41445,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: 'No additional effect. Hits adjacent foes.',
-        // longDesc: 'No additional effect.',
+        longDesc: 'No additional effect.',
     },
     {
         name: 'eerieSpell',
@@ -41077,7 +41497,8 @@ export default [
         },
         target: 'normal',
         desc: "Removes 3 PP from the target's last move.",
-        // longDesc: 'If this move is successful and the user has not fainted, the target loses 3 PP from its last move.',
+        longDesc:
+            'If this move is successful and the user has not fainted, the target loses 3 PP from its last move.',
     },
     {
         name: 'direClaw',
@@ -41129,7 +41550,8 @@ export default [
         },
         target: 'normal',
         desc: '50% chance to sleep, poison, or paralyze target.',
-        // longDesc: 'Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.',
+        longDesc:
+            'Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.',
     },
     {
         name: 'psyshieldBash',
@@ -41181,7 +41603,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to raise the user's Defense by 1.",
-        // longDesc: "Has a 100% chance to raise the user's Defense by 1 stage.",
+        longDesc: "Has a 100% chance to raise the user's Defense by 1 stage.",
     },
     {
         name: 'powerShift',
@@ -41233,7 +41655,8 @@ export default [
         },
         target: 'self',
         desc: "Switches user's Attack and Defense stats.",
-        // longDesc: 'The user swaps its Attack and Defense stats, and stat stage changes remain on their respective stats. This move can be used again to swap the stats back. If the user uses Baton Pass, the replacement will have its Attack and Defense stats swapped if the effect is active. If the user has its stats recalculated by changing forme while its stats are swapped, this effect is ignored but is still active for the purposes of Baton Pass.',
+        longDesc:
+            'The user swaps its Attack and Defense stats, and stat stage changes remain on their respective stats. This move can be used again to swap the stats back. If the user uses Baton Pass, the replacement will have its Attack and Defense stats swapped if the effect is active. If the user has its stats recalculated by changing forme while its stats are swapped, this effect is ignored but is still active for the purposes of Baton Pass.',
     },
     {
         name: 'stoneAxe',
@@ -41285,7 +41708,8 @@ export default [
         },
         target: 'normal',
         desc: "Sets Stealth Rock on the target's side.",
-        // longDesc: 'If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
+        longDesc:
+            'If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
     },
     {
         name: 'springtideStorm',
@@ -41337,7 +41761,7 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: '30% chance to lower the foe(s) Attack by 1.',
-        // longDesc: "Has a 30% chance to lower the target's Attack by 1 stage.",
+        longDesc: "Has a 30% chance to lower the target's Attack by 1 stage.",
     },
     {
         name: 'mysticalPower',
@@ -41389,7 +41813,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to raise the user's Sp. Atk by 1.",
-        // longDesc: "Has a 100% chance to raise the user's Special Attack by 1 stage.",
+        longDesc: "Has a 100% chance to raise the user's Special Attack by 1 stage.",
     },
     {
         name: 'ragingFury',
@@ -41441,7 +41865,8 @@ export default [
         },
         target: 'randomNormal',
         desc: 'Lasts 2-3 turns. Confuses the user afterwards.',
-        // longDesc: 'The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.',
+        longDesc:
+            'The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.',
     },
     {
         name: 'waveCrash',
@@ -41493,7 +41918,8 @@ export default [
         },
         target: 'normal',
         desc: 'Has 33% recoil.',
-        // longDesc: 'If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
+        longDesc:
+            'If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.',
     },
     {
         name: 'chloroblast',
@@ -41545,7 +41971,8 @@ export default [
         },
         target: 'normal',
         desc: 'User loses 50% max HP.',
-        // longDesc: 'If this move is successful, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard or Rock Head Abilities.',
+        longDesc:
+            'If this move is successful, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard or Rock Head Abilities.',
     },
     {
         name: 'mountainGale',
@@ -41597,7 +42024,7 @@ export default [
         },
         target: 'normal',
         desc: '30% chance to make the target flinch.',
-        // longDesc: 'Has a 30% chance to make the target flinch.',
+        longDesc: 'Has a 30% chance to make the target flinch.',
     },
     {
         name: 'victoryDance',
@@ -41649,7 +42076,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Attack, Defense, Speed by 1.",
-        // longDesc: "Raises the user's Attack, Defense, and Speed by 1 stage.",
+        longDesc: "Raises the user's Attack, Defense, and Speed by 1 stage.",
     },
     {
         name: 'headlongRush',
@@ -41701,7 +42128,7 @@ export default [
         },
         target: 'normal',
         desc: "Lowers the user's Defense and Sp. Def by 1.",
-        // longDesc: "Lowers the user's Defense and Special Defense by 1 stage.",
+        longDesc: "Lowers the user's Defense and Special Defense by 1 stage.",
     },
     {
         name: 'barbBarrage',
@@ -41753,7 +42180,8 @@ export default [
         },
         target: 'normal',
         desc: '50% psn. 2x power if target already poisoned.',
-        // longDesc: 'Has a 50% chance to poison the target. Power doubles if the target is already poisoned.',
+        longDesc:
+            'Has a 50% chance to poison the target. Power doubles if the target is already poisoned.',
     },
     {
         name: 'esperWing',
@@ -41805,7 +42233,8 @@ export default [
         },
         target: 'normal',
         desc: '100% chance to raise user Speed by 1. High crit.',
-        // longDesc: "Has a 100% chance to raise the user's Speed by 1 stage and a higher chance for a critical hit.",
+        longDesc:
+            "Has a 100% chance to raise the user's Speed by 1 stage and a higher chance for a critical hit.",
     },
     {
         name: 'bitterMalice',
@@ -41857,7 +42286,7 @@ export default [
         },
         target: 'normal',
         desc: "100% chance to lower the target's Attack by 1.",
-        // longDesc: "Has a 100% chance to lower the target's Attack by 1 stage.",
+        longDesc: "Has a 100% chance to lower the target's Attack by 1 stage.",
     },
     {
         name: 'shelter',
@@ -41909,7 +42338,7 @@ export default [
         },
         target: 'self',
         desc: "Raises the user's Defense by 2.",
-        // longDesc: "Raises the user's Defense by 2 stages.",
+        longDesc: "Raises the user's Defense by 2 stages.",
     },
     {
         name: 'tripleArrows',
@@ -41961,7 +42390,8 @@ export default [
         },
         target: 'normal',
         desc: 'High crit. Target: 50% -1 Defense, 30% flinch.',
-        // longDesc: "Has a 50% chance to lower the target's Defense by 1 stage, a 30% chance to make it flinch, and a higher chance for a critical hit.",
+        longDesc:
+            "Has a 50% chance to lower the target's Defense by 1 stage, a 30% chance to make it flinch, and a higher chance for a critical hit.",
     },
     {
         name: 'infernalParade',
@@ -42013,7 +42443,8 @@ export default [
         },
         target: 'normal',
         desc: '30% burn. 2x power if target is already statused.',
-        // longDesc: 'Has a 30% chance to burn the target. Power doubles if the target has a non-volatile status condition.',
+        longDesc:
+            'Has a 30% chance to burn the target. Power doubles if the target has a non-volatile status condition.',
     },
     {
         name: 'ceaselessEdge',
@@ -42065,7 +42496,8 @@ export default [
         },
         target: 'normal',
         desc: 'Sets a layer of Spikes on the opposing side.',
-        // longDesc: 'If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. A maximum of three layers may be set, and opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
+        longDesc:
+            'If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. A maximum of three layers may be set, and opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.',
     },
     {
         name: 'bleakwindStorm',
@@ -42117,7 +42549,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "30% to lower foe(s) Speed by 1. Rain: can't miss.",
-        // longDesc: "Has a 30% chance to lower the target's Speed by 1 stage. If the weather is Heavy Rain or Rain, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
+        longDesc:
+            "Has a 30% chance to lower the target's Speed by 1 stage. If the weather is Heavy Rain or Rain, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
     },
     {
         name: 'wildboltStorm',
@@ -42169,7 +42602,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "20% chance to paralyze foe(s). Rain: can't miss.",
-        // longDesc: "Has a 20% chance to paralyze the target. If the weather is Heavy Rain or Rain, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
+        longDesc:
+            "Has a 20% chance to paralyze the target. If the weather is Heavy Rain or Rain, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
     },
     {
         name: 'sandsearStorm',
@@ -42221,7 +42655,8 @@ export default [
         },
         target: 'allAdjacentFoes',
         desc: "20% chance to burn foe(s). Can't miss in rain.",
-        // longDesc: "Has a 20% chance to burn the target. If the weather is Heavy Rain or Rain, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
+        longDesc:
+            "Has a 20% chance to burn the target. If the weather is Heavy Rain or Rain, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
     },
     {
         name: 'lunarBlessing',
@@ -42273,7 +42708,8 @@ export default [
         },
         target: 'allies',
         desc: 'User and allies: healed 1/4 max HP, status cured.',
-        // longDesc: "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
+        longDesc:
+            "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
     },
     {
         name: 'takeHeart',
@@ -42325,6 +42761,7 @@ export default [
         },
         target: 'self',
         desc: "Cures user's status, raises Sp. Atk, Sp. Def by 1.",
-        // longDesc: "The user cures its non-volatile status condition. Raises the user's Special Attack and Special Defense by 1 stage.",
+        longDesc:
+            "The user cures its non-volatile status condition. Raises the user's Special Attack and Special Defense by 1 stage.",
     },
 ] as const

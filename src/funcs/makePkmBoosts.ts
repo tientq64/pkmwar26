@@ -1,6 +1,6 @@
-import type { Stages } from '@/constants/pokemon'
+import type { Boosts } from '@/constants/pokemon'
 
-export function makePkmStages(): Stages {
+export function makePkmBoosts(): Boosts {
     return {
         atk: 0,
         def: 0,

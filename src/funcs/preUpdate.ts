@@ -36,7 +36,6 @@ export function preUpdate(pkm: Pokemon, time: number) {
 
     pkm.healthBar.setPosition(pkm.x - pkm.stats.hp / 24, pkm.y - 18)
     pkm.healthBar.setScale(pkm.health / 12, pkm.maxHealthBar.scaleY)
-    // pkm.healthBar.setScale(pkm.health / 12, pkm.maxHealthBar.scaleY)
 
     findFoes(pkm)
 }

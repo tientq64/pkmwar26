@@ -5,7 +5,7 @@ import { random } from '@/utils/random'
 import { wait } from '@/utils/wait'
 import { range } from 'es-toolkit'
 
-export type KeyframeValueFunc<T> = (index: number, total: number) => T
+export type KeyframeValueFunc<T> = T | ((index: number, total: number) => T)
 
 export type Keyframe = {
     frame?: number
@@ -18,9 +18,10 @@ export type Keyframe = {
     delay?: number
     duration?: number
     stagger?: number
+    ease?: string
     burst?: number | [number, number?]
     rotateToMovement?: boolean
-    toPositionRatio?: number | KeyframeValueFunc<number>
+    toPositionRatio?: KeyframeValueFunc<number>
     movementX?: number
     movementY?: number
     skipMovementAnim?: boolean
@@ -54,6 +55,7 @@ export async function addMoveEffect(pkm: Pokemon, keyframes: Keyframe[]) {
 
             let {
                 duration = 400,
+                ease,
                 foe,
                 burst,
                 x = foe ? foe.x : sprite.x,
@@ -98,6 +100,7 @@ export async function addMoveEffect(pkm: Pokemon, keyframes: Keyframe[]) {
                 const tween = scene.tweens.add({
                     targets: sprite,
                     duration,
+                    ease,
                     x,
                     y,
                     scale,

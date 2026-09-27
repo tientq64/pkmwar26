@@ -1,6 +1,7 @@
 export default [
     {
         name: 'normal',
+        bgColor: '#9fa19f',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -24,6 +25,7 @@ export default [
     },
     {
         name: 'fighting',
+        bgColor: '#ff8000',
         efficacies: {
             normal: 2,
             fighting: 1,
@@ -47,6 +49,7 @@ export default [
     },
     {
         name: 'flying',
+        bgColor: '#81b9ef',
         efficacies: {
             normal: 1,
             fighting: 2,
@@ -70,6 +73,7 @@ export default [
     },
     {
         name: 'poison',
+        bgColor: '#9141cb',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -93,6 +97,7 @@ export default [
     },
     {
         name: 'ground',
+        bgColor: '#915121',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -116,6 +121,7 @@ export default [
     },
     {
         name: 'rock',
+        bgColor: '#afa981',
         efficacies: {
             normal: 1,
             fighting: 0.5,
@@ -139,6 +145,7 @@ export default [
     },
     {
         name: 'bug',
+        bgColor: '#91a119',
         efficacies: {
             normal: 1,
             fighting: 0.5,
@@ -162,6 +169,7 @@ export default [
     },
     {
         name: 'ghost',
+        bgColor: '#704170',
         efficacies: {
             normal: 0,
             fighting: 1,
@@ -185,6 +193,7 @@ export default [
     },
     {
         name: 'steel',
+        bgColor: '#60a1b8',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -208,6 +217,7 @@ export default [
     },
     {
         name: 'fire',
+        bgColor: '#e62829',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -231,6 +241,7 @@ export default [
     },
     {
         name: 'water',
+        bgColor: '#2980ef',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -254,6 +265,7 @@ export default [
     },
     {
         name: 'grass',
+        bgColor: '#3fa129',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -277,6 +289,7 @@ export default [
     },
     {
         name: 'electric',
+        bgColor: '#fac000',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -300,6 +313,7 @@ export default [
     },
     {
         name: 'psychic',
+        bgColor: '#ef4179',
         efficacies: {
             normal: 1,
             fighting: 2,
@@ -323,6 +337,7 @@ export default [
     },
     {
         name: 'ice',
+        bgColor: '#3dcef3',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -346,6 +361,7 @@ export default [
     },
     {
         name: 'dragon',
+        bgColor: '#5060e1',
         efficacies: {
             normal: 1,
             fighting: 1,
@@ -369,6 +385,7 @@ export default [
     },
     {
         name: 'dark',
+        bgColor: '#624d4e',
         efficacies: {
             normal: 1,
             fighting: 0.5,
@@ -392,6 +409,7 @@ export default [
     },
     {
         name: 'fairy',
+        bgColor: '#ef70ef',
         efficacies: {
             normal: 1,
             fighting: 2,

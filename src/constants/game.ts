@@ -7,6 +7,7 @@ export const game = new Game({
     scale: {
         mode: Scale.FIT,
     },
+    parent: 'root',
     width: innerWidth,
     height: innerHeight,
     pixelArt: true,

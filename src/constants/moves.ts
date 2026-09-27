@@ -10,9 +10,10 @@ export type MoveTarget = Move['target']
 export const movesMap = keyBy(moves, (move) => move.name)
 
 export const implementedMoveFlags: Partial<Record<MoveName, true>> = {
-    // flamethrower: true,
-    // thunderbolt: true,
-    // fissure: true,
+    flamethrower: true,
+    thunderbolt: true,
+    fissure: true,
     blueFlare: true,
     boltStrike: true,
+    // harden: true,
 }

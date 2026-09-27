@@ -1,7 +1,7 @@
 {
     "name": "pkmwar26",
     "private": true,
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Xem Pokemon chiến đấu với nhau.",
     "type": "module",
     "scripts": {
@@ -10,10 +10,14 @@
         "lint": "tsc -b"
     },
     "dependencies": {
+        "ahooks": "3.10.0",
+        "clsx": "2.1.1",
         "es-toolkit": "1.52.0",
         "phaser": "4.2.1",
         "react": "^19.2.8",
-        "react-dom": "^19.2.8"
+        "react-dom": "^19.2.8",
+        "react-router": "8.4.0",
+        "valtio": "2.3.2"
     },
     "devDependencies": {
         "@tailwindcss/vite": "4.3.3",

@@ -1,7 +1,7 @@
-import { PMath } from '@/constants/consts'
 import type { Pokemon } from '@/constants/pokemon'
 import { stopMove } from '@/funcs/stopMove'
 import { walk } from '@/funcs/walk'
+import { random } from '@/utils/random'
 
 export function idle(pkm: Pokemon) {
     clearTimeout(pkm.idleTimer)
@@ -11,7 +11,7 @@ export function idle(pkm: Pokemon) {
 
     stopMove(pkm)
 
-    const idleTime = PMath.RND.between(100, 2000)
+    const idleTime = random(100, 2000)
 
     pkm.idleTimer = setTimeout(walk, idleTime, pkm)
 }

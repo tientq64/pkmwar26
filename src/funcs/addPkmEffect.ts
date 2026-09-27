@@ -1,57 +1,49 @@
 import { scene } from '@/constants/game'
 import type { Pokemon } from '@/constants/pokemon'
+import { wait } from '@/utils/wait'
 
 export interface PkmEffect {
-    tackle?: boolean
     delay?: number
     duration?: number
-    x?: number | number[]
-    y?: number | number[]
     scale?: number | number[]
     alpha?: number | number[]
+    contrast?: number | number[]
 }
 
-export function addPkmEffect(pkm: Pokemon, foe: Pokemon, pkmEffect: PkmEffect = {}) {
-    let { tackle, delay = 0, duration = 800, x, y, scale, alpha } = pkmEffect
+export async function addPkmEffect(pkm: Pokemon, pkmEffects: PkmEffect[] = []) {
+    const filters = { contrast: 1 }
 
-    if (tackle) {
-        duration /= 2
-        addPkmEffect(pkm, foe, {
-            ...pkmEffect,
-            tackle: false,
-            duration: duration,
-            x: foe.x,
-            y: foe.y,
+    for (const pkmEffect of pkmEffects) {
+        let { delay = 0 } = pkmEffect
+
+        await wait(delay)
+
+        let { duration = 400, scale, alpha, contrast } = pkmEffect
+
+        const pkmProps = {
+            scale,
+            alpha,
+        } as const
+        for (const key in pkmProps) {
+            const propName = key as keyof typeof pkmProps
+            if (pkmProps[propName] === undefined) delete pkmProps[propName]
+        }
+
+        scene.tweens.add({
+            targets: pkm,
+            duration,
+            ...pkmProps,
         })
-        addPkmEffect(pkm, foe, {
-            ...pkmEffect,
-            tackle: false,
-            delay: duration,
-            duration: duration,
-            x: pkm.x,
-            y: pkm.y,
-        })
-        return
-    }
 
-    const pkmProps = {
-        x,
-        y,
-        scale,
-        alpha,
-    } as const
-    for (const key in pkmProps) {
-        const propName = key as keyof typeof pkmProps
-        if (pkmProps[propName] === undefined) delete pkmProps[propName]
+        if (contrast !== undefined) {
+            scene.tweens.add({
+                targets: filters,
+                duration,
+                contrast,
+                onUpdate: () => {
+                    pkm.filter.contrast(filters.contrast)
+                },
+            })
+        }
     }
-
-    const tween = scene.tweens.add({
-        targets: pkm,
-        delay,
-        duration,
-        ...pkmProps,
-        onComplete: () => {
-            tween.destroy()
-        },
-    })
 }

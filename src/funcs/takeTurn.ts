@@ -1,17 +1,18 @@
 import { PMath } from '@/constants/consts'
 import type { Pokemon, VolatileStatuses } from '@/constants/pokemon'
-import { nonInBattleStageStatNames, stageStatNames } from '@/constants/stats'
+import { boostNames, nonInBattleBoostNames } from '@/constants/stats'
 import { type AilmentName, type VolatileStatusName } from '@/constants/statuses'
 import { typesMap } from '@/constants/types'
 import { addMoveEffect } from '@/funcs/addMoveEffect'
-import { addPkmEffect } from '@/funcs/addPkmEffect'
 import { calcMultiplierAcc } from '@/funcs/calcMultiplierAcc'
 import { chance } from '@/funcs/chance'
+import { changeBoost } from '@/funcs/changeBoost'
+import { changeHealth } from '@/funcs/changeHealth'
 import { die } from '@/funcs/die'
 import { endBattle } from '@/funcs/endBattle'
 import { getNearbyPkms } from '@/funcs/getNearbyPkms'
-import { makePkmStages } from '@/funcs/makePkmStages'
-import { setHealth } from '@/funcs/setHealth'
+import { makePkmBoosts } from '@/funcs/makePkmBoosts'
+import { tackle } from '@/funcs/tackle'
 import { pick } from '@/utils/pick'
 import { random } from '@/utils/random'
 import { wait } from '@/utils/wait'
@@ -25,7 +26,7 @@ export async function takeTurn(pkm: Pokemon) {
 
     if (!pkm.foe) return
 
-    const nearby = getNearbyPkms(pkm)
+    const nearby = getNearbyPkms(pkm, 200)
     if (!nearby.foes.includes(pkm.foe)) {
         endBattle(pkm)
         return
@@ -39,19 +40,31 @@ export async function takeTurn(pkm: Pokemon) {
     let { confusion } = volatileStatuses
     const isConfusionSelfHit = confusion && chance(33)
 
-    if (!isConfusionSelfHit) {
-        moveSlot.pp--
-    }
+    if (!isConfusionSelfHit) moveSlot.pp--
 
     await wait(100)
 
     let foes = [pkm.foe]
+    let { target } = move
 
+    switch (target) {
+        case 'self':
+            foes = [pkm]
+            break
+    }
     if (isConfusionSelfHit) foes = [pkm]
 
     let { desc } = move
 
     if (isConfusionSelfHit) desc = 'No additional effect.'
+
+    const selfBoosts = makePkmBoosts()
+
+    let selfAilment: AilmentName | undefined = undefined
+
+    const selfVolatileStatuses: VolatileStatuses = {}
+
+    let hasAnyHits = false
 
     await Promise.all(
         foes.map(async (foe) => {
@@ -96,6 +109,8 @@ export async function takeTurn(pkm: Pokemon) {
             let level = pkm.level
 
             let power: number = move.basePower
+
+            if (isConfusionSelfHit) power = 40
 
             switch (desc) {
                 case "Less power as user's HP decreases. Hits foe(s).":
@@ -144,9 +159,11 @@ export async function takeTurn(pkm: Pokemon) {
             let efficacy = foe.form.types.reduce((total, type) => {
                 return total * typesMap[moveType].efficacies[type]
             }, 1)
+
             let burn = 1
             let other = 1
 
+            /** Lượng damage gây ra cho mục tiêu bởi move này. */
             let damage = 0
 
             if (category === 'status') {
@@ -173,7 +190,7 @@ export async function takeTurn(pkm: Pokemon) {
                     damage = level
                     break
                 case 'OHKOs the target. Fails if user is a lower level.':
-                    damage = 1e4
+                    damage = ohkoDamage
                     break
             }
             switch (foeAbilityDesc) {
@@ -182,33 +199,38 @@ export async function takeTurn(pkm: Pokemon) {
                     break
             }
 
-            let hpHeal = 0
-
-            let hpLoss = 0
-
             switch (desc) {
                 case 'OHKOs the target. Fails if user is a lower level.':
                     hitChance = level < foe.level ? 0 : level - foe.level + 30
                     break
             }
 
+            /** Có đánh trúng mục tiêu không. */
             let hasHit = chance(hitChance)
 
+            if (hasHit) hasAnyHits = true
+
+            /** Damage phản lại người dùng khi đánh trúng và gây ra damage cho mục tiêu. */
+            let recoil = 0
+
             switch (desc) {
-                case "1/8 of target's HP is restored to user every turn.":
-                    hpHeal = Math.floor(foe.stats.hp / 8)
+                case 'Has 1/2 recoil.':
+                    if (damage) recoil = Math.max(Math.floor(damage / 2), 1)
+                    break
+                case 'Has 1/4 recoil.':
+                    if (damage) recoil = Math.max(Math.floor(damage / 4), 1)
+                    break
+                case 'Has 33% recoil.':
+                    if (damage) recoil = Math.max(Math.floor(damage / 3), 1)
                     break
             }
 
+            /** Damage tự gây ra do người dùng tấn công trượt. */
+            let crashDamage = 0
+
             switch (desc) {
                 case 'User is hurt by 50% of its max HP if it misses.':
-                    if (!hasHit) hpLoss = Math.floor(pkm.health / 2)
-                    break
-                case 'Has 1/4 recoil.':
-                    if (damage) hpLoss = Math.max(Math.floor(damage / 4), 1)
-                    break
-                case 'Has 33% recoil.':
-                    if (damage) hpLoss = Math.max(Math.floor(damage / 3), 1)
+                    if (!hasHit) crashDamage = Math.floor(pkm.stats.hp / 2)
                     break
             }
 
@@ -270,15 +292,31 @@ export async function takeTurn(pkm: Pokemon) {
                             scale: [4, 5],
                         },
                         {
-                            movementY: -32,
+                            movementY: -48,
                             alpha: 0,
                         },
                     ])
                     break
                 case 'boltStrike':
-                    addPkmEffect(pkm, foe, {
-                        tackle: true,
-                    })
+                    tackle(pkm, foe)
+                    addMoveEffect(pkm, [
+                        {
+                            frame: 7,
+                            quantity: 8,
+                            stagger: 80,
+                            duration: 300,
+                            foe,
+                            burst: [12],
+                            rotateToMovement: true,
+                            alpha: [0.1, 0.8],
+                            scale: [4, 5],
+                        },
+                        {
+                            burst: 48,
+                            rotateToMovement: true,
+                            alpha: 0,
+                        },
+                    ])
                     break
             }
 
@@ -292,98 +330,66 @@ export async function takeTurn(pkm: Pokemon) {
                     break
             }
 
+            let isKO = false
+
             if (hasHit) {
                 if (damage) {
-                    setHealth(foe, -damage)
+                    const amount = changeHealth(foe, -damage)
+                    isKO = !!amount && foe.health === 0
                 }
-                if (hpHeal) {
-                    setHealth(pkm, hpHeal)
-                }
-                if (hpLoss) {
-                    setHealth(pkm, -hpLoss)
+                if (recoil) {
+                    changeHealth(pkm, -recoil)
                 }
             }
-
-            const selfStageChanges = makePkmStages()
+            if (crashDamage) {
+                changeHealth(pkm, -crashDamage)
+            }
 
             switch (desc) {
-                case "Raises the user's Attack by 2.":
-                    selfStageChanges.atk += 2
-                    break
                 case "Raises user's Attack by 3 if this KOes the target.":
-                    if (!foe.health) selfStageChanges.atk += 3
-                    break
-                case "20% chance to raise the user's Attack by 1.":
-                    if (chance(20)) selfStageChanges.atk++
-                    break
-                case "Lowers the user's Sp. Atk by 2.":
-                    selfStageChanges.spA -= 2
-                    break
-                case '10% chance to raise all stats by 1 (not acc/eva).':
-                    if (chance(10)) {
-                        for (const name of nonInBattleStageStatNames) {
-                            selfStageChanges[name]++
-                        }
-                    }
-                    break
-                case "Raises the user's Sp. Atk by 2.":
-                    selfStageChanges.spA += 2
-                    break
-                case "Raises the user's Defense and Sp. Def by 1.":
-                    selfStageChanges.def++
-                    selfStageChanges.spD++
-                    break
-                case "Raises the user's Speed by 2.":
-                    selfStageChanges.spe += 2
-                    break
-                case "Lowers the user's Defense, Sp. Def, Speed by 1.":
-                    selfStageChanges.def--
-                    selfStageChanges.spD--
-                    selfStageChanges.spe--
+                    if (isKO) selfBoosts.atk += 3
                     break
             }
 
-            const foeStageChanges = makePkmStages()
+            const foeBoosts = makePkmBoosts()
 
             switch (desc) {
                 case 'Lowers the foe(s) Attack by 1.':
-                    foeStageChanges.atk--
+                    foeBoosts.atk--
                     break
                 case "10% chance to lower the target's Attack by 1.":
-                    if (chance(10)) foeStageChanges.atk--
+                    if (chance(10)) foeBoosts.atk--
                     break
                 case 'Lowers the foe(s) Defense by 1.':
-                    foeStageChanges.def--
+                    foeBoosts.def--
                     break
                 case "50% chance to lower the target's Defense by 1.":
-                    if (chance()) foeStageChanges.def--
+                    if (chance()) foeBoosts.def--
                     break
                 case "10% chance to lower the target's Sp. Def by 1.":
                 case '10% chance to lower the foe(s) Sp. Def by 1.':
-                    if (chance(10)) foeStageChanges.spD--
+                    if (chance(10)) foeBoosts.spD--
                     break
                 case "Lowers the target's Sp. Def by 2.":
-                    foeStageChanges.spD -= 2
+                    foeBoosts.spD -= 2
                     break
                 case "100% chance to lower the target's Speed by 1.":
-                    foeStageChanges.spe--
+                    foeBoosts.spe--
                     break
                 case "10% chance to lower the target's Speed by 1.":
-                    if (chance(10)) foeStageChanges.spe--
+                    if (chance(10)) foeBoosts.spe--
                     break
                 case "Lowers the target's Attack and Defense by 1.":
-                    foeStageChanges.atk--
-                    foeStageChanges.def--
+                    foeBoosts.atk--
+                    foeBoosts.def--
                     break
                 case "Lowers the target's accuracy by 1.":
-                    foeStageChanges.acc--
+                    foeBoosts.acc--
                     break
                 case "30% chance to lower the target's accuracy by 1.":
-                    if (chance(30)) foeStageChanges.acc--
+                    if (chance(30)) foeBoosts.acc--
                     break
             }
-
-            let selfAilment: AilmentName | undefined = undefined
 
             let foeAilment: AilmentName | undefined = undefined
 
@@ -424,8 +430,6 @@ export async function takeTurn(pkm: Pokemon) {
                     break
             }
 
-            const selfVolatileStatuses: VolatileStatuses = {}
-
             const foeVolatileStatuses: VolatileStatuses = {}
 
             switch (desc) {
@@ -451,35 +455,75 @@ export async function takeTurn(pkm: Pokemon) {
                     break
             }
 
-            for (const statName of stageStatNames) {
-                const selfChange = selfStageChanges[statName]
-                pkm.stages[statName] = PMath.Clamp(pkm.stages[statName] + selfChange, -6, 6)
-
-                const foeChange = foeStageChanges[statName]
-                foe.stages[statName] = PMath.Clamp(foe.stages[statName] + foeChange, -6, 6)
+            for (const boostName of boostNames) {
+                const amount = foeBoosts[boostName]
+                changeBoost(foe, boostName, amount)
             }
 
-            if (selfAilment) {
-                if (!pkm.ailment) {
-                    pkm.ailment = selfAilment
-                }
-            }
             if (foeAilment) {
-                if (!foe.ailment) {
-                    foe.ailment = foeAilment
-                }
+                if (!foe.ailment) foe.ailment = foeAilment
             }
 
-            for (const name in selfVolatileStatuses) {
-                const statusName = name as VolatileStatusName
-                pkm.volatileStatuses[statusName] = selfVolatileStatuses[statusName] as any
-            }
             for (const name in foeVolatileStatuses) {
                 const statusName = name as VolatileStatusName
                 foe.volatileStatuses[statusName] = foeVolatileStatuses[statusName] as any
             }
         }),
     )
+
+    switch (desc) {
+        case "Raises the user's Attack by 2.":
+            selfBoosts.atk += 2
+            break
+        case "20% chance to raise the user's Attack by 1.":
+            if (chance(20)) selfBoosts.atk++
+            break
+        case "Raises the user's Defense by 1.":
+            selfBoosts.def++
+            break
+        case "50% chance to raise user's Defense by 2 if hit during use.":
+            if (hasAnyHits) selfBoosts.def += 2
+            break
+        case "Lowers the user's Sp. Atk by 2.":
+            selfBoosts.spA -= 2
+            break
+        case '10% chance to raise all stats by 1 (not acc/eva).':
+            if (chance(10)) {
+                for (const name of nonInBattleBoostNames) {
+                    selfBoosts[name]++
+                }
+            }
+            break
+        case "Raises the user's Sp. Atk by 2.":
+            selfBoosts.spA += 2
+            break
+        case "Raises the user's Defense and Sp. Def by 1.":
+            selfBoosts.def++
+            selfBoosts.spD++
+            break
+        case "Raises the user's Speed by 2.":
+            selfBoosts.spe += 2
+            break
+        case "Lowers the user's Defense, Sp. Def, Speed by 1.":
+            selfBoosts.def--
+            selfBoosts.spD--
+            selfBoosts.spe--
+            break
+    }
+
+    for (const boostName of boostNames) {
+        const amount = selfBoosts[boostName]
+        changeBoost(pkm, boostName, amount)
+    }
+
+    if (selfAilment) {
+        if (!pkm.ailment) pkm.ailment = selfAilment
+    }
+
+    for (const name in selfVolatileStatuses) {
+        const statusName = name as VolatileStatusName
+        pkm.volatileStatuses[statusName] = selfVolatileStatuses[statusName] as any
+    }
 
     await wait(500)
 
@@ -492,3 +536,5 @@ export async function takeTurn(pkm: Pokemon) {
 
     takeTurn(pkm)
 }
+
+const ohkoDamage = 1e4

@@ -9,5 +9,6 @@ export function endBattle(pkm: Pokemon) {
         die(pkm)
         return
     }
+
     idle(pkm)
 }

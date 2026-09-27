@@ -12,7 +12,7 @@ export function sceneCreate(this: Scene) {
     setScene(this)
     setPkms(this)
 
-    let i = 16
+    let i = 160
     while (i > 0) {
         const specy = pick(species)
         if (specy.id > speciesMap.ribombee.id) continue
